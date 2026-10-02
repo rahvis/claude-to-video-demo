@@ -1,0 +1,129 @@
+{
+  "fps": 30,
+  "voice": "af_bella",
+  "speed": 0.95,
+  "gap": 0.3,
+  "overlap_frames": 10,
+  "scenes": [
+    {
+      "id": "s01_title",
+      "lead": 1.0,
+      "tail": 1.6,
+      "phrases": [
+        { "text": "Every AI system today hands you an answer, and a number that claims to know how sure it is.", "pause": 0.5 },
+        { "text": "That number has never been anything more than a guess dressed up as math.", "pause": 0.6 },
+        { "text": "We built the layer that turns it into a guarantee you can check yourself." }
+      ]
+    },
+    {
+      "id": "s02_whynow",
+      "lead": 0.4,
+      "tail": 0.8,
+      "phrases": [
+        { "text": "Every company racing to put an AI agent into production is about to run into the same wall: regulators.", "pause": 0.45 },
+        { "text": "The EU is now requiring high risk systems to prove their own accuracy, and Gartner has already put a name and a growth curve on this entire category.", "pause": 0.5 },
+        { "text": "This isn't a future problem.", "pause": 0.35 },
+        { "text": "It's happening at the exact moment most systems have nothing to show regulators when they ask." }
+      ]
+    },
+    {
+      "id": "s03_problem",
+      "lead": 0.4,
+      "tail": 0.8,
+      "phrases": [
+        { "text": "Nearly half of enterprises using generative AI have already been burned by it in production, and independent testing shows why: accuracy swings wildly depending on who's asking the question.", "pause": 0.5 },
+        { "text": "This isn't hypothetical anymore.", "pause": 0.4 },
+        { "text": "A tribunal held Air Canada responsible for a refund its own chatbot invented, and every one of these failures sounded just as confident as the answer that was actually right." }
+      ]
+    },
+    {
+      "id": "s04_solution",
+      "lead": 0.4,
+      "tail": 0.8,
+      "phrases": [
+        { "text": "Conformal Logit Inference sits on top of whatever model you're already running, and turns the confidence it already produces into a real, finite sample guarantee, correct at least as often as you decide it needs to be.", "pause": 0.5 },
+        { "text": "Nothing to retrain, no new model to deploy.", "pause": 0.45 },
+        { "text": "The guarantee was always there.", "pause": 0.4 },
+        { "text": "We just made it provable." }
+      ]
+    },
+    {
+      "id": "s05_product",
+      "lead": 0.4,
+      "tail": 0.7,
+      "phrases": [
+        { "text": "Instead of one flat confidence number, the SDK lets you ask a sharper question, whichever one your decision actually needs.", "pause": 0.45 },
+        { "text": "Underneath, three well established statistical methods share the work, the same techniques researched at MIT, Stanford, Berkeley, and Google.", "pause": 0.5 },
+        { "text": "This isn't a clever heuristic we invented.", "pause": 0.4 },
+        { "text": "It's decades of statistics, finally pointed at large language models." }
+      ]
+    },
+    {
+      "id": "s06_demo",
+      "lead": 0.4,
+      "tail": 0.8,
+      "phrases": [
+        { "text": "Here's what that looks like on a real support ticket.", "pause": 0.4 },
+        { "text": "Ask for a Set, and it tells you exactly which queue this belongs in, with a coverage guarantee attached, not just a label.", "pause": 0.45 },
+        { "text": "Then ask for a Gate on whether to auto route it, and this time it escalates instead of guessing, because the bound said this one needed a human.", "pause": 0.5 },
+        { "text": "That's the difference between a score and a guarantee." }
+      ]
+    },
+    {
+      "id": "s07_market",
+      "lead": 0.4,
+      "tail": 0.8,
+      "phrases": [
+        { "text": "This category already has a name, a Gartner report, and a growth curve.", "pause": 0.45 },
+        { "text": "AI Trust, Risk, and Security Management alone is headed toward twenty one billion dollars within a decade, and LLM observability is growing even faster.", "pause": 0.5 },
+        { "text": "Every single company that ships a large language model into production is a future customer of this layer." }
+      ]
+    },
+    {
+      "id": "s08_competition",
+      "lead": 0.4,
+      "tail": 0.8,
+      "phrases": [
+        { "text": "This category is already fundable.", "pause": 0.4 },
+        { "text": "Arize, Galileo, and Patronus have all raised real venture money, Guardrails AI was acquired by Harvey, and Weights and Biases sold to CoreWeave for over a billion and a half dollars.", "pause": 0.5 },
+        { "text": "But every one of them tells you what already happened.", "pause": 0.4 },
+        { "text": "None of them gives you a guarantee before it happens, on whatever model you choose to run.", "pause": 0.5 },
+        { "text": "That gap is exactly where we sit, alone." }
+      ]
+    },
+    {
+      "id": "s09_business",
+      "lead": 0.4,
+      "tail": 0.7,
+      "phrases": [
+        { "text": "Pricing is deliberately simple.", "pause": 0.4 },
+        { "text": "Developers can build on it for free, teams pay as usage grows, and enterprise runs entirely inside your own environment when that's what compliance requires.", "pause": 0.5 },
+        { "text": "We're early, and on purpose, we built the hardest part of this business first." }
+      ]
+    },
+    {
+      "id": "s10_gtm",
+      "lead": 0.4,
+      "tail": 0.7,
+      "phrases": [
+        { "text": "This spreads the way developer tools actually spread.", "pause": 0.4 },
+        { "text": "One engineer installs it in a single line to solve today's problem.", "pause": 0.45 },
+        { "text": "Their team adopts it once it's already running in production.", "pause": 0.45 },
+        { "text": "Compliance signs off last, after the guarantee has already proven itself, not before.", "pause": 0.5 },
+        { "text": "We don't have to sell this in. It sells itself in, from the bottom up." }
+      ]
+    },
+    {
+      "id": "s11_ask",
+      "lead": 0.9,
+      "tail": 2.0,
+      "phrases": [
+        { "text": "Every model available today already computes a confidence score.", "pause": 0.5 },
+        { "text": "We're the layer that makes that number mean something you can actually stand behind.", "pause": 0.6 },
+        { "text": "We're raising a pre-seed round to take this from one SDK to the standard every regulated industry checks before it lets an agent ship.", "pause": 0.7 },
+        { "text": "Conformal Logit Inference.", "pause": 0.5 },
+        { "text": "Not a confidence score. A guarantee." }
+      ]
+    }
+  ]
+}

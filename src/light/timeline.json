@@ -1,0 +1,912 @@
+{
+  "fps": 30,
+  "overlap": 10,
+  "durationInFrames": 2487,
+  "voice": "am_michael",
+  "scenes": [
+    {
+      "id": "s01_hook",
+      "from": 0,
+      "durationInFrames": 261,
+      "cues": [
+        {
+          "frame": 42,
+          "endFrame": 123,
+          "text": "Every AI assistant ships the same warning.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 42
+            },
+            {
+              "text": "AI",
+              "frame": 61
+            },
+            {
+              "text": "assistant",
+              "frame": 67
+            },
+            {
+              "text": "ships",
+              "frame": 86
+            },
+            {
+              "text": "the",
+              "frame": 93
+            },
+            {
+              "text": "same",
+              "frame": 99
+            },
+            {
+              "text": "warning.",
+              "frame": 105
+            }
+          ]
+        },
+        {
+          "frame": 140,
+          "endFrame": 178,
+          "text": "Under the right answer.",
+          "words": [
+            {
+              "text": "Under",
+              "frame": 140
+            },
+            {
+              "text": "the",
+              "frame": 151
+            },
+            {
+              "text": "right",
+              "frame": 157
+            },
+            {
+              "text": "answer.",
+              "frame": 162
+            }
+          ]
+        },
+        {
+          "frame": 186,
+          "endFrame": 216,
+          "text": "And the wrong one.",
+          "words": [
+            {
+              "text": "And",
+              "frame": 186
+            },
+            {
+              "text": "the",
+              "frame": 191
+            },
+            {
+              "text": "wrong",
+              "frame": 196
+            },
+            {
+              "text": "one.",
+              "frame": 202
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02_problem",
+      "from": 251,
+      "durationInFrames": 116,
+      "cues": [
+        {
+          "frame": 10,
+          "endFrame": 51,
+          "text": "It can never be wrong.",
+          "words": [
+            {
+              "text": "It",
+              "frame": 10
+            },
+            {
+              "text": "can",
+              "frame": 16
+            },
+            {
+              "text": "never",
+              "frame": 22
+            },
+            {
+              "text": "be",
+              "frame": 34
+            },
+            {
+              "text": "wrong.",
+              "frame": 40
+            }
+          ]
+        },
+        {
+          "frame": 62,
+          "endFrame": 95,
+          "text": "That's the problem.",
+          "words": [
+            {
+              "text": "That's",
+              "frame": 62
+            },
+            {
+              "text": "the",
+              "frame": 69
+            },
+            {
+              "text": "problem.",
+              "frame": 76
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s03_title",
+      "from": 357,
+      "durationInFrames": 162,
+      "cues": [
+        {
+          "frame": 27,
+          "endFrame": 114,
+          "text": "Introducing Conformal Confidential Inference.",
+          "words": [
+            {
+              "text": "Introducing",
+              "frame": 27
+            },
+            {
+              "text": "Conformal",
+              "frame": 49
+            },
+            {
+              "text": "Confidential",
+              "frame": 66
+            },
+            {
+              "text": "Inference.",
+              "frame": 88
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s04_confidential",
+      "from": 509,
+      "durationInFrames": 267,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 92,
+          "text": "The model runs inside a hardware enclave.",
+          "words": [
+            {
+              "text": "The",
+              "frame": 12
+            },
+            {
+              "text": "model",
+              "frame": 18
+            },
+            {
+              "text": "runs",
+              "frame": 31
+            },
+            {
+              "text": "inside",
+              "frame": 37
+            },
+            {
+              "text": "a",
+              "frame": 50
+            },
+            {
+              "text": "hardware",
+              "frame": 56
+            },
+            {
+              "text": "enclave.",
+              "frame": 68
+            }
+          ]
+        },
+        {
+          "frame": 101,
+          "endFrame": 179,
+          "text": "Encrypted, even from the cloud operator.",
+          "words": [
+            {
+              "text": "Encrypted,",
+              "frame": 101
+            },
+            {
+              "text": "even",
+              "frame": 123
+            },
+            {
+              "text": "from",
+              "frame": 134
+            },
+            {
+              "text": "the",
+              "frame": 140
+            },
+            {
+              "text": "cloud",
+              "frame": 146
+            },
+            {
+              "text": "operator.",
+              "frame": 151
+            }
+          ]
+        },
+        {
+          "frame": 188,
+          "endFrame": 249,
+          "text": "And it proves what software is running.",
+          "words": [
+            {
+              "text": "And",
+              "frame": 188
+            },
+            {
+              "text": "it",
+              "frame": 194
+            },
+            {
+              "text": "proves",
+              "frame": 199
+            },
+            {
+              "text": "what",
+              "frame": 211
+            },
+            {
+              "text": "software",
+              "frame": 216
+            },
+            {
+              "text": "is",
+              "frame": 228
+            },
+            {
+              "text": "running.",
+              "frame": 233
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s05_conformal",
+      "from": 766,
+      "durationInFrames": 405,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 101,
+          "text": "Every answer carries a calibrated prediction set.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 12
+            },
+            {
+              "text": "answer",
+              "frame": 28
+            },
+            {
+              "text": "carries",
+              "frame": 38
+            },
+            {
+              "text": "a",
+              "frame": 49
+            },
+            {
+              "text": "calibrated",
+              "frame": 54
+            },
+            {
+              "text": "prediction",
+              "frame": 76
+            },
+            {
+              "text": "set.",
+              "frame": 91
+            }
+          ]
+        },
+        {
+          "frame": 113,
+          "endFrame": 157,
+          "text": "One mode, it answers.",
+          "words": [
+            {
+              "text": "One",
+              "frame": 113
+            },
+            {
+              "text": "mode,",
+              "frame": 119
+            },
+            {
+              "text": "it",
+              "frame": 135
+            },
+            {
+              "text": "answers.",
+              "frame": 141
+            }
+          ]
+        },
+        {
+          "frame": 179,
+          "endFrame": 216,
+          "text": "Several, it says so.",
+          "words": [
+            {
+              "text": "Several,",
+              "frame": 179
+            },
+            {
+              "text": "it",
+              "frame": 197
+            },
+            {
+              "text": "says",
+              "frame": 202
+            },
+            {
+              "text": "so.",
+              "frame": 207
+            }
+          ]
+        },
+        {
+          "frame": 239,
+          "endFrame": 277,
+          "text": "None, it abstains.",
+          "words": [
+            {
+              "text": "None,",
+              "frame": 239
+            },
+            {
+              "text": "it",
+              "frame": 255
+            },
+            {
+              "text": "abstains.",
+              "frame": 261
+            }
+          ]
+        },
+        {
+          "frame": 296,
+          "endFrame": 378,
+          "text": "Ninety percent coverage, from held-out data.",
+          "words": [
+            {
+              "text": "Ninety",
+              "frame": 296
+            },
+            {
+              "text": "percent",
+              "frame": 312
+            },
+            {
+              "text": "coverage,",
+              "frame": 322
+            },
+            {
+              "text": "from",
+              "frame": 348
+            },
+            {
+              "text": "held-out",
+              "frame": 353
+            },
+            {
+              "text": "data.",
+              "frame": 363
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s06_case",
+      "from": 1161,
+      "durationInFrames": 230,
+      "cues": [
+        {
+          "frame": 48,
+          "endFrame": 88,
+          "text": "When the text sounds sure,",
+          "words": [
+            {
+              "text": "When",
+              "frame": 48
+            },
+            {
+              "text": "the",
+              "frame": 54
+            },
+            {
+              "text": "text",
+              "frame": 60
+            },
+            {
+              "text": "sounds",
+              "frame": 66
+            },
+            {
+              "text": "sure,",
+              "frame": 72
+            }
+          ]
+        },
+        {
+          "frame": 92,
+          "endFrame": 150,
+          "text": "but the calibration says escalate,",
+          "words": [
+            {
+              "text": "but",
+              "frame": 92
+            },
+            {
+              "text": "the",
+              "frame": 97
+            },
+            {
+              "text": "calibration",
+              "frame": 102
+            },
+            {
+              "text": "says",
+              "frame": 121
+            },
+            {
+              "text": "escalate,",
+              "frame": 126
+            }
+          ]
+        },
+        {
+          "frame": 154,
+          "endFrame": 185,
+          "text": "it escalates.",
+          "words": [
+            {
+              "text": "it",
+              "frame": 154
+            },
+            {
+              "text": "escalates.",
+              "frame": 159
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s07_commit",
+      "from": 1381,
+      "durationInFrames": 373,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 65,
+          "text": "Attestation proves what ran.",
+          "words": [
+            {
+              "text": "Attestation",
+              "frame": 12
+            },
+            {
+              "text": "proves",
+              "frame": 36
+            },
+            {
+              "text": "what",
+              "frame": 48
+            },
+            {
+              "text": "ran.",
+              "frame": 54
+            }
+          ]
+        },
+        {
+          "frame": 70,
+          "endFrame": 122,
+          "text": "Not what it was calibrated on.",
+          "words": [
+            {
+              "text": "Not",
+              "frame": 70
+            },
+            {
+              "text": "what",
+              "frame": 75
+            },
+            {
+              "text": "it",
+              "frame": 81
+            },
+            {
+              "text": "was",
+              "frame": 86
+            },
+            {
+              "text": "calibrated",
+              "frame": 91
+            },
+            {
+              "text": "on.",
+              "frame": 112
+            }
+          ]
+        },
+        {
+          "frame": 134,
+          "endFrame": 254,
+          "text": "So CCI commits the calibration set into the root of trust.",
+          "words": [
+            {
+              "text": "So",
+              "frame": 134
+            },
+            {
+              "text": "CCI",
+              "frame": 141
+            },
+            {
+              "text": "commits",
+              "frame": 148
+            },
+            {
+              "text": "the",
+              "frame": 163
+            },
+            {
+              "text": "calibration",
+              "frame": 170
+            },
+            {
+              "text": "set",
+              "frame": 198
+            },
+            {
+              "text": "into",
+              "frame": 205
+            },
+            {
+              "text": "the",
+              "frame": 220
+            },
+            {
+              "text": "root",
+              "frame": 227
+            },
+            {
+              "text": "of",
+              "frame": 234
+            },
+            {
+              "text": "trust.",
+              "frame": 241
+            }
+          ]
+        },
+        {
+          "frame": 266,
+          "endFrame": 340,
+          "text": "Swap one score, and the fingerprint breaks.",
+          "words": [
+            {
+              "text": "Swap",
+              "frame": 266
+            },
+            {
+              "text": "one",
+              "frame": 272
+            },
+            {
+              "text": "score,",
+              "frame": 279
+            },
+            {
+              "text": "and",
+              "frame": 297
+            },
+            {
+              "text": "the",
+              "frame": 303
+            },
+            {
+              "text": "fingerprint",
+              "frame": 309
+            },
+            {
+              "text": "breaks.",
+              "frame": 329
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s08_verify",
+      "from": 1744,
+      "durationInFrames": 175,
+      "cues": [
+        {
+          "frame": 9,
+          "endFrame": 53,
+          "text": "Every response, signed.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 9
+            },
+            {
+              "text": "response,",
+              "frame": 23
+            },
+            {
+              "text": "signed.",
+              "frame": 40
+            }
+          ]
+        },
+        {
+          "frame": 62,
+          "endFrame": 99,
+          "text": "Checked in your browser.",
+          "words": [
+            {
+              "text": "Checked",
+              "frame": 62
+            },
+            {
+              "text": "in",
+              "frame": 73
+            },
+            {
+              "text": "your",
+              "frame": 78
+            },
+            {
+              "text": "browser.",
+              "frame": 84
+            }
+          ]
+        },
+        {
+          "frame": 105,
+          "endFrame": 148,
+          "text": "Checkable by anyone.",
+          "words": [
+            {
+              "text": "Checkable",
+              "frame": 105
+            },
+            {
+              "text": "by",
+              "frame": 118
+            },
+            {
+              "text": "anyone.",
+              "frame": 124
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s09_bound",
+      "from": 1909,
+      "durationInFrames": 290,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 60,
+          "text": "And a hard limit we found.",
+          "words": [
+            {
+              "text": "And",
+              "frame": 12
+            },
+            {
+              "text": "a",
+              "frame": 18
+            },
+            {
+              "text": "hard",
+              "frame": 24
+            },
+            {
+              "text": "limit",
+              "frame": 30
+            },
+            {
+              "text": "we",
+              "frame": 43
+            },
+            {
+              "text": "found.",
+              "frame": 49
+            }
+          ]
+        },
+        {
+          "frame": 69,
+          "endFrame": 200,
+          "text": "Below a hundred and thirty-two examples, the monitor can never fire.",
+          "words": [
+            {
+              "text": "Below",
+              "frame": 69
+            },
+            {
+              "text": "a",
+              "frame": 81
+            },
+            {
+              "text": "hundred",
+              "frame": 86
+            },
+            {
+              "text": "and",
+              "frame": 98
+            },
+            {
+              "text": "thirty-two",
+              "frame": 104
+            },
+            {
+              "text": "examples,",
+              "frame": 121
+            },
+            {
+              "text": "the",
+              "frame": 143
+            },
+            {
+              "text": "monitor",
+              "frame": 149
+            },
+            {
+              "text": "can",
+              "frame": 166
+            },
+            {
+              "text": "never",
+              "frame": 172
+            },
+            {
+              "text": "fire.",
+              "frame": 184
+            }
+          ]
+        },
+        {
+          "frame": 210,
+          "endFrame": 263,
+          "text": "So we ship a hundred and fifty.",
+          "words": [
+            {
+              "text": "So",
+              "frame": 210
+            },
+            {
+              "text": "we",
+              "frame": 215
+            },
+            {
+              "text": "ship",
+              "frame": 221
+            },
+            {
+              "text": "a",
+              "frame": 226
+            },
+            {
+              "text": "hundred",
+              "frame": 232
+            },
+            {
+              "text": "and",
+              "frame": 242
+            },
+            {
+              "text": "fifty.",
+              "frame": 248
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10_tagline",
+      "from": 2189,
+      "durationInFrames": 298,
+      "cues": [
+        {
+          "frame": 27,
+          "endFrame": 62,
+          "text": "Not a disclaimer.",
+          "words": [
+            {
+              "text": "Not",
+              "frame": 27
+            },
+            {
+              "text": "a",
+              "frame": 33
+            },
+            {
+              "text": "disclaimer.",
+              "frame": 39
+            }
+          ]
+        },
+        {
+          "frame": 72,
+          "endFrame": 113,
+          "text": "A claim you can check.",
+          "words": [
+            {
+              "text": "A",
+              "frame": 72
+            },
+            {
+              "text": "claim",
+              "frame": 79
+            },
+            {
+              "text": "you",
+              "frame": 86
+            },
+            {
+              "text": "can",
+              "frame": 93
+            },
+            {
+              "text": "check.",
+              "frame": 100
+            }
+          ]
+        },
+        {
+          "frame": 140,
+          "endFrame": 202,
+          "text": "Conformal Confidential Inference.",
+          "words": [
+            {
+              "text": "Conformal",
+              "frame": 140
+            },
+            {
+              "text": "Confidential",
+              "frame": 156
+            },
+            {
+              "text": "Inference.",
+              "frame": 177
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

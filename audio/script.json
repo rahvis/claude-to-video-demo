@@ -1,0 +1,188 @@
+{
+  "fps": 30,
+  "voice": "af_heart",
+  "speed": 1.0,
+  "gap": 0.28,
+  "overlap_frames": 10,
+  "scenes": [
+    {
+      "id": "s01_hook",
+      "lead": 1.4,
+      "tail": 1.5,
+      "phrases": [
+        {
+          "text": "Every AI assistant ships the same warning.",
+          "pause": 0.55
+        },
+        {
+          "text": "Under the right answer."
+        },
+        {
+          "text": "And the wrong one."
+        }
+      ]
+    },
+    {
+      "id": "s02_problem",
+      "lead": 0.35,
+      "tail": 0.7,
+      "phrases": [
+        {
+          "text": "It can never be wrong.",
+          "pause": 0.35
+        },
+        {
+          "text": "That's the problem."
+        }
+      ]
+    },
+    {
+      "id": "s03_title",
+      "lead": 0.9,
+      "tail": 1.6,
+      "phrases": [
+        {
+          "text": "Introducing Conformal Confidential Inference."
+        }
+      ]
+    },
+    {
+      "id": "s04_confidential",
+      "lead": 0.4,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "The model runs inside a hardware enclave.",
+          "pause": 0.3
+        },
+        {
+          "text": "Encrypted, even from the cloud operator.",
+          "pause": 0.3
+        },
+        {
+          "text": "And it proves what software is running."
+        }
+      ]
+    },
+    {
+      "id": "s05_conformal",
+      "lead": 0.4,
+      "tail": 0.9,
+      "phrases": [
+        {
+          "text": "Every answer carries a calibrated prediction set.",
+          "pause": 0.4
+        },
+        {
+          "text": "One mode, it answers.",
+          "pause": 0.75
+        },
+        {
+          "text": "Several, it says so.",
+          "pause": 0.75
+        },
+        {
+          "text": "None, it abstains.",
+          "pause": 0.65
+        },
+        {
+          "text": "Ninety percent coverage, from held-out data."
+        }
+      ]
+    },
+    {
+      "id": "s06_case",
+      "lead": 1.6,
+      "tail": 1.5,
+      "phrases": [
+        {
+          "text": "When the text sounds sure,",
+          "pause": 0.12
+        },
+        {
+          "text": "but the calibration says escalate,",
+          "pause": 0.12
+        },
+        {
+          "text": "it escalates."
+        }
+      ]
+    },
+    {
+      "id": "s07_commit",
+      "lead": 0.4,
+      "tail": 1.1,
+      "phrases": [
+        {
+          "text": "Attestation proves what ran.",
+          "pause": 0.15
+        },
+        {
+          "text": "Not what it was calibrated on.",
+          "pause": 0.4
+        },
+        {
+          "text": "So CCI commits the calibration set into the root of trust.",
+          "pause": 0.4
+        },
+        {
+          "text": "Swap one score, and the fingerprint breaks."
+        }
+      ]
+    },
+    {
+      "id": "s08_verify",
+      "lead": 0.3,
+      "tail": 0.9,
+      "phrases": [
+        {
+          "text": "Every response, signed.",
+          "pause": 0.3
+        },
+        {
+          "text": "Checked in your browser.",
+          "pause": 0.2
+        },
+        {
+          "text": "Checkable by anyone."
+        }
+      ]
+    },
+    {
+      "id": "s09_bound",
+      "lead": 0.4,
+      "tail": 0.9,
+      "phrases": [
+        {
+          "text": "And a hard limit we found.",
+          "pause": 0.3
+        },
+        {
+          "text": "Below a hundred and thirty-two examples, the monitor can never fire.",
+          "pause": 0.35
+        },
+        {
+          "text": "So we ship a hundred and fifty."
+        }
+      ]
+    },
+    {
+      "id": "s10_tagline",
+      "lead": 0.9,
+      "tail": 3.2,
+      "phrases": [
+        {
+          "text": "Not a disclaimer.",
+          "pause": 0.35
+        },
+        {
+          "text": "A claim you can check.",
+          "pause": 0.9
+        },
+        {
+          "text": "Conformal Confidential Inference."
+        }
+      ]
+    }
+  ]
+}

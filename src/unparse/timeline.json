@@ -1,0 +1,1281 @@
+{
+  "fps": 30,
+  "overlap": 10,
+  "durationInFrames": 3343,
+  "voice": "af_bella",
+  "scenes": [
+    {
+      "id": "s01_hook",
+      "from": 0,
+      "durationInFrames": 480,
+      "cues": [
+        {
+          "frame": 39,
+          "endFrame": 130,
+          "text": "Every AI assistant hands you a confidence score.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 39
+            },
+            {
+              "text": "AI",
+              "frame": 56
+            },
+            {
+              "text": "assistant",
+              "frame": 62
+            },
+            {
+              "text": "hands",
+              "frame": 79
+            },
+            {
+              "text": "you",
+              "frame": 85
+            },
+            {
+              "text": "a",
+              "frame": 91
+            },
+            {
+              "text": "confidence",
+              "frame": 97
+            },
+            {
+              "text": "score.",
+              "frame": 114
+            }
+          ]
+        },
+        {
+          "frame": 142,
+          "endFrame": 259,
+          "text": "Ninety-two percent, it says. But confident in what, exactly?",
+          "words": [
+            {
+              "text": "Ninety-two",
+              "frame": 142
+            },
+            {
+              "text": "percent,",
+              "frame": 166
+            },
+            {
+              "text": "it",
+              "frame": 183
+            },
+            {
+              "text": "says.",
+              "frame": 189
+            },
+            {
+              "text": "But",
+              "frame": 200
+            },
+            {
+              "text": "confident",
+              "frame": 206
+            },
+            {
+              "text": "in",
+              "frame": 224
+            },
+            {
+              "text": "what,",
+              "frame": 230
+            },
+            {
+              "text": "exactly?",
+              "frame": 241
+            }
+          ]
+        },
+        {
+          "frame": 275,
+          "endFrame": 447,
+          "text": "It doesn't travel between models. It has no error bars. And it goes stale without telling you.",
+          "words": [
+            {
+              "text": "It",
+              "frame": 275
+            },
+            {
+              "text": "doesn't",
+              "frame": 282
+            },
+            {
+              "text": "travel",
+              "frame": 289
+            },
+            {
+              "text": "between",
+              "frame": 302
+            },
+            {
+              "text": "models.",
+              "frame": 316
+            },
+            {
+              "text": "It",
+              "frame": 335
+            },
+            {
+              "text": "has",
+              "frame": 341
+            },
+            {
+              "text": "no",
+              "frame": 348
+            },
+            {
+              "text": "error",
+              "frame": 355
+            },
+            {
+              "text": "bars.",
+              "frame": 368
+            },
+            {
+              "text": "And",
+              "frame": 381
+            },
+            {
+              "text": "it",
+              "frame": 387
+            },
+            {
+              "text": "goes",
+              "frame": 394
+            },
+            {
+              "text": "stale",
+              "frame": 401
+            },
+            {
+              "text": "without",
+              "frame": 408
+            },
+            {
+              "text": "telling",
+              "frame": 421
+            },
+            {
+              "text": "you.",
+              "frame": 435
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02_problem",
+      "from": 470,
+      "durationInFrames": 184,
+      "cues": [
+        {
+          "frame": 10,
+          "endFrame": 110,
+          "text": "A confidence score doesn't actually guarantee anything.",
+          "words": [
+            {
+              "text": "A",
+              "frame": 10
+            },
+            {
+              "text": "confidence",
+              "frame": 17
+            },
+            {
+              "text": "score",
+              "frame": 37
+            },
+            {
+              "text": "doesn't",
+              "frame": 44
+            },
+            {
+              "text": "actually",
+              "frame": 51
+            },
+            {
+              "text": "guarantee",
+              "frame": 71
+            },
+            {
+              "text": "anything.",
+              "frame": 84
+            }
+          ]
+        },
+        {
+          "frame": 122,
+          "endFrame": 163,
+          "text": "So we built one that does.",
+          "words": [
+            {
+              "text": "So",
+              "frame": 122
+            },
+            {
+              "text": "we",
+              "frame": 128
+            },
+            {
+              "text": "built",
+              "frame": 134
+            },
+            {
+              "text": "one",
+              "frame": 140
+            },
+            {
+              "text": "that",
+              "frame": 146
+            },
+            {
+              "text": "does.",
+              "frame": 152
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s03_title",
+      "from": 644,
+      "durationInFrames": 150,
+      "cues": [
+        {
+          "frame": 27,
+          "endFrame": 105,
+          "text": "Introducing Conformal Logit Inference.",
+          "words": [
+            {
+              "text": "Introducing",
+              "frame": 27
+            },
+            {
+              "text": "Conformal",
+              "frame": 50
+            },
+            {
+              "text": "Logit",
+              "frame": 67
+            },
+            {
+              "text": "Inference.",
+              "frame": 78
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s04_primitives",
+      "from": 784,
+      "durationInFrames": 350,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 104,
+          "text": "Instead of one flat number, ask a sharper question.",
+          "words": [
+            {
+              "text": "Instead",
+              "frame": 12
+            },
+            {
+              "text": "of",
+              "frame": 25
+            },
+            {
+              "text": "one",
+              "frame": 31
+            },
+            {
+              "text": "flat",
+              "frame": 37
+            },
+            {
+              "text": "number,",
+              "frame": 44
+            },
+            {
+              "text": "ask",
+              "frame": 61
+            },
+            {
+              "text": "a",
+              "frame": 67
+            },
+            {
+              "text": "sharper",
+              "frame": 74
+            },
+            {
+              "text": "question.",
+              "frame": 86
+            }
+          ]
+        },
+        {
+          "frame": 114,
+          "endFrame": 272,
+          "text": "A Belief, a Set, a Gate: seven typed answers, all from one SDK call.",
+          "words": [
+            {
+              "text": "A",
+              "frame": 114
+            },
+            {
+              "text": "Belief,",
+              "frame": 121
+            },
+            {
+              "text": "a",
+              "frame": 140
+            },
+            {
+              "text": "Set,",
+              "frame": 147
+            },
+            {
+              "text": "a",
+              "frame": 159
+            },
+            {
+              "text": "Gate:",
+              "frame": 166
+            },
+            {
+              "text": "seven",
+              "frame": 185
+            },
+            {
+              "text": "typed",
+              "frame": 199
+            },
+            {
+              "text": "answers,",
+              "frame": 213
+            },
+            {
+              "text": "all",
+              "frame": 232
+            },
+            {
+              "text": "from",
+              "frame": 239
+            },
+            {
+              "text": "one",
+              "frame": 246
+            },
+            {
+              "text": "SDK",
+              "frame": 253
+            },
+            {
+              "text": "call.",
+              "frame": 260
+            }
+          ]
+        },
+        {
+          "frame": 284,
+          "endFrame": 332,
+          "text": "Guarantees, not guesses.",
+          "words": [
+            {
+              "text": "Guarantees,",
+              "frame": 284
+            },
+            {
+              "text": "not",
+              "frame": 308
+            },
+            {
+              "text": "guesses.",
+              "frame": 314
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s05_demo",
+      "from": 1124,
+      "durationInFrames": 582,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 50,
+          "text": "Here's what that looks like.",
+          "words": [
+            {
+              "text": "Here's",
+              "frame": 12
+            },
+            {
+              "text": "what",
+              "frame": 22
+            },
+            {
+              "text": "that",
+              "frame": 27
+            },
+            {
+              "text": "looks",
+              "frame": 31
+            },
+            {
+              "text": "like.",
+              "frame": 36
+            }
+          ]
+        },
+        {
+          "frame": 59,
+          "endFrame": 102,
+          "text": "A support ticket comes in.",
+          "words": [
+            {
+              "text": "A",
+              "frame": 59
+            },
+            {
+              "text": "support",
+              "frame": 64
+            },
+            {
+              "text": "ticket",
+              "frame": 74
+            },
+            {
+              "text": "comes",
+              "frame": 83
+            },
+            {
+              "text": "in.",
+              "frame": 93
+            }
+          ]
+        },
+        {
+          "frame": 112,
+          "endFrame": 212,
+          "text": "Ask for a Set, and it tells you which queue this belongs in.",
+          "words": [
+            {
+              "text": "Ask",
+              "frame": 112
+            },
+            {
+              "text": "for",
+              "frame": 118
+            },
+            {
+              "text": "a",
+              "frame": 125
+            },
+            {
+              "text": "Set,",
+              "frame": 131
+            },
+            {
+              "text": "and",
+              "frame": 143
+            },
+            {
+              "text": "it",
+              "frame": 149
+            },
+            {
+              "text": "tells",
+              "frame": 156
+            },
+            {
+              "text": "you",
+              "frame": 162
+            },
+            {
+              "text": "which",
+              "frame": 168
+            },
+            {
+              "text": "queue",
+              "frame": 175
+            },
+            {
+              "text": "this",
+              "frame": 181
+            },
+            {
+              "text": "belongs",
+              "frame": 188
+            },
+            {
+              "text": "in.",
+              "frame": 200
+            }
+          ]
+        },
+        {
+          "frame": 224,
+          "endFrame": 313,
+          "text": "Billing, with ninety percent coverage, guaranteed.",
+          "words": [
+            {
+              "text": "Billing,",
+              "frame": 224
+            },
+            {
+              "text": "with",
+              "frame": 238
+            },
+            {
+              "text": "ninety",
+              "frame": 243
+            },
+            {
+              "text": "percent",
+              "frame": 259
+            },
+            {
+              "text": "coverage,",
+              "frame": 269
+            },
+            {
+              "text": "guaranteed.",
+              "frame": 294
+            }
+          ]
+        },
+        {
+          "frame": 326,
+          "endFrame": 435,
+          "text": "Ask for a Gate, and it decides whether to approve that routing.",
+          "words": [
+            {
+              "text": "Ask",
+              "frame": 326
+            },
+            {
+              "text": "for",
+              "frame": 332
+            },
+            {
+              "text": "a",
+              "frame": 337
+            },
+            {
+              "text": "Gate,",
+              "frame": 343
+            },
+            {
+              "text": "and",
+              "frame": 358
+            },
+            {
+              "text": "it",
+              "frame": 364
+            },
+            {
+              "text": "decides",
+              "frame": 369
+            },
+            {
+              "text": "whether",
+              "frame": 386
+            },
+            {
+              "text": "to",
+              "frame": 397
+            },
+            {
+              "text": "approve",
+              "frame": 403
+            },
+            {
+              "text": "that",
+              "frame": 414
+            },
+            {
+              "text": "routing.",
+              "frame": 419
+            }
+          ]
+        },
+        {
+          "frame": 447,
+          "endFrame": 558,
+          "text": "This time, it escalates: not a guess, a bound you can defend.",
+          "words": [
+            {
+              "text": "This",
+              "frame": 447
+            },
+            {
+              "text": "time,",
+              "frame": 452
+            },
+            {
+              "text": "it",
+              "frame": 468
+            },
+            {
+              "text": "escalates:",
+              "frame": 473
+            },
+            {
+              "text": "not",
+              "frame": 500
+            },
+            {
+              "text": "a",
+              "frame": 505
+            },
+            {
+              "text": "guess,",
+              "frame": 511
+            },
+            {
+              "text": "a",
+              "frame": 521
+            },
+            {
+              "text": "bound",
+              "frame": 526
+            },
+            {
+              "text": "you",
+              "frame": 532
+            },
+            {
+              "text": "can",
+              "frame": 537
+            },
+            {
+              "text": "defend.",
+              "frame": 543
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s06_engines",
+      "from": 1696,
+      "durationInFrames": 489,
+      "cues": [
+        {
+          "frame": 10,
+          "endFrame": 118,
+          "text": "Underneath, three statistical engines do the heavy lifting.",
+          "words": [
+            {
+              "text": "Underneath,",
+              "frame": 10
+            },
+            {
+              "text": "three",
+              "frame": 32
+            },
+            {
+              "text": "statistical",
+              "frame": 38
+            },
+            {
+              "text": "engines",
+              "frame": 61
+            },
+            {
+              "text": "do",
+              "frame": 79
+            },
+            {
+              "text": "the",
+              "frame": 84
+            },
+            {
+              "text": "heavy",
+              "frame": 90
+            },
+            {
+              "text": "lifting.",
+              "frame": 102
+            }
+          ]
+        },
+        {
+          "frame": 130,
+          "endFrame": 216,
+          "text": "Conformal prediction, for guaranteed coverage.",
+          "words": [
+            {
+              "text": "Conformal",
+              "frame": 130
+            },
+            {
+              "text": "prediction,",
+              "frame": 147
+            },
+            {
+              "text": "for",
+              "frame": 167
+            },
+            {
+              "text": "guaranteed",
+              "frame": 173
+            },
+            {
+              "text": "coverage.",
+              "frame": 190
+            }
+          ]
+        },
+        {
+          "frame": 227,
+          "endFrame": 350,
+          "text": "Venn-Abers calibration, for probabilities you can actually trust.",
+          "words": [
+            {
+              "text": "Venn-Abers",
+              "frame": 227
+            },
+            {
+              "text": "calibration,",
+              "frame": 245
+            },
+            {
+              "text": "for",
+              "frame": 274
+            },
+            {
+              "text": "probabilities",
+              "frame": 280
+            },
+            {
+              "text": "you",
+              "frame": 309
+            },
+            {
+              "text": "can",
+              "frame": 315
+            },
+            {
+              "text": "actually",
+              "frame": 321
+            },
+            {
+              "text": "trust.",
+              "frame": 339
+            }
+          ]
+        },
+        {
+          "frame": 361,
+          "endFrame": 468,
+          "text": "And e-values, for tests that never quietly overclaim.",
+          "words": [
+            {
+              "text": "And",
+              "frame": 361
+            },
+            {
+              "text": "e-values,",
+              "frame": 368
+            },
+            {
+              "text": "for",
+              "frame": 394
+            },
+            {
+              "text": "tests",
+              "frame": 401
+            },
+            {
+              "text": "that",
+              "frame": 408
+            },
+            {
+              "text": "never",
+              "frame": 415
+            },
+            {
+              "text": "quietly",
+              "frame": 428
+            },
+            {
+              "text": "overclaim.",
+              "frame": 442
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s07_integrations",
+      "from": 2175,
+      "durationInFrames": 284,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 90,
+          "text": "And it plugs straight into the stack you're already running.",
+          "words": [
+            {
+              "text": "And",
+              "frame": 12
+            },
+            {
+              "text": "it",
+              "frame": 17
+            },
+            {
+              "text": "plugs",
+              "frame": 23
+            },
+            {
+              "text": "straight",
+              "frame": 28
+            },
+            {
+              "text": "into",
+              "frame": 33
+            },
+            {
+              "text": "the",
+              "frame": 44
+            },
+            {
+              "text": "stack",
+              "frame": 49
+            },
+            {
+              "text": "you're",
+              "frame": 54
+            },
+            {
+              "text": "already",
+              "frame": 59
+            },
+            {
+              "text": "running.",
+              "frame": 75
+            }
+          ]
+        },
+        {
+          "frame": 102,
+          "endFrame": 157,
+          "text": "LangChain. LangGraph.",
+          "words": [
+            {
+              "text": "LangChain.",
+              "frame": 102
+            },
+            {
+              "text": "LangGraph.",
+              "frame": 130
+            }
+          ]
+        },
+        {
+          "frame": 166,
+          "endFrame": 266,
+          "text": "Google's ADK. Microsoft's Agent Framework.",
+          "words": [
+            {
+              "text": "Google's",
+              "frame": 166
+            },
+            {
+              "text": "ADK.",
+              "frame": 182
+            },
+            {
+              "text": "Microsoft's",
+              "frame": 196
+            },
+            {
+              "text": "Agent",
+              "frame": 220
+            },
+            {
+              "text": "Framework.",
+              "frame": 236
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s08_guarantee",
+      "from": 2449,
+      "durationInFrames": 294,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 130,
+          "text": "The promise is simple: right at least ninety-five percent of the time.",
+          "words": [
+            {
+              "text": "The",
+              "frame": 12
+            },
+            {
+              "text": "promise",
+              "frame": 18
+            },
+            {
+              "text": "is",
+              "frame": 29
+            },
+            {
+              "text": "simple:",
+              "frame": 35
+            },
+            {
+              "text": "right",
+              "frame": 51
+            },
+            {
+              "text": "at",
+              "frame": 57
+            },
+            {
+              "text": "least",
+              "frame": 62
+            },
+            {
+              "text": "ninety-five",
+              "frame": 68
+            },
+            {
+              "text": "percent",
+              "frame": 91
+            },
+            {
+              "text": "of",
+              "frame": 103
+            },
+            {
+              "text": "the",
+              "frame": 108
+            },
+            {
+              "text": "time.",
+              "frame": 114
+            }
+          ]
+        },
+        {
+          "frame": 143,
+          "endFrame": 186,
+          "text": "And it's not just a promise.",
+          "words": [
+            {
+              "text": "And",
+              "frame": 143
+            },
+            {
+              "text": "it's",
+              "frame": 148
+            },
+            {
+              "text": "not",
+              "frame": 153
+            },
+            {
+              "text": "just",
+              "frame": 158
+            },
+            {
+              "text": "a",
+              "frame": 163
+            },
+            {
+              "text": "promise.",
+              "frame": 167
+            }
+          ]
+        },
+        {
+          "frame": 197,
+          "endFrame": 273,
+          "text": "It's a guarantee you can verify yourself.",
+          "words": [
+            {
+              "text": "It's",
+              "frame": 197
+            },
+            {
+              "text": "a",
+              "frame": 203
+            },
+            {
+              "text": "guarantee",
+              "frame": 210
+            },
+            {
+              "text": "you",
+              "frame": 223
+            },
+            {
+              "text": "can",
+              "frame": 229
+            },
+            {
+              "text": "verify",
+              "frame": 236
+            },
+            {
+              "text": "yourself.",
+              "frame": 255
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s09_promise",
+      "from": 2733,
+      "durationInFrames": 275,
+      "cues": [
+        {
+          "frame": 15,
+          "endFrame": 64,
+          "text": "Bring the model you already use.",
+          "words": [
+            {
+              "text": "Bring",
+              "frame": 15
+            },
+            {
+              "text": "the",
+              "frame": 20
+            },
+            {
+              "text": "model",
+              "frame": 24
+            },
+            {
+              "text": "you",
+              "frame": 33
+            },
+            {
+              "text": "already",
+              "frame": 38
+            },
+            {
+              "text": "use.",
+              "frame": 51
+            }
+          ]
+        },
+        {
+          "frame": 73,
+          "endFrame": 105,
+          "text": "Calibrate it once.",
+          "words": [
+            {
+              "text": "Calibrate",
+              "frame": 73
+            },
+            {
+              "text": "it",
+              "frame": 87
+            },
+            {
+              "text": "once.",
+              "frame": 92
+            }
+          ]
+        },
+        {
+          "frame": 114,
+          "endFrame": 203,
+          "text": "Then query it with guarantees, every time after.",
+          "words": [
+            {
+              "text": "Then",
+              "frame": 114
+            },
+            {
+              "text": "query",
+              "frame": 120
+            },
+            {
+              "text": "it",
+              "frame": 131
+            },
+            {
+              "text": "with",
+              "frame": 137
+            },
+            {
+              "text": "guarantees,",
+              "frame": 143
+            },
+            {
+              "text": "every",
+              "frame": 164
+            },
+            {
+              "text": "time",
+              "frame": 181
+            },
+            {
+              "text": "after.",
+              "frame": 187
+            }
+          ]
+        },
+        {
+          "frame": 219,
+          "endFrame": 254,
+          "text": "That's the whole workflow.",
+          "words": [
+            {
+              "text": "That's",
+              "frame": 219
+            },
+            {
+              "text": "the",
+              "frame": 225
+            },
+            {
+              "text": "whole",
+              "frame": 231
+            },
+            {
+              "text": "workflow.",
+              "frame": 237
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10_tagline",
+      "from": 2998,
+      "durationInFrames": 345,
+      "cues": [
+        {
+          "frame": 27,
+          "endFrame": 99,
+          "text": "So the next time your model says it's confident,",
+          "words": [
+            {
+              "text": "So",
+              "frame": 27
+            },
+            {
+              "text": "the",
+              "frame": 33
+            },
+            {
+              "text": "next",
+              "frame": 38
+            },
+            {
+              "text": "time",
+              "frame": 44
+            },
+            {
+              "text": "your",
+              "frame": 49
+            },
+            {
+              "text": "model",
+              "frame": 55
+            },
+            {
+              "text": "says",
+              "frame": 66
+            },
+            {
+              "text": "it's",
+              "frame": 72
+            },
+            {
+              "text": "confident,",
+              "frame": 78
+            }
+          ]
+        },
+        {
+          "frame": 114,
+          "endFrame": 166,
+          "text": "you'll know exactly what that means.",
+          "words": [
+            {
+              "text": "you'll",
+              "frame": 114
+            },
+            {
+              "text": "know",
+              "frame": 120
+            },
+            {
+              "text": "exactly",
+              "frame": 126
+            },
+            {
+              "text": "what",
+              "frame": 144
+            },
+            {
+              "text": "that",
+              "frame": 149
+            },
+            {
+              "text": "means.",
+              "frame": 155
+            }
+          ]
+        },
+        {
+          "frame": 190,
+          "endFrame": 238,
+          "text": "Conformal Logit Inference.",
+          "words": [
+            {
+              "text": "Conformal",
+              "frame": 190
+            },
+            {
+              "text": "Logit",
+              "frame": 205
+            },
+            {
+              "text": "Inference.",
+              "frame": 214
+            }
+          ]
+        },
+        {
+          "frame": 253,
+          "endFrame": 285,
+          "text": "Get started today.",
+          "words": [
+            {
+              "text": "Get",
+              "frame": 253
+            },
+            {
+              "text": "started",
+              "frame": 259
+            },
+            {
+              "text": "today.",
+              "frame": 270
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

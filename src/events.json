@@ -1,0 +1,234 @@
+{
+  "_doc": "Visual beats shared by the scenes (useEvent) and audio/score.py (sound effects). Local frame = cues[cue].frame + at, or just `at` when cue is null. `word` picks a word inside the cue instead of its start.",
+  "s01_hook": {
+    "type": {
+      "cue": null,
+      "at": 8,
+      "sfx": "type",
+      "count": 21,
+      "every": 1.4
+    },
+    "card1": {
+      "cue": 1,
+      "at": -2,
+      "sfx": "swoosh"
+    },
+    "card2": {
+      "cue": 2,
+      "at": -2,
+      "sfx": "swoosh"
+    },
+    "same": {
+      "cue": 2,
+      "at": 12,
+      "sfx": "shimmer"
+    }
+  },
+  "s02_problem": {
+    "big": {
+      "cue": 0,
+      "at": -8,
+      "sfx": "low"
+    },
+    "strike": {
+      "cue": 1,
+      "at": 0,
+      "sfx": "strike"
+    }
+  },
+  "s03_title": {
+    "intro": {
+      "cue": 0,
+      "at": 0
+    },
+    "impact": {
+      "cue": 0,
+      "word": 1,
+      "at": -2,
+      "sfx": "impact"
+    },
+    "w2": {
+      "cue": 0,
+      "word": 2,
+      "at": -2
+    },
+    "w3": {
+      "cue": 0,
+      "word": 3,
+      "at": -2
+    },
+    "acronym": {
+      "cue": 0,
+      "at": 96,
+      "sfx": "shimmer"
+    }
+  },
+  "s04_confidential": {
+    "chip": {
+      "cue": 0,
+      "at": -4,
+      "sfx": "swoosh"
+    },
+    "encrypt": {
+      "cue": 1,
+      "at": 0,
+      "sfx": "scramble"
+    },
+    "block": {
+      "cue": 1,
+      "at": 26,
+      "sfx": "block"
+    },
+    "token": {
+      "cue": 2,
+      "at": 8,
+      "sfx": "stamp"
+    }
+  },
+  "s05_conformal": {
+    "bars": {
+      "cue": 0,
+      "at": 6,
+      "sfx": "swoosh"
+    },
+    "set1": {
+      "cue": 1,
+      "at": 3,
+      "sfx": "tick"
+    },
+    "set2": {
+      "cue": 2,
+      "at": 3,
+      "sfx": "tick2"
+    },
+    "set0": {
+      "cue": 3,
+      "at": 3,
+      "sfx": "empty"
+    },
+    "coverage": {
+      "cue": 4,
+      "at": 0,
+      "sfx": "count"
+    }
+  },
+  "s06_case": {
+    "ask": {
+      "cue": null,
+      "at": 8,
+      "sfx": "pop"
+    },
+    "stream": {
+      "cue": null,
+      "at": 24
+    },
+    "sure": {
+      "cue": 0,
+      "at": 4
+    },
+    "card": {
+      "cue": 1,
+      "at": 0,
+      "sfx": "swoosh"
+    },
+    "escalate": {
+      "cue": 2,
+      "at": 0,
+      "sfx": "stamp"
+    }
+  },
+  "s07_commit": {
+    "boxes": {
+      "cue": 0,
+      "at": -4,
+      "sfx": "swoosh"
+    },
+    "unmeasured": {
+      "cue": 1,
+      "at": 0,
+      "sfx": "low"
+    },
+    "chain": {
+      "cue": 2,
+      "at": 0,
+      "sfx": "swoosh"
+    },
+    "fp": {
+      "cue": 2,
+      "at": 22,
+      "sfx": "scramble"
+    },
+    "match": {
+      "cue": 2,
+      "at": 84,
+      "sfx": "tick"
+    },
+    "flip": {
+      "cue": 3,
+      "at": 10,
+      "sfx": "glitch"
+    },
+    "mismatch": {
+      "cue": 3,
+      "at": 38,
+      "sfx": "error"
+    }
+  },
+  "s08_verify": {
+    "payload": {
+      "cue": 0,
+      "at": -4,
+      "sfx": "swoosh"
+    },
+    "check1": {
+      "cue": 1,
+      "at": 6,
+      "sfx": "tick"
+    },
+    "check2": {
+      "cue": 2,
+      "at": 0,
+      "sfx": "tick"
+    },
+    "check3": {
+      "cue": 2,
+      "at": 10,
+      "sfx": "tick2"
+    }
+  },
+  "s09_bound": {
+    "axes": {
+      "cue": 0,
+      "at": -4,
+      "sfx": "swoosh"
+    },
+    "curve": {
+      "cue": 1,
+      "at": 0
+    },
+    "wall": {
+      "cue": 1,
+      "at": 44,
+      "sfx": "low"
+    },
+    "ship": {
+      "cue": 2,
+      "at": 8,
+      "sfx": "chime"
+    }
+  },
+  "s10_tagline": {
+    "line1": {
+      "cue": 0,
+      "at": -2
+    },
+    "line2": {
+      "cue": 1,
+      "at": -2
+    },
+    "mark": {
+      "cue": 2,
+      "at": -2
+    }
+  }
+}

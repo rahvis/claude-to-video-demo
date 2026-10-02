@@ -1,0 +1,110 @@
+{
+  "fps": 30,
+  "voice": "af_bella",
+  "speed": 1.0,
+  "gap": 0.28,
+  "overlap_frames": 10,
+  "scenes": [
+    {
+      "id": "t01_hook",
+      "lead": 1.3,
+      "tail": 1.2,
+      "phrases": [
+        { "text": "Your AI agent works on private data.", "pause": 0.5 },
+        { "text": "Encrypted.", "pause": 0.2 },
+        { "text": "Oblivious.", "pause": 0.2 },
+        { "text": "Differentially private." }
+      ]
+    },
+    {
+      "id": "t02_leak",
+      "lead": 0.35,
+      "tail": 0.8,
+      "phrases": [
+        { "text": "And it still leaks.", "pause": 0.55 },
+        { "text": "Not through what it says.", "pause": 0.25 },
+        { "text": "Through how it works." }
+      ]
+    },
+    {
+      "id": "t03_trace",
+      "lead": 0.4,
+      "tail": 1.0,
+      "phrases": [
+        { "text": "An agent decides its own computation.", "pause": 0.35 },
+        { "text": "How many steps.", "pause": 0.3 },
+        { "text": "How long each one takes.", "pause": 0.3 },
+        { "text": "How many bytes it sends.", "pause": 0.5 },
+        { "text": "That shape encodes your private data." }
+      ]
+    },
+    {
+      "id": "t04_attack",
+      "lead": 0.4,
+      "tail": 1.0,
+      "phrases": [
+        { "text": "From metadata alone, a simple model recovers a sensitive attribute.", "pause": 0.45 },
+        { "text": "And whether a record is in the data.", "pause": 0.45 },
+        { "text": "All inside an attested, confidential virtual machine." }
+      ]
+    },
+    {
+      "id": "t05_threshold",
+      "lead": 0.4,
+      "tail": 1.2,
+      "phrases": [
+        { "text": "No machine learning required.", "pause": 0.35 },
+        { "text": "One threshold on request size is enough." }
+      ]
+    },
+    {
+      "id": "t06_title",
+      "lead": 0.9,
+      "tail": 1.5,
+      "phrases": [
+        { "text": "Introducing Trace Privacy." }
+      ]
+    },
+    {
+      "id": "t07_define",
+      "lead": 0.4,
+      "tail": 1.0,
+      "phrases": [
+        { "text": "Differential privacy, over the agent's execution itself.", "pause": 0.4 },
+        { "text": "For traces of any length, chosen at runtime.", "pause": 0.4 },
+        { "text": "With separate budgets for membership, and for attributes." }
+      ]
+    },
+    {
+      "id": "t08_shield",
+      "lead": 0.4,
+      "tail": 1.0,
+      "phrases": [
+        { "text": "Then Trace Shield reshapes the agent.", "pause": 0.4 },
+        { "text": "A fixed plan.", "pause": 0.25 },
+        { "text": "A public deadline.", "pause": 0.25 },
+        { "text": "Padded requests.", "pause": 0.45 },
+        { "text": "Three channels. Provably zero." }
+      ]
+    },
+    {
+      "id": "t09_boundary",
+      "lead": 0.4,
+      "tail": 1.1,
+      "phrases": [
+        { "text": "The fourth, the response, is sized by the model provider.", "pause": 0.4 },
+        { "text": "No defense inside the agent can bound it." }
+      ]
+    },
+    {
+      "id": "t10_tagline",
+      "lead": 0.9,
+      "tail": 3.2,
+      "phrases": [
+        { "text": "How you call a hosted model", "pause": 0.12 },
+        { "text": "is a privacy decision.", "pause": 0.9 },
+        { "text": "Trace Privacy." }
+      ]
+    }
+  ]
+}

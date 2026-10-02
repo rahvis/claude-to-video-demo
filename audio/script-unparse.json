@@ -1,0 +1,112 @@
+{
+  "fps": 30,
+  "voice": "af_bella",
+  "speed": 0.95,
+  "gap": 0.3,
+  "overlap_frames": 10,
+  "scenes": [
+    {
+      "id": "s01_hook",
+      "lead": 1.3,
+      "tail": 1.1,
+      "phrases": [
+        { "text": "Every AI assistant hands you a confidence score.", "pause": 0.4 },
+        { "text": "Ninety-two percent, it says. But confident in what, exactly?", "pause": 0.55 },
+        { "text": "It doesn't travel between models. It has no error bars. And it goes stale without telling you." }
+      ]
+    },
+    {
+      "id": "s02_problem",
+      "lead": 0.35,
+      "tail": 0.7,
+      "phrases": [
+        { "text": "A confidence score doesn't actually guarantee anything.", "pause": 0.4 },
+        { "text": "So we built one that does." }
+      ]
+    },
+    {
+      "id": "s03_title",
+      "lead": 0.9,
+      "tail": 1.5,
+      "phrases": [
+        { "text": "Introducing Conformal Logit Inference." }
+      ]
+    },
+    {
+      "id": "s04_primitives",
+      "lead": 0.4,
+      "tail": 0.6,
+      "phrases": [
+        { "text": "Instead of one flat number, ask a sharper question.", "pause": 0.35 },
+        { "text": "A Belief, a Set, a Gate: seven typed answers, all from one SDK call.", "pause": 0.4 },
+        { "text": "Guarantees, not guesses." }
+      ]
+    },
+    {
+      "id": "s05_demo",
+      "lead": 0.4,
+      "tail": 0.8,
+      "phrases": [
+        { "text": "Here's what that looks like.", "pause": 0.3 },
+        { "text": "A support ticket comes in.", "pause": 0.35 },
+        { "text": "Ask for a Set, and it tells you which queue this belongs in.", "pause": 0.4 },
+        { "text": "Billing, with ninety percent coverage, guaranteed.", "pause": 0.45 },
+        { "text": "Ask for a Gate, and it decides whether to approve that routing.", "pause": 0.4 },
+        { "text": "This time, it escalates: not a guess, a bound you can defend." }
+      ]
+    },
+    {
+      "id": "s06_engines",
+      "lead": 0.35,
+      "tail": 0.7,
+      "phrases": [
+        { "text": "Underneath, three statistical engines do the heavy lifting.", "pause": 0.4 },
+        { "text": "Conformal prediction, for guaranteed coverage.", "pause": 0.35 },
+        { "text": "Venn-Abers calibration, for probabilities you can actually trust.", "pause": 0.35 },
+        { "text": "And e-values, for tests that never quietly overclaim." }
+      ]
+    },
+    {
+      "id": "s07_integrations",
+      "lead": 0.4,
+      "tail": 0.6,
+      "phrases": [
+        { "text": "And it plugs straight into the stack you're already running.", "pause": 0.4 },
+        { "text": "LangChain. LangGraph.", "pause": 0.3 },
+        { "text": "Google's ADK. Microsoft's Agent Framework." }
+      ]
+    },
+    {
+      "id": "s08_guarantee",
+      "lead": 0.4,
+      "tail": 0.7,
+      "phrases": [
+        { "text": "The promise is simple: right at least ninety-five percent of the time.", "pause": 0.45 },
+        { "text": "And it's not just a promise.", "pause": 0.35 },
+        { "text": "It's a guarantee you can verify yourself." }
+      ]
+    },
+    {
+      "id": "s09_promise",
+      "lead": 0.5,
+      "tail": 0.7,
+      "phrases": [
+        { "text": "Bring the model you already use.", "pause": 0.3 },
+        { "text": "Calibrate it once.", "pause": 0.3 },
+        { "text": "Then query it with guarantees, every time after.", "pause": 0.55 },
+        { "text": "That's the whole workflow." }
+      ]
+    },
+    {
+      "id": "s10_tagline",
+      "lead": 0.9,
+      "tail": 2.0,
+      "phrases": [
+        { "text": "So the next time your model says it's confident,", "pause": 0.5 },
+        { "text": "you'll know exactly what that means.", "pause": 0.8 },
+        { "text": "Conformal Logit Inference.", "pause": 0.5 },
+        { "text": "Get started today." }
+      ]
+    }
+  ]
+}

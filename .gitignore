@@ -1,0 +1,21 @@
+# Dependencies
+node_modules
+
+# Python TTS engine: virtual env, downloaded model weights, synth cache, mixed audio
+audio/.venv
+audio/models
+audio/cache
+audio/build
+
+# Generated output (renders, posters, captions, stills, scratch assets)
+out/*
+public/*
+misc/*
+
+# Generated/exported file types
+*.est
+*.pptx
+*.png
+*.pdf
+
+.DS_Store

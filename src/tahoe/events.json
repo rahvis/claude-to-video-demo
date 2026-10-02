@@ -1,0 +1,61 @@
+{
+  "_doc": "Visual beats shared by the Tahoe scenes (useEvent) and audio/score.py (sound effects). Local frame = cues[cue].frame + at, or just `at` when cue is null. `word` picks a word inside the cue instead of its start.",
+  "s01_hook": {
+    "type": { "cue": null, "at": 8, "sfx": "type", "count": 18, "every": 1.4 },
+    "tabs": { "cue": 0, "word": 6, "at": -4, "sfx": "swoosh" },
+    "boolean": { "cue": 1, "at": -2, "sfx": "glitch" },
+    "outdated": { "cue": 2, "word": 4, "at": 0, "sfx": "low" }
+  },
+  "s02_shift": {
+    "strike": { "cue": 0, "at": -6, "sfx": "strike" },
+    "pivot": { "cue": 1, "at": -2, "sfx": "shimmer" }
+  },
+  "s03_title": {
+    "intro": { "cue": 0, "at": 0 },
+    "impact": { "cue": 0, "word": 1, "at": -2, "sfx": "impact" },
+    "mark": { "cue": 0, "word": 1, "at": 20, "sfx": "shimmer" }
+  },
+  "s04_search": {
+    "bar": { "cue": 0, "at": -6, "sfx": "swoosh" },
+    "type": { "cue": 0, "at": 4, "sfx": "type", "count": 14, "every": 2.0 },
+    "filtersOut": { "cue": 1, "at": -2, "sfx": "block" },
+    "count": { "cue": 2, "word": 2, "at": -4, "sfx": "count" }
+  },
+  "s05_extension": {
+    "panel": { "cue": 0, "at": -6, "sfx": "swoosh" },
+    "click": { "cue": 1, "word": 1, "at": -2, "sfx": "tick" },
+    "saved": { "cue": 1, "at": 30, "sfx": "chime" },
+    "revealEmail": { "cue": 2, "word": 2, "at": -2, "sfx": "stamp" },
+    "revealPhone": { "cue": 2, "word": 4, "at": -2, "sfx": "stamp" },
+    "instant": { "cue": 3, "at": 0, "sfx": "shimmer" }
+  },
+  "s06_match": {
+    "card": { "cue": 0, "at": -6, "sfx": "swoosh" },
+    "score": { "cue": 1, "at": -4, "sfx": "count" },
+    "reason": { "cue": 2, "word": 3, "at": -2, "sfx": "tick" }
+  },
+  "s07_outreach": {
+    "compose": { "cue": 0, "at": -6, "sfx": "swoosh" },
+    "inbox": { "cue": 1, "word": 4, "at": -2, "sfx": "tick" },
+    "day1": { "cue": 2, "word": 0, "at": -2, "sfx": "pop" },
+    "day3": { "cue": 2, "word": 2, "at": -2, "sfx": "pop" },
+    "day7": { "cue": 2, "word": 4, "at": -2, "sfx": "pop" },
+    "auto": { "cue": 3, "at": 0, "sfx": "shimmer" }
+  },
+  "s08_analytics": {
+    "tiles": { "cue": 0, "at": -6, "sfx": "swoosh" },
+    "ring": { "cue": 1, "at": -2, "sfx": "count" }
+  },
+  "s09_promise": {
+    "w1": { "cue": 0, "at": -2, "sfx": "pop" },
+    "w2": { "cue": 1, "at": -2, "sfx": "pop" },
+    "w3": { "cue": 2, "at": -2, "sfx": "pop" },
+    "rule": { "cue": 3, "at": -2, "sfx": "shimmer" }
+  },
+  "s10_tagline": {
+    "line1": { "cue": 0, "at": -2 },
+    "line2": { "cue": 1, "at": -2 },
+    "mark": { "cue": 2, "at": -2, "sfx": "impact" },
+    "wo": { "cue": 3, "at": -2, "sfx": "shimmer" }
+  }
+}

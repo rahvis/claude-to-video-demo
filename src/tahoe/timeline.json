@@ -1,0 +1,808 @@
+{
+  "fps": 30,
+  "overlap": 10,
+  "durationInFrames": 2000,
+  "voice": "af_heart",
+  "scenes": [
+    {
+      "id": "s01_hook",
+      "from": 0,
+      "durationInFrames": 325,
+      "cues": [
+        {
+          "frame": 39,
+          "endFrame": 131,
+          "text": "Somewhere right now, a recruiter has fifteen tabs open.",
+          "words": [
+            {
+              "text": "Somewhere",
+              "frame": 39
+            },
+            {
+              "text": "right",
+              "frame": 56
+            },
+            {
+              "text": "now,",
+              "frame": 61
+            },
+            {
+              "text": "a",
+              "frame": 71
+            },
+            {
+              "text": "recruiter",
+              "frame": 77
+            },
+            {
+              "text": "has",
+              "frame": 93
+            },
+            {
+              "text": "fifteen",
+              "frame": 99
+            },
+            {
+              "text": "tabs",
+              "frame": 110
+            },
+            {
+              "text": "open.",
+              "frame": 115
+            }
+          ]
+        },
+        {
+          "frame": 146,
+          "endFrame": 218,
+          "text": "A Boolean string only a machine could love.",
+          "words": [
+            {
+              "text": "A",
+              "frame": 146
+            },
+            {
+              "text": "Boolean",
+              "frame": 152
+            },
+            {
+              "text": "string",
+              "frame": 163
+            },
+            {
+              "text": "only",
+              "frame": 168
+            },
+            {
+              "text": "a",
+              "frame": 180
+            },
+            {
+              "text": "machine",
+              "frame": 185
+            },
+            {
+              "text": "could",
+              "frame": 197
+            },
+            {
+              "text": "love.",
+              "frame": 202
+            }
+          ]
+        },
+        {
+          "frame": 231,
+          "endFrame": 292,
+          "text": "And a spreadsheet that's already out of date.",
+          "words": [
+            {
+              "text": "And",
+              "frame": 231
+            },
+            {
+              "text": "a",
+              "frame": 236
+            },
+            {
+              "text": "spreadsheet",
+              "frame": 241
+            },
+            {
+              "text": "that's",
+              "frame": 250
+            },
+            {
+              "text": "already",
+              "frame": 255
+            },
+            {
+              "text": "out",
+              "frame": 269
+            },
+            {
+              "text": "of",
+              "frame": 274
+            },
+            {
+              "text": "date.",
+              "frame": 279
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02_shift",
+      "from": 315,
+      "durationInFrames": 130,
+      "cues": [
+        {
+          "frame": 10,
+          "endFrame": 71,
+          "text": "Sourcing shouldn't feel like data entry.",
+          "words": [
+            {
+              "text": "Sourcing",
+              "frame": 10
+            },
+            {
+              "text": "shouldn't",
+              "frame": 22
+            },
+            {
+              "text": "feel",
+              "frame": 29
+            },
+            {
+              "text": "like",
+              "frame": 35
+            },
+            {
+              "text": "data",
+              "frame": 41
+            },
+            {
+              "text": "entry.",
+              "frame": 54
+            }
+          ]
+        },
+        {
+          "frame": 81,
+          "endFrame": 112,
+          "text": "So we rebuilt it.",
+          "words": [
+            {
+              "text": "So",
+              "frame": 81
+            },
+            {
+              "text": "we",
+              "frame": 86
+            },
+            {
+              "text": "rebuilt",
+              "frame": 92
+            },
+            {
+              "text": "it.",
+              "frame": 102
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s03_title",
+      "from": 435,
+      "durationInFrames": 118,
+      "cues": [
+        {
+          "frame": 27,
+          "endFrame": 73,
+          "text": "Introducing TahoeAI.",
+          "words": [
+            {
+              "text": "Introducing",
+              "frame": 27
+            },
+            {
+              "text": "TahoeAI.",
+              "frame": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s04_search",
+      "from": 543,
+      "durationInFrames": 267,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 83,
+          "text": "Describe who you need. In plain English.",
+          "words": [
+            {
+              "text": "Describe",
+              "frame": 12
+            },
+            {
+              "text": "who",
+              "frame": 25
+            },
+            {
+              "text": "you",
+              "frame": 32
+            },
+            {
+              "text": "need.",
+              "frame": 39
+            },
+            {
+              "text": "In",
+              "frame": 51
+            },
+            {
+              "text": "plain",
+              "frame": 58
+            },
+            {
+              "text": "English.",
+              "frame": 64
+            }
+          ]
+        },
+        {
+          "frame": 92,
+          "endFrame": 147,
+          "text": "No filters. No Boolean.",
+          "words": [
+            {
+              "text": "No",
+              "frame": 92
+            },
+            {
+              "text": "filters.",
+              "frame": 99
+            },
+            {
+              "text": "No",
+              "frame": 120
+            },
+            {
+              "text": "Boolean.",
+              "frame": 127
+            }
+          ]
+        },
+        {
+          "frame": 156,
+          "endFrame": 249,
+          "text": "Tahoe searches eight hundred million profiles for you.",
+          "words": [
+            {
+              "text": "Tahoe",
+              "frame": 156
+            },
+            {
+              "text": "searches",
+              "frame": 163
+            },
+            {
+              "text": "eight",
+              "frame": 176
+            },
+            {
+              "text": "hundred",
+              "frame": 183
+            },
+            {
+              "text": "million",
+              "frame": 196
+            },
+            {
+              "text": "profiles",
+              "frame": 210
+            },
+            {
+              "text": "for",
+              "frame": 230
+            },
+            {
+              "text": "you.",
+              "frame": 237
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s05_extension",
+      "from": 800,
+      "durationInFrames": 225,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 53,
+          "text": "Right inside LinkedIn.",
+          "words": [
+            {
+              "text": "Right",
+              "frame": 12
+            },
+            {
+              "text": "inside",
+              "frame": 18
+            },
+            {
+              "text": "LinkedIn.",
+              "frame": 30
+            }
+          ]
+        },
+        {
+          "frame": 60,
+          "endFrame": 107,
+          "text": "One click saves the profile.",
+          "words": [
+            {
+              "text": "One",
+              "frame": 60
+            },
+            {
+              "text": "click",
+              "frame": 65
+            },
+            {
+              "text": "saves",
+              "frame": 71
+            },
+            {
+              "text": "the",
+              "frame": 81
+            },
+            {
+              "text": "profile.",
+              "frame": 87
+            }
+          ]
+        },
+        {
+          "frame": 116,
+          "endFrame": 175,
+          "text": "Reveal an email. A phone number.",
+          "words": [
+            {
+              "text": "Reveal",
+              "frame": 116
+            },
+            {
+              "text": "an",
+              "frame": 127
+            },
+            {
+              "text": "email.",
+              "frame": 133
+            },
+            {
+              "text": "A",
+              "frame": 148
+            },
+            {
+              "text": "phone",
+              "frame": 154
+            },
+            {
+              "text": "number.",
+              "frame": 159
+            }
+          ]
+        },
+        {
+          "frame": 184,
+          "endFrame": 207,
+          "text": "Instantly.",
+          "words": [
+            {
+              "text": "Instantly.",
+              "frame": 184
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s06_match",
+      "from": 1015,
+      "durationInFrames": 184,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 53,
+          "text": "Every candidate, ranked.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 12
+            },
+            {
+              "text": "candidate,",
+              "frame": 24
+            },
+            {
+              "text": "ranked.",
+              "frame": 42
+            }
+          ]
+        },
+        {
+          "frame": 62,
+          "endFrame": 104,
+          "text": "Ninety-eight percent match.",
+          "words": [
+            {
+              "text": "Ninety-eight",
+              "frame": 62
+            },
+            {
+              "text": "percent",
+              "frame": 84
+            },
+            {
+              "text": "match.",
+              "frame": 94
+            }
+          ]
+        },
+        {
+          "frame": 113,
+          "endFrame": 163,
+          "text": "Not a guess. A reason why.",
+          "words": [
+            {
+              "text": "Not",
+              "frame": 113
+            },
+            {
+              "text": "a",
+              "frame": 119
+            },
+            {
+              "text": "guess.",
+              "frame": 125
+            },
+            {
+              "text": "A",
+              "frame": 135
+            },
+            {
+              "text": "reason",
+              "frame": 141
+            },
+            {
+              "text": "why.",
+              "frame": 153
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s07_outreach",
+      "from": 1189,
+      "durationInFrames": 239,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 62,
+          "text": "Then Tahoe writes the outreach.",
+          "words": [
+            {
+              "text": "Then",
+              "frame": 12
+            },
+            {
+              "text": "Tahoe",
+              "frame": 18
+            },
+            {
+              "text": "writes",
+              "frame": 25
+            },
+            {
+              "text": "the",
+              "frame": 38
+            },
+            {
+              "text": "outreach.",
+              "frame": 44
+            }
+          ]
+        },
+        {
+          "frame": 71,
+          "endFrame": 113,
+          "text": "Sent from your own inbox.",
+          "words": [
+            {
+              "text": "Sent",
+              "frame": 71
+            },
+            {
+              "text": "from",
+              "frame": 77
+            },
+            {
+              "text": "your",
+              "frame": 83
+            },
+            {
+              "text": "own",
+              "frame": 90
+            },
+            {
+              "text": "inbox.",
+              "frame": 96
+            }
+          ]
+        },
+        {
+          "frame": 122,
+          "endFrame": 184,
+          "text": "Day one. Day three. Day seven.",
+          "words": [
+            {
+              "text": "Day",
+              "frame": 122
+            },
+            {
+              "text": "one.",
+              "frame": 128
+            },
+            {
+              "text": "Day",
+              "frame": 145
+            },
+            {
+              "text": "three.",
+              "frame": 151
+            },
+            {
+              "text": "Day",
+              "frame": 161
+            },
+            {
+              "text": "seven.",
+              "frame": 167
+            }
+          ]
+        },
+        {
+          "frame": 193,
+          "endFrame": 218,
+          "text": "Automatically.",
+          "words": [
+            {
+              "text": "Automatically.",
+              "frame": 193
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s08_analytics",
+      "from": 1418,
+      "durationInFrames": 130,
+      "cues": [
+        {
+          "frame": 10,
+          "endFrame": 47,
+          "text": "Every hire, measured.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 10
+            },
+            {
+              "text": "hire,",
+              "frame": 22
+            },
+            {
+              "text": "measured.",
+              "frame": 32
+            }
+          ]
+        },
+        {
+          "frame": 56,
+          "endFrame": 109,
+          "text": "From first search to signed offer.",
+          "words": [
+            {
+              "text": "From",
+              "frame": 56
+            },
+            {
+              "text": "first",
+              "frame": 62
+            },
+            {
+              "text": "search",
+              "frame": 68
+            },
+            {
+              "text": "to",
+              "frame": 74
+            },
+            {
+              "text": "signed",
+              "frame": 80
+            },
+            {
+              "text": "offer.",
+              "frame": 92
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s09_promise",
+      "from": 1538,
+      "durationInFrames": 165,
+      "cues": [
+        {
+          "frame": 15,
+          "endFrame": 33,
+          "text": "Search.",
+          "words": [
+            {
+              "text": "Search.",
+              "frame": 15
+            }
+          ]
+        },
+        {
+          "frame": 42,
+          "endFrame": 60,
+          "text": "Save.",
+          "words": [
+            {
+              "text": "Save.",
+              "frame": 42
+            }
+          ]
+        },
+        {
+          "frame": 69,
+          "endFrame": 92,
+          "text": "Reach out.",
+          "words": [
+            {
+              "text": "Reach",
+              "frame": 69
+            },
+            {
+              "text": "out.",
+              "frame": 77
+            }
+          ]
+        },
+        {
+          "frame": 107,
+          "endFrame": 144,
+          "text": "That's the whole workflow.",
+          "words": [
+            {
+              "text": "That's",
+              "frame": 107
+            },
+            {
+              "text": "the",
+              "frame": 113
+            },
+            {
+              "text": "whole",
+              "frame": 120
+            },
+            {
+              "text": "workflow.",
+              "frame": 126
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10_tagline",
+      "from": 1693,
+      "durationInFrames": 307,
+      "cues": [
+        {
+          "frame": 27,
+          "endFrame": 75,
+          "text": "Not another tab to manage.",
+          "words": [
+            {
+              "text": "Not",
+              "frame": 27
+            },
+            {
+              "text": "another",
+              "frame": 32
+            },
+            {
+              "text": "tab",
+              "frame": 47
+            },
+            {
+              "text": "to",
+              "frame": 51
+            },
+            {
+              "text": "manage.",
+              "frame": 56
+            }
+          ]
+        },
+        {
+          "frame": 90,
+          "endFrame": 146,
+          "text": "A recruiter's unfair advantage.",
+          "words": [
+            {
+              "text": "A",
+              "frame": 90
+            },
+            {
+              "text": "recruiter's",
+              "frame": 95
+            },
+            {
+              "text": "unfair",
+              "frame": 111
+            },
+            {
+              "text": "advantage.",
+              "frame": 121
+            }
+          ]
+        },
+        {
+          "frame": 173,
+          "endFrame": 199,
+          "text": "TahoeAI.",
+          "words": [
+            {
+              "text": "TahoeAI.",
+              "frame": 173
+            }
+          ]
+        },
+        {
+          "frame": 214,
+          "endFrame": 256,
+          "text": "Powered by WorkOnward.",
+          "words": [
+            {
+              "text": "Powered",
+              "frame": 214
+            },
+            {
+              "text": "by",
+              "frame": 230
+            },
+            {
+              "text": "WorkOnward.",
+              "frame": 236
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,931 @@
+{
+  "fps": 30,
+  "overlap": 10,
+  "durationInFrames": 2432,
+  "voice": "af_bella",
+  "scenes": [
+    {
+      "id": "t01_hook",
+      "from": 0,
+      "durationInFrames": 251,
+      "cues": [
+        {
+          "frame": 39,
+          "endFrame": 109,
+          "text": "Your AI agent works on private data.",
+          "words": [
+            {
+              "text": "Your",
+              "frame": 39
+            },
+            {
+              "text": "AI",
+              "frame": 45
+            },
+            {
+              "text": "agent",
+              "frame": 52
+            },
+            {
+              "text": "works",
+              "frame": 65
+            },
+            {
+              "text": "on",
+              "frame": 71
+            },
+            {
+              "text": "private",
+              "frame": 78
+            },
+            {
+              "text": "data.",
+              "frame": 91
+            }
+          ]
+        },
+        {
+          "frame": 124,
+          "endFrame": 146,
+          "text": "Encrypted.",
+          "words": [
+            {
+              "text": "Encrypted.",
+              "frame": 124
+            }
+          ]
+        },
+        {
+          "frame": 152,
+          "endFrame": 174,
+          "text": "Oblivious.",
+          "words": [
+            {
+              "text": "Oblivious.",
+              "frame": 152
+            }
+          ]
+        },
+        {
+          "frame": 180,
+          "endFrame": 215,
+          "text": "Differentially private.",
+          "words": [
+            {
+              "text": "Differentially",
+              "frame": 180
+            },
+            {
+              "text": "private.",
+              "frame": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t02_leak",
+      "from": 241,
+      "durationInFrames": 150,
+      "cues": [
+        {
+          "frame": 10,
+          "endFrame": 39,
+          "text": "And it still leaks.",
+          "words": [
+            {
+              "text": "And",
+              "frame": 10
+            },
+            {
+              "text": "it",
+              "frame": 16
+            },
+            {
+              "text": "still",
+              "frame": 22
+            },
+            {
+              "text": "leaks.",
+              "frame": 28
+            }
+          ]
+        },
+        {
+          "frame": 55,
+          "endFrame": 88,
+          "text": "Not through what it says.",
+          "words": [
+            {
+              "text": "Not",
+              "frame": 55
+            },
+            {
+              "text": "through",
+              "frame": 61
+            },
+            {
+              "text": "what",
+              "frame": 66
+            },
+            {
+              "text": "it",
+              "frame": 72
+            },
+            {
+              "text": "says.",
+              "frame": 78
+            }
+          ]
+        },
+        {
+          "frame": 95,
+          "endFrame": 126,
+          "text": "Through how it works.",
+          "words": [
+            {
+              "text": "Through",
+              "frame": 95
+            },
+            {
+              "text": "how",
+              "frame": 101
+            },
+            {
+              "text": "it",
+              "frame": 108
+            },
+            {
+              "text": "works.",
+              "frame": 114
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t03_trace",
+      "from": 381,
+      "durationInFrames": 327,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 91,
+          "text": "An agent decides its own computation.",
+          "words": [
+            {
+              "text": "An",
+              "frame": 12
+            },
+            {
+              "text": "agent",
+              "frame": 18
+            },
+            {
+              "text": "decides",
+              "frame": 31
+            },
+            {
+              "text": "its",
+              "frame": 49
+            },
+            {
+              "text": "own",
+              "frame": 55
+            },
+            {
+              "text": "computation.",
+              "frame": 61
+            }
+          ]
+        },
+        {
+          "frame": 101,
+          "endFrame": 128,
+          "text": "How many steps.",
+          "words": [
+            {
+              "text": "How",
+              "frame": 101
+            },
+            {
+              "text": "many",
+              "frame": 107
+            },
+            {
+              "text": "steps.",
+              "frame": 118
+            }
+          ]
+        },
+        {
+          "frame": 137,
+          "endFrame": 176,
+          "text": "How long each one takes.",
+          "words": [
+            {
+              "text": "How",
+              "frame": 137
+            },
+            {
+              "text": "long",
+              "frame": 143
+            },
+            {
+              "text": "each",
+              "frame": 148
+            },
+            {
+              "text": "one",
+              "frame": 154
+            },
+            {
+              "text": "takes.",
+              "frame": 160
+            }
+          ]
+        },
+        {
+          "frame": 185,
+          "endFrame": 222,
+          "text": "How many bytes it sends.",
+          "words": [
+            {
+              "text": "How",
+              "frame": 185
+            },
+            {
+              "text": "many",
+              "frame": 190
+            },
+            {
+              "text": "bytes",
+              "frame": 199
+            },
+            {
+              "text": "it",
+              "frame": 209
+            },
+            {
+              "text": "sends.",
+              "frame": 213
+            }
+          ]
+        },
+        {
+          "frame": 237,
+          "endFrame": 297,
+          "text": "That shape encodes your private data.",
+          "words": [
+            {
+              "text": "That",
+              "frame": 237
+            },
+            {
+              "text": "shape",
+              "frame": 243
+            },
+            {
+              "text": "encodes",
+              "frame": 248
+            },
+            {
+              "text": "your",
+              "frame": 265
+            },
+            {
+              "text": "private",
+              "frame": 270
+            },
+            {
+              "text": "data.",
+              "frame": 281
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t04_attack",
+      "from": 698,
+      "durationInFrames": 358,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 145,
+          "text": "From metadata alone, a simple model recovers a sensitive attribute.",
+          "words": [
+            {
+              "text": "From",
+              "frame": 12
+            },
+            {
+              "text": "metadata",
+              "frame": 17
+            },
+            {
+              "text": "alone,",
+              "frame": 39
+            },
+            {
+              "text": "a",
+              "frame": 60
+            },
+            {
+              "text": "simple",
+              "frame": 65
+            },
+            {
+              "text": "model",
+              "frame": 70
+            },
+            {
+              "text": "recovers",
+              "frame": 81
+            },
+            {
+              "text": "a",
+              "frame": 97
+            },
+            {
+              "text": "sensitive",
+              "frame": 103
+            },
+            {
+              "text": "attribute.",
+              "frame": 119
+            }
+          ]
+        },
+        {
+          "frame": 158,
+          "endFrame": 208,
+          "text": "And whether a record is in the data.",
+          "words": [
+            {
+              "text": "And",
+              "frame": 158
+            },
+            {
+              "text": "whether",
+              "frame": 162
+            },
+            {
+              "text": "a",
+              "frame": 171
+            },
+            {
+              "text": "record",
+              "frame": 175
+            },
+            {
+              "text": "is",
+              "frame": 183
+            },
+            {
+              "text": "in",
+              "frame": 188
+            },
+            {
+              "text": "the",
+              "frame": 192
+            },
+            {
+              "text": "data.",
+              "frame": 196
+            }
+          ]
+        },
+        {
+          "frame": 222,
+          "endFrame": 328,
+          "text": "All inside an attested, confidential virtual machine.",
+          "words": [
+            {
+              "text": "All",
+              "frame": 222
+            },
+            {
+              "text": "inside",
+              "frame": 228
+            },
+            {
+              "text": "an",
+              "frame": 240
+            },
+            {
+              "text": "attested,",
+              "frame": 246
+            },
+            {
+              "text": "confidential",
+              "frame": 269
+            },
+            {
+              "text": "virtual",
+              "frame": 293
+            },
+            {
+              "text": "machine.",
+              "frame": 305
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t05_threshold",
+      "from": 1046,
+      "durationInFrames": 172,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 58,
+          "text": "No machine learning required.",
+          "words": [
+            {
+              "text": "No",
+              "frame": 12
+            },
+            {
+              "text": "machine",
+              "frame": 17
+            },
+            {
+              "text": "learning",
+              "frame": 28
+            },
+            {
+              "text": "required.",
+              "frame": 38
+            }
+          ]
+        },
+        {
+          "frame": 68,
+          "endFrame": 136,
+          "text": "One threshold on request size is enough.",
+          "words": [
+            {
+              "text": "One",
+              "frame": 68
+            },
+            {
+              "text": "threshold",
+              "frame": 74
+            },
+            {
+              "text": "on",
+              "frame": 87
+            },
+            {
+              "text": "request",
+              "frame": 93
+            },
+            {
+              "text": "size",
+              "frame": 106
+            },
+            {
+              "text": "is",
+              "frame": 112
+            },
+            {
+              "text": "enough.",
+              "frame": 118
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t06_title",
+      "from": 1208,
+      "durationInFrames": 119,
+      "cues": [
+        {
+          "frame": 27,
+          "endFrame": 74,
+          "text": "Introducing Trace Privacy.",
+          "words": [
+            {
+              "text": "Introducing",
+              "frame": 27
+            },
+            {
+              "text": "Trace",
+              "frame": 48
+            },
+            {
+              "text": "Privacy.",
+              "frame": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t07_define",
+      "from": 1317,
+      "durationInFrames": 348,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 121,
+          "text": "Differential privacy, over the agent's execution itself.",
+          "words": [
+            {
+              "text": "Differential",
+              "frame": 12
+            },
+            {
+              "text": "privacy,",
+              "frame": 34
+            },
+            {
+              "text": "over",
+              "frame": 55
+            },
+            {
+              "text": "the",
+              "frame": 66
+            },
+            {
+              "text": "agent's",
+              "frame": 72
+            },
+            {
+              "text": "execution",
+              "frame": 83
+            },
+            {
+              "text": "itself.",
+              "frame": 105
+            }
+          ]
+        },
+        {
+          "frame": 133,
+          "endFrame": 211,
+          "text": "For traces of any length, chosen at runtime.",
+          "words": [
+            {
+              "text": "For",
+              "frame": 133
+            },
+            {
+              "text": "traces",
+              "frame": 138
+            },
+            {
+              "text": "of",
+              "frame": 149
+            },
+            {
+              "text": "any",
+              "frame": 154
+            },
+            {
+              "text": "length,",
+              "frame": 165
+            },
+            {
+              "text": "chosen",
+              "frame": 175
+            },
+            {
+              "text": "at",
+              "frame": 185
+            },
+            {
+              "text": "runtime.",
+              "frame": 191
+            }
+          ]
+        },
+        {
+          "frame": 223,
+          "endFrame": 318,
+          "text": "With separate budgets for membership, and for attributes.",
+          "words": [
+            {
+              "text": "With",
+              "frame": 223
+            },
+            {
+              "text": "separate",
+              "frame": 228
+            },
+            {
+              "text": "budgets",
+              "frame": 245
+            },
+            {
+              "text": "for",
+              "frame": 255
+            },
+            {
+              "text": "membership,",
+              "frame": 261
+            },
+            {
+              "text": "and",
+              "frame": 281
+            },
+            {
+              "text": "for",
+              "frame": 287
+            },
+            {
+              "text": "attributes.",
+              "frame": 292
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t08_shield",
+      "from": 1655,
+      "durationInFrames": 293,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 74,
+          "text": "Then Trace Shield reshapes the agent.",
+          "words": [
+            {
+              "text": "Then",
+              "frame": 12
+            },
+            {
+              "text": "Trace",
+              "frame": 18
+            },
+            {
+              "text": "Shield",
+              "frame": 25
+            },
+            {
+              "text": "reshapes",
+              "frame": 31
+            },
+            {
+              "text": "the",
+              "frame": 50
+            },
+            {
+              "text": "agent.",
+              "frame": 56
+            }
+          ]
+        },
+        {
+          "frame": 86,
+          "endFrame": 114,
+          "text": "A fixed plan.",
+          "words": [
+            {
+              "text": "A",
+              "frame": 86
+            },
+            {
+              "text": "fixed",
+              "frame": 92
+            },
+            {
+              "text": "plan.",
+              "frame": 104
+            }
+          ]
+        },
+        {
+          "frame": 121,
+          "endFrame": 154,
+          "text": "A public deadline.",
+          "words": [
+            {
+              "text": "A",
+              "frame": 121
+            },
+            {
+              "text": "public",
+              "frame": 126
+            },
+            {
+              "text": "deadline.",
+              "frame": 136
+            }
+          ]
+        },
+        {
+          "frame": 162,
+          "endFrame": 191,
+          "text": "Padded requests.",
+          "words": [
+            {
+              "text": "Padded",
+              "frame": 162
+            },
+            {
+              "text": "requests.",
+              "frame": 174
+            }
+          ]
+        },
+        {
+          "frame": 204,
+          "endFrame": 263,
+          "text": "Three channels. Provably zero.",
+          "words": [
+            {
+              "text": "Three",
+              "frame": 204
+            },
+            {
+              "text": "channels.",
+              "frame": 210
+            },
+            {
+              "text": "Provably",
+              "frame": 227
+            },
+            {
+              "text": "zero.",
+              "frame": 246
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t09_boundary",
+      "from": 1938,
+      "durationInFrames": 239,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 116,
+          "text": "The fourth, the response, is sized by the model provider.",
+          "words": [
+            {
+              "text": "The",
+              "frame": 12
+            },
+            {
+              "text": "fourth,",
+              "frame": 18
+            },
+            {
+              "text": "the",
+              "frame": 28
+            },
+            {
+              "text": "response,",
+              "frame": 33
+            },
+            {
+              "text": "is",
+              "frame": 55
+            },
+            {
+              "text": "sized",
+              "frame": 61
+            },
+            {
+              "text": "by",
+              "frame": 72
+            },
+            {
+              "text": "the",
+              "frame": 78
+            },
+            {
+              "text": "model",
+              "frame": 83
+            },
+            {
+              "text": "provider.",
+              "frame": 95
+            }
+          ]
+        },
+        {
+          "frame": 128,
+          "endFrame": 206,
+          "text": "No defense inside the agent can bound it.",
+          "words": [
+            {
+              "text": "No",
+              "frame": 128
+            },
+            {
+              "text": "defense",
+              "frame": 135
+            },
+            {
+              "text": "inside",
+              "frame": 148
+            },
+            {
+              "text": "the",
+              "frame": 161
+            },
+            {
+              "text": "agent",
+              "frame": 168
+            },
+            {
+              "text": "can",
+              "frame": 181
+            },
+            {
+              "text": "bound",
+              "frame": 187
+            },
+            {
+              "text": "it.",
+              "frame": 194
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t10_tagline",
+      "from": 2167,
+      "durationInFrames": 265,
+      "cues": [
+        {
+          "frame": 27,
+          "endFrame": 71,
+          "text": "How you call a hosted model",
+          "words": [
+            {
+              "text": "How",
+              "frame": 27
+            },
+            {
+              "text": "you",
+              "frame": 33
+            },
+            {
+              "text": "call",
+              "frame": 38
+            },
+            {
+              "text": "a",
+              "frame": 43
+            },
+            {
+              "text": "hosted",
+              "frame": 49
+            },
+            {
+              "text": "model",
+              "frame": 60
+            }
+          ]
+        },
+        {
+          "frame": 74,
+          "endFrame": 112,
+          "text": "is a privacy decision.",
+          "words": [
+            {
+              "text": "is",
+              "frame": 74
+            },
+            {
+              "text": "a",
+              "frame": 78
+            },
+            {
+              "text": "privacy",
+              "frame": 83
+            },
+            {
+              "text": "decision.",
+              "frame": 96
+            }
+          ]
+        },
+        {
+          "frame": 139,
+          "endFrame": 169,
+          "text": "Trace Privacy.",
+          "words": [
+            {
+              "text": "Trace",
+              "frame": 139
+            },
+            {
+              "text": "Privacy.",
+              "frame": 145
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

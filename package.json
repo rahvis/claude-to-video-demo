@@ -1,0 +1,40 @@
+{
+  "name": "cci-film",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "render:16x9": "remotion render CCI-16x9 out/CCI-16x9.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "render:9x16": "remotion render CCI-9x16 out/CCI-9x16.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "build": "./build.sh",
+    "render:light:16x9": "remotion render CCI-Light-16x9 out/CCI-light-16x9.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "render:light:9x16": "remotion render CCI-Light-9x16 out/CCI-light-9x16.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "build:light": "./build-light.sh",
+    "render:trace:16x9": "remotion render Trace-16x9 out/Trace-16x9.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "render:trace:9x16": "remotion render Trace-9x16 out/Trace-9x16.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "build:trace": "./build-trace.sh",
+    "render:tahoe:16x9": "remotion render Tahoe-16x9 out/Tahoe-16x9.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "render:tahoe:9x16": "remotion render Tahoe-9x16 out/Tahoe-9x16.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "build:tahoe": "./build-tahoe.sh",
+    "render:unparse:16x9": "remotion render Unparse-16x9 out/Unparse-16x9.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "render:unparse:9x16": "remotion render Unparse-9x16 out/Unparse-9x16.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "build:unparse": "./build-unparse.sh",
+    "render:pitchdeck:16x9": "remotion render PitchDeck-16x9 out/PitchDeck-16x9.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "render:pitchdeck:9x16": "remotion render PitchDeck-9x16 out/PitchDeck-9x16.mp4 --codec h264 --crf 16 --pixel-format yuv420p --color-space bt709 --audio-codec aac --audio-bitrate 320k",
+    "build:pitchdeck": "./build-pitchdeck.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.527",
+    "@remotion/google-fonts": "4.0.527",
+    "@remotion/paths": "4.0.527",
+    "@remotion/transitions": "4.0.527",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.527"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "typescript": "5.9.2"
+  }
+}

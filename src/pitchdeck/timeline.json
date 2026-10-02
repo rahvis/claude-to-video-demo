@@ -1,0 +1,2954 @@
+{
+  "fps": 30,
+  "overlap": 10,
+  "durationInFrames": 7923,
+  "voice": "af_bella",
+  "scenes": [
+    {
+      "id": "s01_title",
+      "from": 0,
+      "durationInFrames": 524,
+      "cues": [
+        {
+          "frame": 30,
+          "endFrame": 205,
+          "text": "Every AI system today hands you an answer, and a number that claims to know how sure it is.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 30
+            },
+            {
+              "text": "AI",
+              "frame": 50
+            },
+            {
+              "text": "system",
+              "frame": 56
+            },
+            {
+              "text": "today",
+              "frame": 69
+            },
+            {
+              "text": "hands",
+              "frame": 83
+            },
+            {
+              "text": "you",
+              "frame": 89
+            },
+            {
+              "text": "an",
+              "frame": 96
+            },
+            {
+              "text": "answer,",
+              "frame": 102
+            },
+            {
+              "text": "and",
+              "frame": 121
+            },
+            {
+              "text": "a",
+              "frame": 127
+            },
+            {
+              "text": "number",
+              "frame": 134
+            },
+            {
+              "text": "that",
+              "frame": 147
+            },
+            {
+              "text": "claims",
+              "frame": 154
+            },
+            {
+              "text": "to",
+              "frame": 160
+            },
+            {
+              "text": "know",
+              "frame": 167
+            },
+            {
+              "text": "how",
+              "frame": 173
+            },
+            {
+              "text": "sure",
+              "frame": 180
+            },
+            {
+              "text": "it",
+              "frame": 187
+            },
+            {
+              "text": "is.",
+              "frame": 193
+            }
+          ]
+        },
+        {
+          "frame": 220,
+          "endFrame": 337,
+          "text": "That number has never been anything more than a guess dressed up as math.",
+          "words": [
+            {
+              "text": "That",
+              "frame": 220
+            },
+            {
+              "text": "number",
+              "frame": 226
+            },
+            {
+              "text": "has",
+              "frame": 238
+            },
+            {
+              "text": "never",
+              "frame": 244
+            },
+            {
+              "text": "been",
+              "frame": 255
+            },
+            {
+              "text": "anything",
+              "frame": 261
+            },
+            {
+              "text": "more",
+              "frame": 279
+            },
+            {
+              "text": "than",
+              "frame": 285
+            },
+            {
+              "text": "a",
+              "frame": 291
+            },
+            {
+              "text": "guess",
+              "frame": 297
+            },
+            {
+              "text": "dressed",
+              "frame": 303
+            },
+            {
+              "text": "up",
+              "frame": 315
+            },
+            {
+              "text": "as",
+              "frame": 320
+            },
+            {
+              "text": "math.",
+              "frame": 326
+            }
+          ]
+        },
+        {
+          "frame": 355,
+          "endFrame": 476,
+          "text": "We built the layer that turns it into a guarantee you can check yourself.",
+          "words": [
+            {
+              "text": "We",
+              "frame": 355
+            },
+            {
+              "text": "built",
+              "frame": 362
+            },
+            {
+              "text": "the",
+              "frame": 369
+            },
+            {
+              "text": "layer",
+              "frame": 375
+            },
+            {
+              "text": "that",
+              "frame": 382
+            },
+            {
+              "text": "turns",
+              "frame": 389
+            },
+            {
+              "text": "it",
+              "frame": 396
+            },
+            {
+              "text": "into",
+              "frame": 403
+            },
+            {
+              "text": "a",
+              "frame": 416
+            },
+            {
+              "text": "guarantee",
+              "frame": 423
+            },
+            {
+              "text": "you",
+              "frame": 437
+            },
+            {
+              "text": "can",
+              "frame": 443
+            },
+            {
+              "text": "check",
+              "frame": 450
+            },
+            {
+              "text": "yourself.",
+              "frame": 457
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02_whynow",
+      "from": 514,
+      "durationInFrames": 795,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 220,
+          "text": "Every company racing to put an AI agent into production is about to run into the same wall: regulators.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 12
+            },
+            {
+              "text": "company",
+              "frame": 30
+            },
+            {
+              "text": "racing",
+              "frame": 48
+            },
+            {
+              "text": "to",
+              "frame": 60
+            },
+            {
+              "text": "put",
+              "frame": 66
+            },
+            {
+              "text": "an",
+              "frame": 72
+            },
+            {
+              "text": "AI",
+              "frame": 78
+            },
+            {
+              "text": "agent",
+              "frame": 84
+            },
+            {
+              "text": "into",
+              "frame": 96
+            },
+            {
+              "text": "production",
+              "frame": 108
+            },
+            {
+              "text": "is",
+              "frame": 126
+            },
+            {
+              "text": "about",
+              "frame": 132
+            },
+            {
+              "text": "to",
+              "frame": 144
+            },
+            {
+              "text": "run",
+              "frame": 150
+            },
+            {
+              "text": "into",
+              "frame": 156
+            },
+            {
+              "text": "the",
+              "frame": 168
+            },
+            {
+              "text": "same",
+              "frame": 174
+            },
+            {
+              "text": "wall:",
+              "frame": 180
+            },
+            {
+              "text": "regulators.",
+              "frame": 191
+            }
+          ]
+        },
+        {
+          "frame": 233,
+          "endFrame": 533,
+          "text": "The EU is now requiring high risk systems to prove their own accuracy, and Gartner has already put a name and a growth curve on this entire category.",
+          "words": [
+            {
+              "text": "The",
+              "frame": 233
+            },
+            {
+              "text": "EU",
+              "frame": 240
+            },
+            {
+              "text": "is",
+              "frame": 247
+            },
+            {
+              "text": "now",
+              "frame": 254
+            },
+            {
+              "text": "requiring",
+              "frame": 261
+            },
+            {
+              "text": "high",
+              "frame": 282
+            },
+            {
+              "text": "risk",
+              "frame": 289
+            },
+            {
+              "text": "systems",
+              "frame": 296
+            },
+            {
+              "text": "to",
+              "frame": 310
+            },
+            {
+              "text": "prove",
+              "frame": 318
+            },
+            {
+              "text": "their",
+              "frame": 325
+            },
+            {
+              "text": "own",
+              "frame": 332
+            },
+            {
+              "text": "accuracy,",
+              "frame": 339
+            },
+            {
+              "text": "and",
+              "frame": 372
+            },
+            {
+              "text": "Gartner",
+              "frame": 379
+            },
+            {
+              "text": "has",
+              "frame": 394
+            },
+            {
+              "text": "already",
+              "frame": 401
+            },
+            {
+              "text": "put",
+              "frame": 422
+            },
+            {
+              "text": "a",
+              "frame": 429
+            },
+            {
+              "text": "name",
+              "frame": 436
+            },
+            {
+              "text": "and",
+              "frame": 443
+            },
+            {
+              "text": "a",
+              "frame": 450
+            },
+            {
+              "text": "growth",
+              "frame": 457
+            },
+            {
+              "text": "curve",
+              "frame": 464
+            },
+            {
+              "text": "on",
+              "frame": 471
+            },
+            {
+              "text": "this",
+              "frame": 478
+            },
+            {
+              "text": "entire",
+              "frame": 485
+            },
+            {
+              "text": "category.",
+              "frame": 499
+            }
+          ]
+        },
+        {
+          "frame": 548,
+          "endFrame": 596,
+          "text": "This isn't a future problem.",
+          "words": [
+            {
+              "text": "This",
+              "frame": 548
+            },
+            {
+              "text": "isn't",
+              "frame": 554
+            },
+            {
+              "text": "a",
+              "frame": 560
+            },
+            {
+              "text": "future",
+              "frame": 566
+            },
+            {
+              "text": "problem.",
+              "frame": 579
+            }
+          ]
+        },
+        {
+          "frame": 606,
+          "endFrame": 771,
+          "text": "It's happening at the exact moment most systems have nothing to show regulators when they ask.",
+          "words": [
+            {
+              "text": "It's",
+              "frame": 606
+            },
+            {
+              "text": "happening",
+              "frame": 612
+            },
+            {
+              "text": "at",
+              "frame": 632
+            },
+            {
+              "text": "the",
+              "frame": 638
+            },
+            {
+              "text": "exact",
+              "frame": 644
+            },
+            {
+              "text": "moment",
+              "frame": 657
+            },
+            {
+              "text": "most",
+              "frame": 670
+            },
+            {
+              "text": "systems",
+              "frame": 676
+            },
+            {
+              "text": "have",
+              "frame": 689
+            },
+            {
+              "text": "nothing",
+              "frame": 696
+            },
+            {
+              "text": "to",
+              "frame": 708
+            },
+            {
+              "text": "show",
+              "frame": 715
+            },
+            {
+              "text": "regulators",
+              "frame": 721
+            },
+            {
+              "text": "when",
+              "frame": 747
+            },
+            {
+              "text": "they",
+              "frame": 753
+            },
+            {
+              "text": "ask.",
+              "frame": 759
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s03_problem",
+      "from": 1299,
+      "durationInFrames": 860,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 406,
+          "text": "Nearly half of enterprises using generative AI have already been burned by it in production, and independent testing shows why: accuracy swings wildly depending on who's asking the question.",
+          "words": [
+            {
+              "text": "Nearly",
+              "frame": 12
+            },
+            {
+              "text": "half",
+              "frame": 26
+            },
+            {
+              "text": "of",
+              "frame": 33
+            },
+            {
+              "text": "enterprises",
+              "frame": 40
+            },
+            {
+              "text": "using",
+              "frame": 68
+            },
+            {
+              "text": "generative",
+              "frame": 82
+            },
+            {
+              "text": "AI",
+              "frame": 110
+            },
+            {
+              "text": "have",
+              "frame": 117
+            },
+            {
+              "text": "already",
+              "frame": 124
+            },
+            {
+              "text": "been",
+              "frame": 145
+            },
+            {
+              "text": "burned",
+              "frame": 152
+            },
+            {
+              "text": "by",
+              "frame": 166
+            },
+            {
+              "text": "it",
+              "frame": 173
+            },
+            {
+              "text": "in",
+              "frame": 180
+            },
+            {
+              "text": "production,",
+              "frame": 187
+            },
+            {
+              "text": "and",
+              "frame": 213
+            },
+            {
+              "text": "independent",
+              "frame": 220
+            },
+            {
+              "text": "testing",
+              "frame": 248
+            },
+            {
+              "text": "shows",
+              "frame": 262
+            },
+            {
+              "text": "why:",
+              "frame": 269
+            },
+            {
+              "text": "accuracy",
+              "frame": 282
+            },
+            {
+              "text": "swings",
+              "frame": 310
+            },
+            {
+              "text": "wildly",
+              "frame": 317
+            },
+            {
+              "text": "depending",
+              "frame": 331
+            },
+            {
+              "text": "on",
+              "frame": 352
+            },
+            {
+              "text": "who's",
+              "frame": 358
+            },
+            {
+              "text": "asking",
+              "frame": 365
+            },
+            {
+              "text": "the",
+              "frame": 379
+            },
+            {
+              "text": "question.",
+              "frame": 386
+            }
+          ]
+        },
+        {
+          "frame": 421,
+          "endFrame": 478,
+          "text": "This isn't hypothetical anymore.",
+          "words": [
+            {
+              "text": "This",
+              "frame": 421
+            },
+            {
+              "text": "isn't",
+              "frame": 426
+            },
+            {
+              "text": "hypothetical",
+              "frame": 431
+            },
+            {
+              "text": "anymore.",
+              "frame": 455
+            }
+          ]
+        },
+        {
+          "frame": 490,
+          "endFrame": 836,
+          "text": "A tribunal held Air Canada responsible for a refund its own chatbot invented, and every one of these failures sounded just as confident as the answer that was actually right.",
+          "words": [
+            {
+              "text": "A",
+              "frame": 490
+            },
+            {
+              "text": "tribunal",
+              "frame": 497
+            },
+            {
+              "text": "held",
+              "frame": 517
+            },
+            {
+              "text": "Air",
+              "frame": 524
+            },
+            {
+              "text": "Canada",
+              "frame": 530
+            },
+            {
+              "text": "responsible",
+              "frame": 550
+            },
+            {
+              "text": "for",
+              "frame": 570
+            },
+            {
+              "text": "a",
+              "frame": 577
+            },
+            {
+              "text": "refund",
+              "frame": 584
+            },
+            {
+              "text": "its",
+              "frame": 597
+            },
+            {
+              "text": "own",
+              "frame": 604
+            },
+            {
+              "text": "chatbot",
+              "frame": 611
+            },
+            {
+              "text": "invented,",
+              "frame": 624
+            },
+            {
+              "text": "and",
+              "frame": 650
+            },
+            {
+              "text": "every",
+              "frame": 656
+            },
+            {
+              "text": "one",
+              "frame": 676
+            },
+            {
+              "text": "of",
+              "frame": 683
+            },
+            {
+              "text": "these",
+              "frame": 690
+            },
+            {
+              "text": "failures",
+              "frame": 697
+            },
+            {
+              "text": "sounded",
+              "frame": 717
+            },
+            {
+              "text": "just",
+              "frame": 730
+            },
+            {
+              "text": "as",
+              "frame": 737
+            },
+            {
+              "text": "confident",
+              "frame": 743
+            },
+            {
+              "text": "as",
+              "frame": 764
+            },
+            {
+              "text": "the",
+              "frame": 770
+            },
+            {
+              "text": "answer",
+              "frame": 777
+            },
+            {
+              "text": "that",
+              "frame": 790
+            },
+            {
+              "text": "was",
+              "frame": 797
+            },
+            {
+              "text": "actually",
+              "frame": 804
+            },
+            {
+              "text": "right.",
+              "frame": 824
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s04_solution",
+      "from": 2149,
+      "durationInFrames": 660,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 424,
+          "text": "Conformal Logit Inference sits on top of whatever model you're already running, and turns the confidence it already produces into a real, finite sample guarantee, correct at least as often as you decide it needs to be.",
+          "words": [
+            {
+              "text": "Conformal",
+              "frame": 12
+            },
+            {
+              "text": "Logit",
+              "frame": 31
+            },
+            {
+              "text": "Inference",
+              "frame": 44
+            },
+            {
+              "text": "sits",
+              "frame": 63
+            },
+            {
+              "text": "on",
+              "frame": 70
+            },
+            {
+              "text": "top",
+              "frame": 76
+            },
+            {
+              "text": "of",
+              "frame": 83
+            },
+            {
+              "text": "whatever",
+              "frame": 89
+            },
+            {
+              "text": "model",
+              "frame": 108
+            },
+            {
+              "text": "you're",
+              "frame": 121
+            },
+            {
+              "text": "already",
+              "frame": 128
+            },
+            {
+              "text": "running,",
+              "frame": 147
+            },
+            {
+              "text": "and",
+              "frame": 165
+            },
+            {
+              "text": "turns",
+              "frame": 171
+            },
+            {
+              "text": "the",
+              "frame": 178
+            },
+            {
+              "text": "confidence",
+              "frame": 184
+            },
+            {
+              "text": "it",
+              "frame": 203
+            },
+            {
+              "text": "already",
+              "frame": 210
+            },
+            {
+              "text": "produces",
+              "frame": 229
+            },
+            {
+              "text": "into",
+              "frame": 248
+            },
+            {
+              "text": "a",
+              "frame": 261
+            },
+            {
+              "text": "real,",
+              "frame": 267
+            },
+            {
+              "text": "finite",
+              "frame": 279
+            },
+            {
+              "text": "sample",
+              "frame": 292
+            },
+            {
+              "text": "guarantee,",
+              "frame": 298
+            },
+            {
+              "text": "correct",
+              "frame": 323
+            },
+            {
+              "text": "at",
+              "frame": 335
+            },
+            {
+              "text": "least",
+              "frame": 342
+            },
+            {
+              "text": "as",
+              "frame": 348
+            },
+            {
+              "text": "often",
+              "frame": 355
+            },
+            {
+              "text": "as",
+              "frame": 368
+            },
+            {
+              "text": "you",
+              "frame": 374
+            },
+            {
+              "text": "decide",
+              "frame": 380
+            },
+            {
+              "text": "it",
+              "frame": 393
+            },
+            {
+              "text": "needs",
+              "frame": 400
+            },
+            {
+              "text": "to",
+              "frame": 406
+            },
+            {
+              "text": "be.",
+              "frame": 412
+            }
+          ]
+        },
+        {
+          "frame": 439,
+          "endFrame": 527,
+          "text": "Nothing to retrain, no new model to deploy.",
+          "words": [
+            {
+              "text": "Nothing",
+              "frame": 439
+            },
+            {
+              "text": "to",
+              "frame": 452
+            },
+            {
+              "text": "retrain,",
+              "frame": 458
+            },
+            {
+              "text": "no",
+              "frame": 477
+            },
+            {
+              "text": "new",
+              "frame": 483
+            },
+            {
+              "text": "model",
+              "frame": 489
+            },
+            {
+              "text": "to",
+              "frame": 502
+            },
+            {
+              "text": "deploy.",
+              "frame": 509
+            }
+          ]
+        },
+        {
+          "frame": 540,
+          "endFrame": 586,
+          "text": "The guarantee was always there.",
+          "words": [
+            {
+              "text": "The",
+              "frame": 540
+            },
+            {
+              "text": "guarantee",
+              "frame": 545
+            },
+            {
+              "text": "was",
+              "frame": 556
+            },
+            {
+              "text": "always",
+              "frame": 561
+            },
+            {
+              "text": "there.",
+              "frame": 571
+            }
+          ]
+        },
+        {
+          "frame": 598,
+          "endFrame": 636,
+          "text": "We just made it provable.",
+          "words": [
+            {
+              "text": "We",
+              "frame": 598
+            },
+            {
+              "text": "just",
+              "frame": 603
+            },
+            {
+              "text": "made",
+              "frame": 608
+            },
+            {
+              "text": "it",
+              "frame": 613
+            },
+            {
+              "text": "provable.",
+              "frame": 617
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s05_product",
+      "from": 2799,
+      "durationInFrames": 806,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 263,
+          "text": "Instead of one flat confidence number, the SDK lets you ask a sharper question, whichever one your decision actually needs.",
+          "words": [
+            {
+              "text": "Instead",
+              "frame": 12
+            },
+            {
+              "text": "of",
+              "frame": 27
+            },
+            {
+              "text": "one",
+              "frame": 34
+            },
+            {
+              "text": "flat",
+              "frame": 41
+            },
+            {
+              "text": "confidence",
+              "frame": 48
+            },
+            {
+              "text": "number,",
+              "frame": 70
+            },
+            {
+              "text": "the",
+              "frame": 91
+            },
+            {
+              "text": "SDK",
+              "frame": 98
+            },
+            {
+              "text": "lets",
+              "frame": 105
+            },
+            {
+              "text": "you",
+              "frame": 113
+            },
+            {
+              "text": "ask",
+              "frame": 120
+            },
+            {
+              "text": "a",
+              "frame": 127
+            },
+            {
+              "text": "sharper",
+              "frame": 135
+            },
+            {
+              "text": "question,",
+              "frame": 149
+            },
+            {
+              "text": "whichever",
+              "frame": 170
+            },
+            {
+              "text": "one",
+              "frame": 191
+            },
+            {
+              "text": "your",
+              "frame": 199
+            },
+            {
+              "text": "decision",
+              "frame": 206
+            },
+            {
+              "text": "actually",
+              "frame": 228
+            },
+            {
+              "text": "needs.",
+              "frame": 250
+            }
+          ]
+        },
+        {
+          "frame": 277,
+          "endFrame": 557,
+          "text": "Underneath, three well established statistical methods share the work, the same techniques researched at MIT, Stanford, Berkeley, and Google.",
+          "words": [
+            {
+              "text": "Underneath,",
+              "frame": 277
+            },
+            {
+              "text": "three",
+              "frame": 303
+            },
+            {
+              "text": "well",
+              "frame": 310
+            },
+            {
+              "text": "established",
+              "frame": 317
+            },
+            {
+              "text": "statistical",
+              "frame": 344
+            },
+            {
+              "text": "methods",
+              "frame": 372
+            },
+            {
+              "text": "share",
+              "frame": 385
+            },
+            {
+              "text": "the",
+              "frame": 392
+            },
+            {
+              "text": "work,",
+              "frame": 399
+            },
+            {
+              "text": "the",
+              "frame": 412
+            },
+            {
+              "text": "same",
+              "frame": 418
+            },
+            {
+              "text": "techniques",
+              "frame": 425
+            },
+            {
+              "text": "researched",
+              "frame": 446
+            },
+            {
+              "text": "at",
+              "frame": 466
+            },
+            {
+              "text": "MIT,",
+              "frame": 473
+            },
+            {
+              "text": "Stanford,",
+              "frame": 486
+            },
+            {
+              "text": "Berkeley,",
+              "frame": 505
+            },
+            {
+              "text": "and",
+              "frame": 531
+            },
+            {
+              "text": "Google.",
+              "frame": 538
+            }
+          ]
+        },
+        {
+          "frame": 572,
+          "endFrame": 639,
+          "text": "This isn't a clever heuristic we invented.",
+          "words": [
+            {
+              "text": "This",
+              "frame": 572
+            },
+            {
+              "text": "isn't",
+              "frame": 577
+            },
+            {
+              "text": "a",
+              "frame": 582
+            },
+            {
+              "text": "clever",
+              "frame": 588
+            },
+            {
+              "text": "heuristic",
+              "frame": 598
+            },
+            {
+              "text": "we",
+              "frame": 614
+            },
+            {
+              "text": "invented.",
+              "frame": 619
+            }
+          ]
+        },
+        {
+          "frame": 651,
+          "endFrame": 785,
+          "text": "It's decades of statistics, finally pointed at large language models.",
+          "words": [
+            {
+              "text": "It's",
+              "frame": 651
+            },
+            {
+              "text": "decades",
+              "frame": 658
+            },
+            {
+              "text": "of",
+              "frame": 677
+            },
+            {
+              "text": "statistics,",
+              "frame": 684
+            },
+            {
+              "text": "finally",
+              "frame": 708
+            },
+            {
+              "text": "pointed",
+              "frame": 728
+            },
+            {
+              "text": "at",
+              "frame": 741
+            },
+            {
+              "text": "large",
+              "frame": 747
+            },
+            {
+              "text": "language",
+              "frame": 754
+            },
+            {
+              "text": "models.",
+              "frame": 767
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s06_demo",
+      "from": 3595,
+      "durationInFrames": 737,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 93,
+          "text": "Here's what that looks like on a real support ticket.",
+          "words": [
+            {
+              "text": "Here's",
+              "frame": 12
+            },
+            {
+              "text": "what",
+              "frame": 24
+            },
+            {
+              "text": "that",
+              "frame": 30
+            },
+            {
+              "text": "looks",
+              "frame": 35
+            },
+            {
+              "text": "like",
+              "frame": 41
+            },
+            {
+              "text": "on",
+              "frame": 47
+            },
+            {
+              "text": "a",
+              "frame": 53
+            },
+            {
+              "text": "real",
+              "frame": 59
+            },
+            {
+              "text": "support",
+              "frame": 65
+            },
+            {
+              "text": "ticket.",
+              "frame": 77
+            }
+          ]
+        },
+        {
+          "frame": 105,
+          "endFrame": 338,
+          "text": "Ask for a Set, and it tells you exactly which queue this belongs in, with a coverage guarantee attached, not just a label.",
+          "words": [
+            {
+              "text": "Ask",
+              "frame": 105
+            },
+            {
+              "text": "for",
+              "frame": 112
+            },
+            {
+              "text": "a",
+              "frame": 118
+            },
+            {
+              "text": "Set,",
+              "frame": 125
+            },
+            {
+              "text": "and",
+              "frame": 137
+            },
+            {
+              "text": "it",
+              "frame": 143
+            },
+            {
+              "text": "tells",
+              "frame": 150
+            },
+            {
+              "text": "you",
+              "frame": 157
+            },
+            {
+              "text": "exactly",
+              "frame": 163
+            },
+            {
+              "text": "which",
+              "frame": 183
+            },
+            {
+              "text": "queue",
+              "frame": 190
+            },
+            {
+              "text": "this",
+              "frame": 196
+            },
+            {
+              "text": "belongs",
+              "frame": 203
+            },
+            {
+              "text": "in,",
+              "frame": 216
+            },
+            {
+              "text": "with",
+              "frame": 228
+            },
+            {
+              "text": "a",
+              "frame": 235
+            },
+            {
+              "text": "coverage",
+              "frame": 241
+            },
+            {
+              "text": "guarantee",
+              "frame": 261
+            },
+            {
+              "text": "attached,",
+              "frame": 274
+            },
+            {
+              "text": "not",
+              "frame": 300
+            },
+            {
+              "text": "just",
+              "frame": 306
+            },
+            {
+              "text": "a",
+              "frame": 313
+            },
+            {
+              "text": "label.",
+              "frame": 319
+            }
+          ]
+        },
+        {
+          "frame": 351,
+          "endFrame": 612,
+          "text": "Then ask for a Gate on whether to auto route it, and this time it escalates instead of guessing, because the bound said this one needed a human.",
+          "words": [
+            {
+              "text": "Then",
+              "frame": 351
+            },
+            {
+              "text": "ask",
+              "frame": 357
+            },
+            {
+              "text": "for",
+              "frame": 364
+            },
+            {
+              "text": "a",
+              "frame": 370
+            },
+            {
+              "text": "Gate",
+              "frame": 377
+            },
+            {
+              "text": "on",
+              "frame": 383
+            },
+            {
+              "text": "whether",
+              "frame": 390
+            },
+            {
+              "text": "to",
+              "frame": 403
+            },
+            {
+              "text": "auto",
+              "frame": 409
+            },
+            {
+              "text": "route",
+              "frame": 422
+            },
+            {
+              "text": "it,",
+              "frame": 429
+            },
+            {
+              "text": "and",
+              "frame": 440
+            },
+            {
+              "text": "this",
+              "frame": 447
+            },
+            {
+              "text": "time",
+              "frame": 453
+            },
+            {
+              "text": "it",
+              "frame": 460
+            },
+            {
+              "text": "escalates",
+              "frame": 466
+            },
+            {
+              "text": "instead",
+              "frame": 492
+            },
+            {
+              "text": "of",
+              "frame": 505
+            },
+            {
+              "text": "guessing,",
+              "frame": 511
+            },
+            {
+              "text": "because",
+              "frame": 529
+            },
+            {
+              "text": "the",
+              "frame": 542
+            },
+            {
+              "text": "bound",
+              "frame": 549
+            },
+            {
+              "text": "said",
+              "frame": 555
+            },
+            {
+              "text": "this",
+              "frame": 562
+            },
+            {
+              "text": "one",
+              "frame": 568
+            },
+            {
+              "text": "needed",
+              "frame": 575
+            },
+            {
+              "text": "a",
+              "frame": 587
+            },
+            {
+              "text": "human.",
+              "frame": 594
+            }
+          ]
+        },
+        {
+          "frame": 627,
+          "endFrame": 713,
+          "text": "That's the difference between a score and a guarantee.",
+          "words": [
+            {
+              "text": "That's",
+              "frame": 627
+            },
+            {
+              "text": "the",
+              "frame": 633
+            },
+            {
+              "text": "difference",
+              "frame": 639
+            },
+            {
+              "text": "between",
+              "frame": 656
+            },
+            {
+              "text": "a",
+              "frame": 668
+            },
+            {
+              "text": "score",
+              "frame": 673
+            },
+            {
+              "text": "and",
+              "frame": 679
+            },
+            {
+              "text": "a",
+              "frame": 685
+            },
+            {
+              "text": "guarantee.",
+              "frame": 691
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s07_market",
+      "from": 4322,
+      "durationInFrames": 709,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 141,
+          "text": "This category already has a name, a Gartner report, and a growth curve.",
+          "words": [
+            {
+              "text": "This",
+              "frame": 12
+            },
+            {
+              "text": "category",
+              "frame": 17
+            },
+            {
+              "text": "already",
+              "frame": 38
+            },
+            {
+              "text": "has",
+              "frame": 54
+            },
+            {
+              "text": "a",
+              "frame": 60
+            },
+            {
+              "text": "name,",
+              "frame": 65
+            },
+            {
+              "text": "a",
+              "frame": 80
+            },
+            {
+              "text": "Gartner",
+              "frame": 85
+            },
+            {
+              "text": "report,",
+              "frame": 96
+            },
+            {
+              "text": "and",
+              "frame": 110
+            },
+            {
+              "text": "a",
+              "frame": 116
+            },
+            {
+              "text": "growth",
+              "frame": 121
+            },
+            {
+              "text": "curve.",
+              "frame": 126
+            }
+          ]
+        },
+        {
+          "frame": 154,
+          "endFrame": 480,
+          "text": "AI Trust, Risk, and Security Management alone is headed toward twenty one billion dollars within a decade, and LLM observability is growing even faster.",
+          "words": [
+            {
+              "text": "AI",
+              "frame": 154
+            },
+            {
+              "text": "Trust,",
+              "frame": 160
+            },
+            {
+              "text": "Risk,",
+              "frame": 172
+            },
+            {
+              "text": "and",
+              "frame": 184
+            },
+            {
+              "text": "Security",
+              "frame": 190
+            },
+            {
+              "text": "Management",
+              "frame": 216
+            },
+            {
+              "text": "alone",
+              "frame": 242
+            },
+            {
+              "text": "is",
+              "frame": 255
+            },
+            {
+              "text": "headed",
+              "frame": 262
+            },
+            {
+              "text": "toward",
+              "frame": 275
+            },
+            {
+              "text": "twenty",
+              "frame": 288
+            },
+            {
+              "text": "one",
+              "frame": 301
+            },
+            {
+              "text": "billion",
+              "frame": 307
+            },
+            {
+              "text": "dollars",
+              "frame": 320
+            },
+            {
+              "text": "within",
+              "frame": 333
+            },
+            {
+              "text": "a",
+              "frame": 346
+            },
+            {
+              "text": "decade,",
+              "frame": 353
+            },
+            {
+              "text": "and",
+              "frame": 377
+            },
+            {
+              "text": "LLM",
+              "frame": 384
+            },
+            {
+              "text": "observability",
+              "frame": 390
+            },
+            {
+              "text": "is",
+              "frame": 429
+            },
+            {
+              "text": "growing",
+              "frame": 436
+            },
+            {
+              "text": "even",
+              "frame": 449
+            },
+            {
+              "text": "faster.",
+              "frame": 462
+            }
+          ]
+        },
+        {
+          "frame": 495,
+          "endFrame": 685,
+          "text": "Every single company that ships a large language model into production is a future customer of this layer.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 495
+            },
+            {
+              "text": "single",
+              "frame": 514
+            },
+            {
+              "text": "company",
+              "frame": 520
+            },
+            {
+              "text": "that",
+              "frame": 538
+            },
+            {
+              "text": "ships",
+              "frame": 544
+            },
+            {
+              "text": "a",
+              "frame": 551
+            },
+            {
+              "text": "large",
+              "frame": 557
+            },
+            {
+              "text": "language",
+              "frame": 563
+            },
+            {
+              "text": "model",
+              "frame": 575
+            },
+            {
+              "text": "into",
+              "frame": 588
+            },
+            {
+              "text": "production",
+              "frame": 600
+            },
+            {
+              "text": "is",
+              "frame": 618
+            },
+            {
+              "text": "a",
+              "frame": 625
+            },
+            {
+              "text": "future",
+              "frame": 631
+            },
+            {
+              "text": "customer",
+              "frame": 643
+            },
+            {
+              "text": "of",
+              "frame": 662
+            },
+            {
+              "text": "this",
+              "frame": 668
+            },
+            {
+              "text": "layer.",
+              "frame": 674
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s08_competition",
+      "from": 5021,
+      "durationInFrames": 842,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 76,
+          "text": "This category is already fundable.",
+          "words": [
+            {
+              "text": "This",
+              "frame": 12
+            },
+            {
+              "text": "category",
+              "frame": 17
+            },
+            {
+              "text": "is",
+              "frame": 37
+            },
+            {
+              "text": "already",
+              "frame": 42
+            },
+            {
+              "text": "fundable.",
+              "frame": 57
+            }
+          ]
+        },
+        {
+          "frame": 88,
+          "endFrame": 469,
+          "text": "Arize, Galileo, and Patronus have all raised real venture money, Guardrails AI was acquired by Harvey, and Weights and Biases sold to CoreWeave for over a billion and a half dollars.",
+          "words": [
+            {
+              "text": "Arize,",
+              "frame": 88
+            },
+            {
+              "text": "Galileo,",
+              "frame": 115
+            },
+            {
+              "text": "and",
+              "frame": 142
+            },
+            {
+              "text": "Patronus",
+              "frame": 149
+            },
+            {
+              "text": "have",
+              "frame": 170
+            },
+            {
+              "text": "all",
+              "frame": 177
+            },
+            {
+              "text": "raised",
+              "frame": 184
+            },
+            {
+              "text": "real",
+              "frame": 198
+            },
+            {
+              "text": "venture",
+              "frame": 205
+            },
+            {
+              "text": "money,",
+              "frame": 219
+            },
+            {
+              "text": "Guardrails",
+              "frame": 239
+            },
+            {
+              "text": "AI",
+              "frame": 253
+            },
+            {
+              "text": "was",
+              "frame": 260
+            },
+            {
+              "text": "acquired",
+              "frame": 267
+            },
+            {
+              "text": "by",
+              "frame": 288
+            },
+            {
+              "text": "Harvey,",
+              "frame": 295
+            },
+            {
+              "text": "and",
+              "frame": 315
+            },
+            {
+              "text": "Weights",
+              "frame": 322
+            },
+            {
+              "text": "and",
+              "frame": 329
+            },
+            {
+              "text": "Biases",
+              "frame": 336
+            },
+            {
+              "text": "sold",
+              "frame": 350
+            },
+            {
+              "text": "to",
+              "frame": 358
+            },
+            {
+              "text": "CoreWeave",
+              "frame": 365
+            },
+            {
+              "text": "for",
+              "frame": 386
+            },
+            {
+              "text": "over",
+              "frame": 393
+            },
+            {
+              "text": "a",
+              "frame": 407
+            },
+            {
+              "text": "billion",
+              "frame": 414
+            },
+            {
+              "text": "and",
+              "frame": 428
+            },
+            {
+              "text": "a",
+              "frame": 435
+            },
+            {
+              "text": "half",
+              "frame": 442
+            },
+            {
+              "text": "dollars.",
+              "frame": 449
+            }
+          ]
+        },
+        {
+          "frame": 484,
+          "endFrame": 566,
+          "text": "But every one of them tells you what already happened.",
+          "words": [
+            {
+              "text": "But",
+              "frame": 484
+            },
+            {
+              "text": "every",
+              "frame": 489
+            },
+            {
+              "text": "one",
+              "frame": 504
+            },
+            {
+              "text": "of",
+              "frame": 508
+            },
+            {
+              "text": "them",
+              "frame": 513
+            },
+            {
+              "text": "tells",
+              "frame": 518
+            },
+            {
+              "text": "you",
+              "frame": 523
+            },
+            {
+              "text": "what",
+              "frame": 528
+            },
+            {
+              "text": "already",
+              "frame": 533
+            },
+            {
+              "text": "happened.",
+              "frame": 547
+            }
+          ]
+        },
+        {
+          "frame": 578,
+          "endFrame": 737,
+          "text": "None of them gives you a guarantee before it happens, on whatever model you choose to run.",
+          "words": [
+            {
+              "text": "None",
+              "frame": 578
+            },
+            {
+              "text": "of",
+              "frame": 584
+            },
+            {
+              "text": "them",
+              "frame": 590
+            },
+            {
+              "text": "gives",
+              "frame": 597
+            },
+            {
+              "text": "you",
+              "frame": 609
+            },
+            {
+              "text": "a",
+              "frame": 615
+            },
+            {
+              "text": "guarantee",
+              "frame": 621
+            },
+            {
+              "text": "before",
+              "frame": 634
+            },
+            {
+              "text": "it",
+              "frame": 646
+            },
+            {
+              "text": "happens,",
+              "frame": 653
+            },
+            {
+              "text": "on",
+              "frame": 670
+            },
+            {
+              "text": "whatever",
+              "frame": 676
+            },
+            {
+              "text": "model",
+              "frame": 695
+            },
+            {
+              "text": "you",
+              "frame": 707
+            },
+            {
+              "text": "choose",
+              "frame": 713
+            },
+            {
+              "text": "to",
+              "frame": 720
+            },
+            {
+              "text": "run.",
+              "frame": 726
+            }
+          ]
+        },
+        {
+          "frame": 752,
+          "endFrame": 818,
+          "text": "That gap is exactly where we sit, alone.",
+          "words": [
+            {
+              "text": "That",
+              "frame": 752
+            },
+            {
+              "text": "gap",
+              "frame": 757
+            },
+            {
+              "text": "is",
+              "frame": 762
+            },
+            {
+              "text": "exactly",
+              "frame": 767
+            },
+            {
+              "text": "where",
+              "frame": 781
+            },
+            {
+              "text": "we",
+              "frame": 786
+            },
+            {
+              "text": "sit,",
+              "frame": 791
+            },
+            {
+              "text": "alone.",
+              "frame": 800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s09_business",
+      "from": 5853,
+      "durationInFrames": 572,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 69,
+          "text": "Pricing is deliberately simple.",
+          "words": [
+            {
+              "text": "Pricing",
+              "frame": 12
+            },
+            {
+              "text": "is",
+              "frame": 22
+            },
+            {
+              "text": "deliberately",
+              "frame": 26
+            },
+            {
+              "text": "simple.",
+              "frame": 55
+            }
+          ]
+        },
+        {
+          "frame": 81,
+          "endFrame": 398,
+          "text": "Developers can build on it for free, teams pay as usage grows, and enterprise runs entirely inside your own environment when that's what compliance requires.",
+          "words": [
+            {
+              "text": "Developers",
+              "frame": 81
+            },
+            {
+              "text": "can",
+              "frame": 110
+            },
+            {
+              "text": "build",
+              "frame": 118
+            },
+            {
+              "text": "on",
+              "frame": 125
+            },
+            {
+              "text": "it",
+              "frame": 132
+            },
+            {
+              "text": "for",
+              "frame": 139
+            },
+            {
+              "text": "free,",
+              "frame": 147
+            },
+            {
+              "text": "teams",
+              "frame": 160
+            },
+            {
+              "text": "pay",
+              "frame": 167
+            },
+            {
+              "text": "as",
+              "frame": 174
+            },
+            {
+              "text": "usage",
+              "frame": 182
+            },
+            {
+              "text": "grows,",
+              "frame": 196
+            },
+            {
+              "text": "and",
+              "frame": 210
+            },
+            {
+              "text": "enterprise",
+              "frame": 217
+            },
+            {
+              "text": "runs",
+              "frame": 239
+            },
+            {
+              "text": "entirely",
+              "frame": 246
+            },
+            {
+              "text": "inside",
+              "frame": 275
+            },
+            {
+              "text": "your",
+              "frame": 290
+            },
+            {
+              "text": "own",
+              "frame": 297
+            },
+            {
+              "text": "environment",
+              "frame": 305
+            },
+            {
+              "text": "when",
+              "frame": 334
+            },
+            {
+              "text": "that's",
+              "frame": 341
+            },
+            {
+              "text": "what",
+              "frame": 348
+            },
+            {
+              "text": "compliance",
+              "frame": 356
+            },
+            {
+              "text": "requires.",
+              "frame": 370
+            }
+          ]
+        },
+        {
+          "frame": 413,
+          "endFrame": 551,
+          "text": "We're early, and on purpose, we built the hardest part of this business first.",
+          "words": [
+            {
+              "text": "We're",
+              "frame": 413
+            },
+            {
+              "text": "early,",
+              "frame": 419
+            },
+            {
+              "text": "and",
+              "frame": 436
+            },
+            {
+              "text": "on",
+              "frame": 443
+            },
+            {
+              "text": "purpose,",
+              "frame": 449
+            },
+            {
+              "text": "we",
+              "frame": 472
+            },
+            {
+              "text": "built",
+              "frame": 478
+            },
+            {
+              "text": "the",
+              "frame": 484
+            },
+            {
+              "text": "hardest",
+              "frame": 491
+            },
+            {
+              "text": "part",
+              "frame": 503
+            },
+            {
+              "text": "of",
+              "frame": 509
+            },
+            {
+              "text": "this",
+              "frame": 515
+            },
+            {
+              "text": "business",
+              "frame": 521
+            },
+            {
+              "text": "first.",
+              "frame": 540
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s10_gtm",
+      "from": 6415,
+      "durationInFrames": 716,
+      "cues": [
+        {
+          "frame": 12,
+          "endFrame": 105,
+          "text": "This spreads the way developer tools actually spread.",
+          "words": [
+            {
+              "text": "This",
+              "frame": 12
+            },
+            {
+              "text": "spreads",
+              "frame": 19
+            },
+            {
+              "text": "the",
+              "frame": 25
+            },
+            {
+              "text": "way",
+              "frame": 32
+            },
+            {
+              "text": "developer",
+              "frame": 39
+            },
+            {
+              "text": "tools",
+              "frame": 66
+            },
+            {
+              "text": "actually",
+              "frame": 73
+            },
+            {
+              "text": "spread.",
+              "frame": 93
+            }
+          ]
+        },
+        {
+          "frame": 117,
+          "endFrame": 260,
+          "text": "One engineer installs it in a single line to solve today's problem.",
+          "words": [
+            {
+              "text": "One",
+              "frame": 117
+            },
+            {
+              "text": "engineer",
+              "frame": 125
+            },
+            {
+              "text": "installs",
+              "frame": 149
+            },
+            {
+              "text": "it",
+              "frame": 165
+            },
+            {
+              "text": "in",
+              "frame": 173
+            },
+            {
+              "text": "a",
+              "frame": 181
+            },
+            {
+              "text": "single",
+              "frame": 189
+            },
+            {
+              "text": "line",
+              "frame": 197
+            },
+            {
+              "text": "to",
+              "frame": 205
+            },
+            {
+              "text": "solve",
+              "frame": 213
+            },
+            {
+              "text": "today's",
+              "frame": 221
+            },
+            {
+              "text": "problem.",
+              "frame": 238
+            }
+          ]
+        },
+        {
+          "frame": 273,
+          "endFrame": 372,
+          "text": "Their team adopts it once it's already running in production.",
+          "words": [
+            {
+              "text": "Their",
+              "frame": 273
+            },
+            {
+              "text": "team",
+              "frame": 279
+            },
+            {
+              "text": "adopts",
+              "frame": 285
+            },
+            {
+              "text": "it",
+              "frame": 297
+            },
+            {
+              "text": "once",
+              "frame": 302
+            },
+            {
+              "text": "it's",
+              "frame": 308
+            },
+            {
+              "text": "already",
+              "frame": 314
+            },
+            {
+              "text": "running",
+              "frame": 332
+            },
+            {
+              "text": "in",
+              "frame": 344
+            },
+            {
+              "text": "production.",
+              "frame": 350
+            }
+          ]
+        },
+        {
+          "frame": 385,
+          "endFrame": 561,
+          "text": "Compliance signs off last, after the guarantee has already proven itself, not before.",
+          "words": [
+            {
+              "text": "Compliance",
+              "frame": 385
+            },
+            {
+              "text": "signs",
+              "frame": 399
+            },
+            {
+              "text": "off",
+              "frame": 407
+            },
+            {
+              "text": "last,",
+              "frame": 414
+            },
+            {
+              "text": "after",
+              "frame": 427
+            },
+            {
+              "text": "the",
+              "frame": 441
+            },
+            {
+              "text": "guarantee",
+              "frame": 448
+            },
+            {
+              "text": "has",
+              "frame": 463
+            },
+            {
+              "text": "already",
+              "frame": 470
+            },
+            {
+              "text": "proven",
+              "frame": 492
+            },
+            {
+              "text": "itself,",
+              "frame": 506
+            },
+            {
+              "text": "not",
+              "frame": 526
+            },
+            {
+              "text": "before.",
+              "frame": 534
+            }
+          ]
+        },
+        {
+          "frame": 576,
+          "endFrame": 695,
+          "text": "We don't have to sell this in. It sells itself in, from the bottom up.",
+          "words": [
+            {
+              "text": "We",
+              "frame": 576
+            },
+            {
+              "text": "don't",
+              "frame": 582
+            },
+            {
+              "text": "have",
+              "frame": 588
+            },
+            {
+              "text": "to",
+              "frame": 594
+            },
+            {
+              "text": "sell",
+              "frame": 601
+            },
+            {
+              "text": "this",
+              "frame": 607
+            },
+            {
+              "text": "in.",
+              "frame": 613
+            },
+            {
+              "text": "It",
+              "frame": 624
+            },
+            {
+              "text": "sells",
+              "frame": 630
+            },
+            {
+              "text": "itself",
+              "frame": 636
+            },
+            {
+              "text": "in,",
+              "frame": 648
+            },
+            {
+              "text": "from",
+              "frame": 659
+            },
+            {
+              "text": "the",
+              "frame": 666
+            },
+            {
+              "text": "bottom",
+              "frame": 672
+            },
+            {
+              "text": "up.",
+              "frame": 684
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s11_ask",
+      "from": 7121,
+      "durationInFrames": 802,
+      "cues": [
+        {
+          "frame": 27,
+          "endFrame": 143,
+          "text": "Every model available today already computes a confidence score.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 27
+            },
+            {
+              "text": "model",
+              "frame": 42
+            },
+            {
+              "text": "available",
+              "frame": 52
+            },
+            {
+              "text": "today",
+              "frame": 68
+            },
+            {
+              "text": "already",
+              "frame": 78
+            },
+            {
+              "text": "computes",
+              "frame": 93
+            },
+            {
+              "text": "a",
+              "frame": 108
+            },
+            {
+              "text": "confidence",
+              "frame": 113
+            },
+            {
+              "text": "score.",
+              "frame": 129
+            }
+          ]
+        },
+        {
+          "frame": 158,
+          "endFrame": 296,
+          "text": "We're the layer that makes that number mean something you can actually stand behind.",
+          "words": [
+            {
+              "text": "We're",
+              "frame": 158
+            },
+            {
+              "text": "the",
+              "frame": 164
+            },
+            {
+              "text": "layer",
+              "frame": 171
+            },
+            {
+              "text": "that",
+              "frame": 177
+            },
+            {
+              "text": "makes",
+              "frame": 183
+            },
+            {
+              "text": "that",
+              "frame": 196
+            },
+            {
+              "text": "number",
+              "frame": 202
+            },
+            {
+              "text": "mean",
+              "frame": 215
+            },
+            {
+              "text": "something",
+              "frame": 221
+            },
+            {
+              "text": "you",
+              "frame": 240
+            },
+            {
+              "text": "can",
+              "frame": 247
+            },
+            {
+              "text": "actually",
+              "frame": 253
+            },
+            {
+              "text": "stand",
+              "frame": 272
+            },
+            {
+              "text": "behind.",
+              "frame": 278
+            }
+          ]
+        },
+        {
+          "frame": 314,
+          "endFrame": 583,
+          "text": "We're raising a pre-seed round to take this from one SDK to the standard every regulated industry checks before it lets an agent ship.",
+          "words": [
+            {
+              "text": "We're",
+              "frame": 314
+            },
+            {
+              "text": "raising",
+              "frame": 321
+            },
+            {
+              "text": "a",
+              "frame": 336
+            },
+            {
+              "text": "pre-seed",
+              "frame": 343
+            },
+            {
+              "text": "round",
+              "frame": 358
+            },
+            {
+              "text": "to",
+              "frame": 365
+            },
+            {
+              "text": "take",
+              "frame": 372
+            },
+            {
+              "text": "this",
+              "frame": 380
+            },
+            {
+              "text": "from",
+              "frame": 387
+            },
+            {
+              "text": "one",
+              "frame": 394
+            },
+            {
+              "text": "SDK",
+              "frame": 402
+            },
+            {
+              "text": "to",
+              "frame": 409
+            },
+            {
+              "text": "the",
+              "frame": 416
+            },
+            {
+              "text": "standard",
+              "frame": 424
+            },
+            {
+              "text": "every",
+              "frame": 438
+            },
+            {
+              "text": "regulated",
+              "frame": 460
+            },
+            {
+              "text": "industry",
+              "frame": 489
+            },
+            {
+              "text": "checks",
+              "frame": 511
+            },
+            {
+              "text": "before",
+              "frame": 519
+            },
+            {
+              "text": "it",
+              "frame": 533
+            },
+            {
+              "text": "lets",
+              "frame": 541
+            },
+            {
+              "text": "an",
+              "frame": 548
+            },
+            {
+              "text": "agent",
+              "frame": 555
+            },
+            {
+              "text": "ship.",
+              "frame": 570
+            }
+          ]
+        },
+        {
+          "frame": 604,
+          "endFrame": 652,
+          "text": "Conformal Logit Inference.",
+          "words": [
+            {
+              "text": "Conformal",
+              "frame": 604
+            },
+            {
+              "text": "Logit",
+              "frame": 619
+            },
+            {
+              "text": "Inference.",
+              "frame": 628
+            }
+          ]
+        },
+        {
+          "frame": 667,
+          "endFrame": 742,
+          "text": "Not a confidence score. A guarantee.",
+          "words": [
+            {
+              "text": "Not",
+              "frame": 667
+            },
+            {
+              "text": "a",
+              "frame": 673
+            },
+            {
+              "text": "confidence",
+              "frame": 679
+            },
+            {
+              "text": "score.",
+              "frame": 697
+            },
+            {
+              "text": "A",
+              "frame": 713
+            },
+            {
+              "text": "guarantee.",
+              "frame": 719
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

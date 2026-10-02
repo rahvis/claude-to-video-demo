@@ -1,0 +1,65 @@
+{
+  "_doc": "Visual beats for the Trace Privacy film, shared by src/trace/scenes (useEvent) and audio/score.py --variant trace (sound effects). Local frame = cues[cue].frame + at, or just `at` when cue is null. `word` picks a word inside the cue instead of its start.",
+  "t01_hook": {
+    "record": { "cue": 0, "word": 5, "at": -6, "sfx": "swoosh" },
+    "enc": { "cue": 1, "at": 0, "sfx": "scramble" },
+    "obl": { "cue": 2, "at": 0, "sfx": "tick" },
+    "dp": { "cue": 3, "at": 0, "sfx": "tick2" }
+  },
+  "t02_leak": {
+    "big": { "cue": 0, "at": -6, "sfx": "low" },
+    "drip": { "cue": 0, "at": 34, "sfx": "pop" },
+    "says": { "cue": 1, "at": 0 },
+    "works": { "cue": 2, "at": 0, "sfx": "swoosh" }
+  },
+  "t03_trace": {
+    "path": { "cue": 0, "word": 2, "at": 0, "sfx": "swoosh" },
+    "steps": { "cue": 1, "at": 0, "sfx": "tick" },
+    "timing": { "cue": 2, "at": 0, "sfx": "tick2" },
+    "bytes": { "cue": 3, "at": 0, "sfx": "count" },
+    "shape": { "cue": 4, "word": 1, "at": 0, "sfx": "shimmer" }
+  },
+  "t04_attack": {
+    "meta": { "cue": 0, "at": -4, "sfx": "swoosh" },
+    "count1": { "cue": 0, "word": 6, "at": 0, "sfx": "count" },
+    "count2": { "cue": 1, "at": 8, "sfx": "count" },
+    "vm": { "cue": 2, "at": 0, "sfx": "swoosh" },
+    "attest": { "cue": 2, "word": 3, "at": 0, "sfx": "stamp" }
+  },
+  "t05_threshold": {
+    "dots": { "cue": 0, "at": 4, "sfx": "scramble" },
+    "line": { "cue": 1, "word": 1, "at": 0, "sfx": "swoosh" },
+    "stat": { "cue": 1, "at": 44, "sfx": "chime" }
+  },
+  "t06_title": {
+    "intro": { "cue": 0, "at": 0 },
+    "impact": { "cue": 0, "word": 1, "at": -2, "sfx": "impact" },
+    "w2": { "cue": 0, "word": 2, "at": -1 },
+    "sheen": { "cue": 0, "at": 40, "sfx": "shimmer" }
+  },
+  "t07_define": {
+    "formula": { "cue": 0, "at": -4, "sfx": "swoosh" },
+    "traces": { "cue": 1, "at": 0, "sfx": "tick2" },
+    "budget1": { "cue": 2, "word": 4, "at": -2, "sfx": "tick" },
+    "budget2": { "cue": 2, "word": 7, "at": -2, "sfx": "tick" }
+  },
+  "t08_shield": {
+    "shield": { "cue": 0, "word": 1, "at": -2, "sfx": "chime" },
+    "card": { "cue": 1, "at": -16, "sfx": "swoosh" },
+    "lock1": { "cue": 1, "word": 2, "at": 2, "sfx": "stamp" },
+    "lock2": { "cue": 2, "word": 2, "at": 2, "sfx": "stamp" },
+    "lock3": { "cue": 3, "word": 1, "at": 2, "sfx": "stamp" },
+    "zero": { "cue": 4, "word": 2, "at": 0, "sfx": "shimmer" }
+  },
+  "t09_boundary": {
+    "diagram": { "cue": 0, "at": -6, "sfx": "swoosh" },
+    "open": { "cue": 0, "word": 3, "at": 0, "sfx": "error" },
+    "provider": { "cue": 0, "word": 8, "at": 0 },
+    "nobound": { "cue": 1, "word": 5, "at": 0, "sfx": "block" }
+  },
+  "t10_tagline": {
+    "line1": { "cue": 0, "at": -2 },
+    "line2": { "cue": 1, "at": -2 },
+    "mark": { "cue": 2, "at": -2 }
+  }
+}
