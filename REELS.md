@@ -14,8 +14,8 @@ prompt -> narration script (audio/script-reel-<key>.json)
 
 ## 0. Quick start with Claude Code
 
-You need a Mac with Apple Silicon, at least 15 GB of free disk, and [Claude Code](https://claude.com/claude-code)
-installed and signed in. Open Terminal, run `claude`, and paste the prompts below. Approve the commands it asks to run.
+You need a Mac with Apple Silicon, at least 15 GB of free disk, [Homebrew](https://brew.sh) (its installer asks for
+your Mac password, so install it yourself first) and [Claude Code](https://claude.com/claude-code) installed and signed in. Open Terminal, run `claude`, and paste the prompts below. Approve the commands it asks to run.
 The first setup downloads about 7 GB, mostly voice and speech-recognition models, so allow 30 to 60 minutes.
 
 **Prompt 1. Set up and make a sample video**
@@ -24,7 +24,7 @@ The first setup downloads about 7 GB, mostly voice and speech-recognition models
 Set up the claude-to-video-demo repo on this Mac so I can make narrated Instagram reels locally, then make a sample video.
 
 1. Clone https://github.com/rahvis/claude-to-video-demo.git into ~/claude-to-video-demo (skip if it's already there), then read CLAUDE.md and REELS.md before doing anything else.
-2. Check that this is an Apple Silicon Mac with at least 15 GB free disk. If Homebrew, node, ffmpeg, tesseract or uv is missing, install it (brew install node ffmpeg tesseract uv).
+2. Check that this is an Apple Silicon Mac with at least 15 GB free disk and that Homebrew is installed (if it isn't, stop and tell me to install it from https://brew.sh). If node, ffmpeg, tesseract or uv is missing, install it with brew install node ffmpeg tesseract uv.
 3. Run ./setup-reels.sh. It installs the Node packages, the pinned Python environments, the Qwen3-TTS voice models (CustomVoice and Base), the Whisper models and the OCR data. If a step fails, find the cause, fix it and re-run. Don't skip steps.
 4. Make the sample video: REEL=fresh-sohee ./build-reel.sh
 5. When it's done, open out/Tahoe-Reel-FreshSohee-9x16.mp4 and tell me its length and whether every check passed (Whisper on the mix, reel lint, on-screen text check). Don't weaken or skip a check to get it through.
