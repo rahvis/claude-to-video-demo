@@ -31,9 +31,12 @@ missing=()
 for t in node npm ffmpeg ffprobe tesseract uv; do command -v $t >/dev/null || missing+=("$t"); done
 [ ${#missing[@]} -eq 0 ] || { echo "missing: ${missing[*]}  ->  brew install node ffmpeg tesseract uv"; exit 1; }
 [ "$(node -p 'process.versions.node.split(".")[0]')" -ge 20 ] || { echo "Node 20 or newer is needed"; exit 1; }
-ffmpeg -hide_banner -filters 2>/dev/null | grep -q rubberband || echo "note: this ffmpeg has no rubberband filter; scripts with \"tempo\" other than 1.0 need it (Homebrew's ffmpeg has it)"
+# grep -c reads all of ffmpeg's output (grep -q would exit early and trip pipefail)
+[ "$(ffmpeg -hide_banner -filters 2>/dev/null | grep -c rubberband)" -gt 0 ] || echo "note: this ffmpeg has no rubberband filter; scripts with \"tempo\" other than 1.0 need it (Homebrew's ffmpeg has it)"
 echo "ok: node $(node -v), $(ffmpeg -version | head -1 | cut -d' ' -f1-3), tesseract $(tesseract --version 2>&1 | head -1 | cut -d' ' -f2), $(uv --version)"
-echo "free disk: $(df -g . | awk 'NR==2 {print $4}') GB"
+free=$(df -g . | awk 'NR==2 {print $4}')
+echo "free disk: $free GB"
+[ "$free" -ge 12 ] || [ -f audio/models/qwen3/CustomVoice-8bit/model.safetensors ] || echo "warning: a first setup needs about 9 GB plus room to build (15 GB free is comfortable)"
 
 say "Node packages (Remotion)"
 if [ -d node_modules/remotion ]; then echo "node_modules present"; else npm ci; fi

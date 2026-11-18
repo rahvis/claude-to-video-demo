@@ -12,6 +12,58 @@ prompt -> narration script (audio/script-reel-<key>.json)
        -> checks (Whisper on the mix, copy lint, on-screen text vs narration) -> out/Tahoe-Reel-<Name>-9x16.mp4
 ```
 
+## 0. Quick start with Claude Code
+
+You need a Mac with Apple Silicon, at least 15 GB of free disk, and [Claude Code](https://claude.com/claude-code)
+installed and signed in. Open Terminal, run `claude`, and paste the prompts below. Approve the commands it asks to run.
+The first setup downloads about 7 GB, mostly voice and speech-recognition models, so allow 30 to 60 minutes.
+
+**Prompt 1. Set up and make a sample video**
+
+```text
+Set up the claude-to-video-demo repo on this Mac so I can make narrated Instagram reels locally, then make a sample video.
+
+1. Clone https://github.com/rahvis/claude-to-video-demo.git into ~/claude-to-video-demo (skip if it's already there), then read CLAUDE.md and REELS.md before doing anything else.
+2. Check that this is an Apple Silicon Mac with at least 15 GB free disk. If Homebrew, node, ffmpeg, tesseract or uv is missing, install it (brew install node ffmpeg tesseract uv).
+3. Run ./setup-reels.sh. It installs the Node packages, the pinned Python environments, the Qwen3-TTS voice models (CustomVoice and Base), the Whisper models and the OCR data. If a step fails, find the cause, fix it and re-run. Don't skip steps.
+4. Make the sample video: REEL=fresh-sohee ./build-reel.sh
+5. When it's done, open out/Tahoe-Reel-FreshSohee-9x16.mp4 and tell me its length and whether every check passed (Whisper on the mix, reel lint, on-screen text check). Don't weaken or skip a check to get it through.
+```
+
+**Prompt 2. A new video from your idea**
+
+```text
+Make a new 30-second Instagram reel for Tahoe about <your idea, e.g. "seeing who's hiring near you">. Product page: https://tahoe.workonward.com/en/job-seekers
+
+Follow REELS.md section 4 and its copy rules:
+- Six scenes: hook, problem, stat, reveal, feature, call to action. Vector art and animation, built like src/reel-fresh.
+- English narration in the Sohee voice, with a tone note for each line.
+- Only claims the product page supports. Any stat must be from this year, checked on its source page, with the source and date on screen.
+
+Show me the narration script first. After I approve it, render the narration, run REVIEW=1 and show me the contact sheet, then do the full build. Tell me where the video is and whether every check passed.
+```
+
+**Follow-ups**
+
+```text
+Make the same reel with the male voice (see the voices table in REELS.md).
+```
+```text
+Add a Korean twin of <reel key> in the Korean Sohee voice. Keep its natural length.
+```
+```text
+Before I pick a voice, write a short audition of the hook in each voice from REELS.md section 5 to out/voice-audition/ so I can listen.
+```
+```text
+Design a new narrator voice: <describe it, e.g. "warm British woman in her thirties, calm and clear">. Get the VoiceDesign model with QWEN=VoiceDesign ./setup-reels.sh, make 6 candidates and let me listen before using one.
+```
+```text
+List every reel in src/reel/registry.ts, then build <reel key>.
+```
+```text
+The build stopped with this error: <paste it>. Read the Pitfalls in REELS.md, fix the cause and re-run. Don't weaken any check.
+```
+
 ## 1. Setup (once per machine)
 
 Needs a Mac with Apple Silicon (the voice models run on MLX) and Homebrew.

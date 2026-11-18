@@ -197,6 +197,9 @@ video/
 30-second 9:16 product reels with vector animation, local Qwen3-TTS narration (English and Korean), original music and
 automatic checks. Setup and the full guide are in [REELS.md](REELS.md).
 
+Setting up on a new Mac with Claude Code? Paste the prompts in
+[REELS.md, section 0](REELS.md#0-quick-start-with-claude-code): one sets everything up and makes a sample video.
+
 ```bash
 brew install node ffmpeg tesseract uv   # Apple Silicon Mac
 ./setup-reels.sh                        # Node packages, Python envs, voice + Whisper models (downloaded, pinned)
