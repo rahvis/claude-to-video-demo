@@ -1,0 +1,98 @@
+{
+  "fps": 30,
+  "gap": 0.24,
+  "overlap_frames": 0,
+  "language": "english",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "tempo": 1.0,
+  "scenes": [
+    {
+      "id": "drive",
+      "lead": 0.8,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "Dana drove past her next job every day for two years.",
+          "fall": true,
+          "instruct": "Warm, gentle storyteller, like reading a short story aloud. Soft smile, unhurried."
+        }
+      ]
+    },
+    {
+      "id": "hidden",
+      "lead": 0.2,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "She never saw the opening.",
+          "pause": 0.35,
+          "fall": true,
+          "instruct": "Warm, gentle storyteller, like reading a short story aloud. Soft smile, unhurried."
+        },
+        {
+          "text": "It was only on the company's own website.",
+          "fall": true,
+          "instruct": "Warm, gentle storyteller, like reading a short story aloud. Soft smile, unhurried."
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "lead": 0.2,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "In September, America had seven and a half million open jobs.",
+          "fall": true,
+          "instruct": "Warm, gentle storyteller, like reading a short story aloud. Soft smile, unhurried. A little more matter-of-fact."
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "lead": 0.15,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "Tahoe reads jobs straight from company career sites,",
+          "pause": 0.12,
+          "instruct": "Warm, gentle storyteller, like reading a short story aloud. Soft smile, unhurried."
+        },
+        {
+          "text": "and puts them on a map.",
+          "fall": true,
+          "instruct": "Warm, gentle storyteller, like reading a short story aloud. Soft smile, unhurried."
+        }
+      ]
+    },
+    {
+      "id": "near",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "So you can see who's hiring around the corner.",
+          "fall": true,
+          "instruct": "Warm, gentle storyteller, like reading a short story aloud. Soft smile, unhurried."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "Start close to home.",
+          "fall": true,
+          "instruct": "Warm, gentle storyteller, like reading a short story aloud. Soft smile, unhurried. Tender, conclusive."
+        }
+      ]
+    }
+  ]
+}

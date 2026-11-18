@@ -1,0 +1,40 @@
+{
+  "hook": {
+    "card": { "cue": null, "at": 2, "sfx": "pop" },
+    "cursor": { "cue": 0, "at": -6 },
+    "save": { "cue": 0, "word": 4, "at": 2, "sfx": "tap" },
+    "spark": { "cue": 0, "word": 4, "at": 4, "sfx": "sparkle" },
+    "crowd": { "cue": 1, "at": -8, "sfx": "swoosh" },
+    "count": { "cue": 1, "word": 2, "at": -4, "sfx": "count" }
+  },
+  "problem": {
+    "apply": { "cue": 0, "word": 0, "at": 4, "sfx": "tap" },
+    "drop": { "cue": 0, "word": 3, "at": 0, "sfx": "swoosh" },
+    "rain": { "cue": 1, "at": -6, "sfx": "type", "count": 16, "every": 3 },
+    "buried": { "cue": 1, "word": 5, "at": 2, "sfx": "low" }
+  },
+  "stat": {
+    "boards": { "cue": null, "at": 6, "sfx": "tick" },
+    "company": { "cue": 0, "word": 3, "at": 0, "sfx": "rise" },
+    "twice": { "cue": 1, "word": 3, "at": 0, "sfx": "pop" }
+  },
+  "reveal": {
+    "wipe": { "cue": 0, "at": -10, "sfx": "swoosh" },
+    "mark": { "cue": 0, "word": 2, "at": 0 }
+  },
+  "feature": {
+    "sweep": { "cue": 0, "at": -4, "sfx": "shimmer" },
+    "count": { "cue": 0, "word": 5, "at": 0, "sfx": "count" },
+    "cards": { "cue": 1, "word": 3, "at": -4, "sfx": "notify" },
+    "card2": { "cue": 1, "word": 3, "at": 4, "sfx": "pop" },
+    "card3": { "cue": 1, "word": 3, "at": 12, "sfx": "pop" }
+  },
+  "cta": {
+    "cursor": { "cue": null, "at": 0 },
+    "apply": { "cue": 0, "word": 1, "at": 2, "sfx": "tap" },
+    "applied": { "cue": 0, "word": 1, "at": 8, "sfx": "check" },
+    "late": { "cue": 0, "word": 3, "at": -2 },
+    "lockup": { "cue": 0, "word": 4, "at": 30 },
+    "line": { "cue": 0, "word": 4, "at": 42 }
+  }
+}

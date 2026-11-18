@@ -1,0 +1,95 @@
+{
+  "fps": 30,
+  "language": "english",
+  "engine": "clone",
+  "model": "models/qwen3/Base-8bit",
+  "design_model": "models/qwen3/VoiceDesign-8bit",
+  "design": "An adult American English man in his late twenties with a clearly masculine voice and a full chest resonance. A bright tenor: a little higher and lighter than an average man's voice, but never boyish or feminine. Crisp, clear, precise articulation with clean consonants. Upbeat, friendly and confident, like a product launch presenter. Studio quality, close microphone, no breathiness, natural conversational pace.",
+  "anchor_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "ref_audio": "voices/reel-male-anchor.wav",
+  "ref_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "speaker": null,
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.3,
+  "overlap_frames": 10,
+  "tempo": 0.95,
+  "scenes": [
+    {
+      "id": "applied",
+      "lead": 0.7,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "You applied.",
+          "pause": 0.55,
+          "fall": true
+        },
+        {
+          "text": "You followed up.",
+          "pause": 0.55,
+          "fall": true
+        },
+        {
+          "text": "You checked your email.",
+          "pause": 0.45,
+          "fall": true
+        },
+        {
+          "text": "It works.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "lead": 0.3,
+      "tail": 0.7,
+      "phrases": [
+        {
+          "text": "Last year, eight in ten job seekers got turned down without one conversation.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "lead": 0.25,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "So stop guessing.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "lead": 0.15,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "Tahoe tells you why a job fits you, before you apply.",
+          "pause": 0.4,
+          "fall": true
+        },
+        {
+          "text": "Your best matches, each one explained.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "Spend your next application where it counts.",
+          "fall": true
+        }
+      ]
+    }
+  ]
+}

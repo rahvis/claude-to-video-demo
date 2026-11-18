@@ -1,0 +1,90 @@
+{
+  "fps": 30,
+  "gap": 0.18,
+  "overlap_frames": 2,
+  "language": "english",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 5,
+  "tempo": 1.0,
+  "scenes": [
+    {
+      "id": "boxes",
+      "lead": 0.5,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "Most job sites make you fill in forty boxes just to search.",
+          "fall": true,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm. Playfully exasperated."
+        }
+      ]
+    },
+    {
+      "id": "friend",
+      "lead": 0.15,
+      "tail": 0.3,
+      "phrases": [
+        {
+          "text": "With Tahoe, you type it the way you'd text a friend.",
+          "fall": true,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        }
+      ]
+    },
+    {
+      "id": "read",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "It works out what you meant,",
+          "pause": 0.1,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        },
+        {
+          "text": "shows you what it understood,",
+          "pause": 0.1,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        },
+        {
+          "text": "and finds the jobs that fit.",
+          "fall": true,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        }
+      ]
+    },
+    {
+      "id": "count",
+      "lead": 0.15,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "More than five million open roles,",
+          "pause": 0.1,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        },
+        {
+          "text": "read straight from company career sites.",
+          "fall": true,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.2,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "Just say what you want.",
+          "fall": true,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm. Confident, final."
+        }
+      ]
+    }
+  ]
+}

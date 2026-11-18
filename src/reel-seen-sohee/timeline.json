@@ -1,0 +1,310 @@
+{
+  "fps": 30,
+  "overlap": 10,
+  "durationInFrames": 841,
+  "voice": "qwen3 custom sohee tempo 1.0",
+  "scenes": [
+    {
+      "id": "applied",
+      "from": 0,
+      "durationInFrames": 203,
+      "cues": [
+        {
+          "frame": 21,
+          "endFrame": 46,
+          "text": "You applied.",
+          "words": [
+            {
+              "text": "You",
+              "frame": 21
+            },
+            {
+              "text": "applied.",
+              "frame": 25
+            }
+          ]
+        },
+        {
+          "frame": 62,
+          "endFrame": 93,
+          "text": "You followed up.",
+          "words": [
+            {
+              "text": "You",
+              "frame": 62
+            },
+            {
+              "text": "followed",
+              "frame": 66
+            },
+            {
+              "text": "up.",
+              "frame": 77
+            }
+          ]
+        },
+        {
+          "frame": 110,
+          "endFrame": 148,
+          "text": "You checked your email.",
+          "words": [
+            {
+              "text": "You",
+              "frame": 110
+            },
+            {
+              "text": "checked",
+              "frame": 115
+            },
+            {
+              "text": "your",
+              "frame": 123
+            },
+            {
+              "text": "email.",
+              "frame": 130
+            }
+          ]
+        },
+        {
+          "frame": 162,
+          "endFrame": 191,
+          "text": "It works.",
+          "words": [
+            {
+              "text": "It",
+              "frame": 162
+            },
+            {
+              "text": "works.",
+              "frame": 166
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "from": 193,
+      "durationInFrames": 196,
+      "cues": [
+        {
+          "frame": 9,
+          "endFrame": 175,
+          "text": "Last year, eight in ten job seekers got turned down without one conversation.",
+          "words": [
+            {
+              "text": "Last",
+              "frame": 9
+            },
+            {
+              "text": "year,",
+              "frame": 20
+            },
+            {
+              "text": "eight",
+              "frame": 41
+            },
+            {
+              "text": "in",
+              "frame": 44
+            },
+            {
+              "text": "ten",
+              "frame": 50
+            },
+            {
+              "text": "job",
+              "frame": 59
+            },
+            {
+              "text": "seekers",
+              "frame": 70
+            },
+            {
+              "text": "got",
+              "frame": 83
+            },
+            {
+              "text": "turned",
+              "frame": 93
+            },
+            {
+              "text": "down",
+              "frame": 105
+            },
+            {
+              "text": "without",
+              "frame": 119
+            },
+            {
+              "text": "one",
+              "frame": 132
+            },
+            {
+              "text": "conversation.",
+              "frame": 144
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "from": 379,
+      "durationInFrames": 79,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 68,
+          "text": "So stop guessing.",
+          "words": [
+            {
+              "text": "So",
+              "frame": 8
+            },
+            {
+              "text": "stop",
+              "frame": 41
+            },
+            {
+              "text": "guessing.",
+              "frame": 51
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "from": 448,
+      "durationInFrames": 225,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 127,
+          "text": "Tahoe tells you why a job fits you, before you apply.",
+          "words": [
+            {
+              "text": "Tahoe",
+              "frame": 4
+            },
+            {
+              "text": "tells",
+              "frame": 20
+            },
+            {
+              "text": "you",
+              "frame": 29
+            },
+            {
+              "text": "why",
+              "frame": 38
+            },
+            {
+              "text": "a",
+              "frame": 49
+            },
+            {
+              "text": "job",
+              "frame": 61
+            },
+            {
+              "text": "fits",
+              "frame": 68
+            },
+            {
+              "text": "you,",
+              "frame": 77
+            },
+            {
+              "text": "before",
+              "frame": 91
+            },
+            {
+              "text": "you",
+              "frame": 104
+            },
+            {
+              "text": "apply.",
+              "frame": 110
+            }
+          ]
+        },
+        {
+          "frame": 139,
+          "endFrame": 207,
+          "text": "Your best matches, each one explained.",
+          "words": [
+            {
+              "text": "Your",
+              "frame": 139
+            },
+            {
+              "text": "best",
+              "frame": 143
+            },
+            {
+              "text": "matches,",
+              "frame": 151
+            },
+            {
+              "text": "each",
+              "frame": 173
+            },
+            {
+              "text": "one",
+              "frame": 177
+            },
+            {
+              "text": "explained.",
+              "frame": 185
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 663,
+      "durationInFrames": 178,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 88,
+          "text": "Spend your next application where it counts.",
+          "words": [
+            {
+              "text": "Spend",
+              "frame": 8
+            },
+            {
+              "text": "your",
+              "frame": 18
+            },
+            {
+              "text": "next",
+              "frame": 23
+            },
+            {
+              "text": "application",
+              "frame": 30
+            },
+            {
+              "text": "where",
+              "frame": 51
+            },
+            {
+              "text": "it",
+              "frame": 66
+            },
+            {
+              "text": "counts.",
+              "frame": 71
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

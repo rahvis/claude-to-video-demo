@@ -1,0 +1,118 @@
+{
+  "fps": 30,
+  "gap": 0.2,
+  "overlap_frames": 2,
+  "language": "english",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 5,
+  "tempo": 1.0,
+  "max_pause": 0.3,
+  "pick": "shortest",
+  "scenes": [
+    {
+      "id": "upload",
+      "lead": 0.5,
+      "tail": 0.3,
+      "phrases": [
+        {
+          "text": "I uploaded my resume.",
+          "pause": 0.3,
+          "fall": true,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend. End with a calm, falling intonation: a plain statement, not a question."
+        },
+        {
+          "text": "Then the form asked me to type my resume.",
+          "fall": true,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend."
+        }
+      ]
+    },
+    {
+      "id": "again",
+      "lead": 0.1,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "My name, my email, every job since college.",
+          "pause": 0.3,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend."
+        },
+        {
+          "text": "Again.",
+          "fall": true,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend. Exhausted sigh."
+        }
+      ]
+    },
+    {
+      "id": "hours",
+      "lead": 0.15,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "One application takes about forty-four minutes,",
+          "pause": 0.12,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend."
+        },
+        {
+          "text": "and the average job seeker sends more than sixty.",
+          "fall": true,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend."
+        }
+      ]
+    },
+    {
+      "id": "auto",
+      "lead": 0.25,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "Now Tahoe's auto-apply fills in the form from my profile,",
+          "say": "Now Tahoe's auto apply fills in the form from my profile,",
+          "pause": 0.1,
+          "instruct": "Relieved and relaxed, warm, the tension gone, a soft smile."
+        },
+        {
+          "text": "on the company's own site.",
+          "fall": true,
+          "instruct": "Relieved and relaxed, warm, the tension gone, a soft smile."
+        }
+      ]
+    },
+    {
+      "id": "asks",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "If it doesn't know an answer, it asks me.",
+          "pause": 0.3,
+          "fall": true,
+          "instruct": "Relieved and relaxed, warm, the tension gone, a soft smile."
+        },
+        {
+          "text": "Nothing goes out until I've checked it.",
+          "fall": true,
+          "instruct": "Relieved and relaxed, warm, the tension gone, a soft smile. End with a calm, falling intonation: a plain statement, not a question."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 2.7,
+      "phrases": [
+        {
+          "text": "I get my evenings back.",
+          "fall": true,
+          "instruct": "Relieved and relaxed, warm, the tension gone, a soft smile.",
+          "take": 4
+        }
+      ]
+    }
+  ]
+}

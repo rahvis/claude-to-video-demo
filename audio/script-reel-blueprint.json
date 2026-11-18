@@ -1,0 +1,99 @@
+{
+  "fps": 30,
+  "language": "english",
+  "engine": "clone",
+  "model": "models/qwen3/Base-8bit",
+  "design_model": "models/qwen3/VoiceDesign-8bit",
+  "design": "An adult American English man in his late twenties with a clearly masculine voice and a full chest resonance. A bright tenor: a little higher and lighter than an average man's voice, but never boyish or feminine. Crisp, clear, precise articulation with clean consonants. Upbeat, friendly and confident, like a product launch presenter. Studio quality, close microphone, no breathiness, natural conversational pace.",
+  "anchor_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "ref_audio": "voices/reel-male-anchor.wav",
+  "ref_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "speaker": null,
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.22,
+  "overlap_frames": 0,
+  "tempo": 0.98,
+  "scenes": [
+    {
+      "id": "how",
+      "lead": 0.6,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "Here's how auto-apply works,",
+          "say": "Here's how auto apply works,",
+          "pause": 0.12
+        },
+        {
+          "text": "and what it never does.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "lead": 0.2,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "Four in ten job seekers admit they've added skills they don't have.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "resume",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "Tahoe tailors your resume to each job,",
+          "pause": 0.12
+        },
+        {
+          "text": "but never adds a thing that isn't yours.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "form",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "It fills in the form on the company's own site,",
+          "pause": 0.12
+        },
+        {
+          "text": "and shows where every answer came from.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "approve",
+      "lead": 0.15,
+      "tail": 1.5,
+      "phrases": [
+        {
+          "text": "Nothing goes out until you approve it.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 2.7,
+      "phrases": [
+        {
+          "text": "It's your job search. Tahoe does the typing.",
+          "fall": true
+        }
+      ]
+    }
+  ]
+}

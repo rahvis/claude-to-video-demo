@@ -1,0 +1,103 @@
+{
+  "fps": 30,
+  "language": "english",
+  "engine": "clone",
+  "model": "models/qwen3/Base-8bit",
+  "design_model": "models/qwen3/VoiceDesign-8bit",
+  "design": "An adult American English man in his late twenties with a clearly masculine voice and a full chest resonance. A bright tenor: a little higher and lighter than an average man's voice, but never boyish or feminine. Crisp, clear, precise articulation with clean consonants. Upbeat, friendly and confident, like a product launch presenter. Studio quality, close microphone, no breathiness, natural conversational pace.",
+  "anchor_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "ref_audio": "voices/reel-male-anchor.wav",
+  "ref_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "speaker": null,
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.3,
+  "overlap_frames": 14,
+  "tempo": 0.93,
+  "scenes": [
+    {
+      "id": "late",
+      "lead": 0.9,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "It's late.",
+          "pause": 0.55,
+          "fall": true
+        },
+        {
+          "text": "You've sent four applications tonight,",
+          "pause": 0.15
+        },
+        {
+          "text": "and you're out of steam.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "months",
+      "lead": 0.25,
+      "tail": 0.7,
+      "phrases": [
+        {
+          "text": "A job search now runs close to three months.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "shift",
+      "lead": 0.25,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "So let Tahoe take the next shift.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "morning",
+      "lead": 0.2,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "Each morning, it picks from your newest matches,",
+          "pause": 0.15
+        },
+        {
+          "text": "and fills in the applications for you.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "lead": 0.2,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "You read each one with your coffee,",
+          "pause": 0.15
+        },
+        {
+          "text": "and send the ones you like.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.3,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "Get some sleep.",
+          "fall": true
+        }
+      ]
+    }
+  ]
+}

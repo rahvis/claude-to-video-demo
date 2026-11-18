@@ -1,0 +1,354 @@
+{
+  "fps": 30,
+  "overlap": 0,
+  "durationInFrames": 915,
+  "voice": "qwen3 custom sohee tempo 1.0",
+  "scenes": [
+    {
+      "id": "drive",
+      "from": 0,
+      "durationInFrames": 139,
+      "cues": [
+        {
+          "frame": 24,
+          "endFrame": 127,
+          "text": "Dana drove past her next job every day for two years.",
+          "words": [
+            {
+              "text": "Dana",
+              "frame": 24
+            },
+            {
+              "text": "drove",
+              "frame": 32
+            },
+            {
+              "text": "past",
+              "frame": 40
+            },
+            {
+              "text": "her",
+              "frame": 50
+            },
+            {
+              "text": "next",
+              "frame": 57
+            },
+            {
+              "text": "job",
+              "frame": 64
+            },
+            {
+              "text": "every",
+              "frame": 74
+            },
+            {
+              "text": "day",
+              "frame": 87
+            },
+            {
+              "text": "for",
+              "frame": 94
+            },
+            {
+              "text": "two",
+              "frame": 101
+            },
+            {
+              "text": "years.",
+              "frame": 109
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hidden",
+      "from": 139,
+      "durationInFrames": 196,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 79,
+          "text": "She never saw the opening.",
+          "words": [
+            {
+              "text": "She",
+              "frame": 6
+            },
+            {
+              "text": "never",
+              "frame": 15
+            },
+            {
+              "text": "saw",
+              "frame": 27
+            },
+            {
+              "text": "the",
+              "frame": 41
+            },
+            {
+              "text": "opening.",
+              "frame": 52
+            }
+          ]
+        },
+        {
+          "frame": 89,
+          "endFrame": 181,
+          "text": "It was only on the company's own website.",
+          "words": [
+            {
+              "text": "It",
+              "frame": 89
+            },
+            {
+              "text": "was",
+              "frame": 93
+            },
+            {
+              "text": "only",
+              "frame": 99
+            },
+            {
+              "text": "on",
+              "frame": 113
+            },
+            {
+              "text": "the",
+              "frame": 129
+            },
+            {
+              "text": "company's",
+              "frame": 135
+            },
+            {
+              "text": "own",
+              "frame": 155
+            },
+            {
+              "text": "website.",
+              "frame": 163
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "from": 335,
+      "durationInFrames": 168,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 150,
+          "text": "In September, America had seven and a half million open jobs.",
+          "words": [
+            {
+              "text": "In",
+              "frame": 6
+            },
+            {
+              "text": "September,",
+              "frame": 11
+            },
+            {
+              "text": "America",
+              "frame": 44
+            },
+            {
+              "text": "had",
+              "frame": 56
+            },
+            {
+              "text": "seven",
+              "frame": 67
+            },
+            {
+              "text": "and",
+              "frame": 80
+            },
+            {
+              "text": "a",
+              "frame": 87
+            },
+            {
+              "text": "half",
+              "frame": 92
+            },
+            {
+              "text": "million",
+              "frame": 99
+            },
+            {
+              "text": "open",
+              "frame": 111
+            },
+            {
+              "text": "jobs.",
+              "frame": 127
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "from": 503,
+      "durationInFrames": 178,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 115,
+          "text": "Tahoe reads jobs straight from company career sites,",
+          "words": [
+            {
+              "text": "Tahoe",
+              "frame": 4
+            },
+            {
+              "text": "reads",
+              "frame": 20
+            },
+            {
+              "text": "jobs",
+              "frame": 28
+            },
+            {
+              "text": "straight",
+              "frame": 42
+            },
+            {
+              "text": "from",
+              "frame": 56
+            },
+            {
+              "text": "company",
+              "frame": 64
+            },
+            {
+              "text": "career",
+              "frame": 79
+            },
+            {
+              "text": "sites,",
+              "frame": 92
+            }
+          ]
+        },
+        {
+          "frame": 118,
+          "endFrame": 166,
+          "text": "and puts them on a map.",
+          "words": [
+            {
+              "text": "and",
+              "frame": 118
+            },
+            {
+              "text": "puts",
+              "frame": 128
+            },
+            {
+              "text": "them",
+              "frame": 144
+            },
+            {
+              "text": "on",
+              "frame": 151
+            },
+            {
+              "text": "a",
+              "frame": 156
+            },
+            {
+              "text": "map.",
+              "frame": 158
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "near",
+      "from": 681,
+      "durationInFrames": 95,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 81,
+          "text": "So you can see who's hiring around the corner.",
+          "words": [
+            {
+              "text": "So",
+              "frame": 4
+            },
+            {
+              "text": "you",
+              "frame": 8
+            },
+            {
+              "text": "can",
+              "frame": 12
+            },
+            {
+              "text": "see",
+              "frame": 16
+            },
+            {
+              "text": "who's",
+              "frame": 27
+            },
+            {
+              "text": "hiring",
+              "frame": 40
+            },
+            {
+              "text": "around",
+              "frame": 52
+            },
+            {
+              "text": "the",
+              "frame": 63
+            },
+            {
+              "text": "corner.",
+              "frame": 68
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 776,
+      "durationInFrames": 139,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 49,
+          "text": "Start close to home.",
+          "words": [
+            {
+              "text": "Start",
+              "frame": 8
+            },
+            {
+              "text": "close",
+              "frame": 18
+            },
+            {
+              "text": "to",
+              "frame": 29
+            },
+            {
+              "text": "home.",
+              "frame": 38
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

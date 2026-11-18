@@ -1,0 +1,327 @@
+{
+  "fps": 30,
+  "overlap": 2,
+  "durationInFrames": 641,
+  "voice": "qwen3 clone reel-male-anchor tempo 1.05",
+  "scenes": [
+    {
+      "id": "boxes",
+      "from": 0,
+      "durationInFrames": 132,
+      "cues": [
+        {
+          "frame": 15,
+          "endFrame": 121,
+          "text": "Most job sites make you fill in forty boxes just to search.",
+          "words": [
+            {
+              "text": "Most",
+              "frame": 15
+            },
+            {
+              "text": "job",
+              "frame": 24
+            },
+            {
+              "text": "sites",
+              "frame": 31
+            },
+            {
+              "text": "make",
+              "frame": 39
+            },
+            {
+              "text": "you",
+              "frame": 48
+            },
+            {
+              "text": "fill",
+              "frame": 53
+            },
+            {
+              "text": "in",
+              "frame": 59
+            },
+            {
+              "text": "forty",
+              "frame": 64
+            },
+            {
+              "text": "boxes",
+              "frame": 72
+            },
+            {
+              "text": "just",
+              "frame": 84
+            },
+            {
+              "text": "to",
+              "frame": 102
+            },
+            {
+              "text": "search.",
+              "frame": 108
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "friend",
+      "from": 130,
+      "durationInFrames": 99,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 90,
+          "text": "With Tahoe, you type it the way you'd text a friend.",
+          "words": [
+            {
+              "text": "With",
+              "frame": 4
+            },
+            {
+              "text": "Tahoe,",
+              "frame": 9
+            },
+            {
+              "text": "you",
+              "frame": 33
+            },
+            {
+              "text": "type",
+              "frame": 36
+            },
+            {
+              "text": "it",
+              "frame": 43
+            },
+            {
+              "text": "the",
+              "frame": 49
+            },
+            {
+              "text": "way",
+              "frame": 52
+            },
+            {
+              "text": "you'd",
+              "frame": 57
+            },
+            {
+              "text": "text",
+              "frame": 64
+            },
+            {
+              "text": "a",
+              "frame": 72
+            },
+            {
+              "text": "friend.",
+              "frame": 77
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "read",
+      "from": 227,
+      "durationInFrames": 147,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 42,
+          "text": "It works out what you meant,",
+          "words": [
+            {
+              "text": "It",
+              "frame": 4
+            },
+            {
+              "text": "works",
+              "frame": 8
+            },
+            {
+              "text": "out",
+              "frame": 14
+            },
+            {
+              "text": "what",
+              "frame": 21
+            },
+            {
+              "text": "you",
+              "frame": 26
+            },
+            {
+              "text": "meant,",
+              "frame": 31
+            }
+          ]
+        },
+        {
+          "frame": 45,
+          "endFrame": 87,
+          "text": "shows you what it understood,",
+          "words": [
+            {
+              "text": "shows",
+              "frame": 45
+            },
+            {
+              "text": "you",
+              "frame": 54
+            },
+            {
+              "text": "what",
+              "frame": 60
+            },
+            {
+              "text": "it",
+              "frame": 65
+            },
+            {
+              "text": "understood,",
+              "frame": 68
+            }
+          ]
+        },
+        {
+          "frame": 90,
+          "endFrame": 133,
+          "text": "and finds the jobs that fit.",
+          "words": [
+            {
+              "text": "and",
+              "frame": 90
+            },
+            {
+              "text": "finds",
+              "frame": 94
+            },
+            {
+              "text": "the",
+              "frame": 103
+            },
+            {
+              "text": "jobs",
+              "frame": 109
+            },
+            {
+              "text": "that",
+              "frame": 117
+            },
+            {
+              "text": "fit.",
+              "frame": 123
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "count",
+      "from": 372,
+      "durationInFrames": 141,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 60,
+          "text": "More than five million open roles,",
+          "words": [
+            {
+              "text": "More",
+              "frame": 4
+            },
+            {
+              "text": "than",
+              "frame": 9
+            },
+            {
+              "text": "five",
+              "frame": 15
+            },
+            {
+              "text": "million",
+              "frame": 24
+            },
+            {
+              "text": "open",
+              "frame": 33
+            },
+            {
+              "text": "roles,",
+              "frame": 43
+            }
+          ]
+        },
+        {
+          "frame": 63,
+          "endFrame": 126,
+          "text": "read straight from company career sites.",
+          "words": [
+            {
+              "text": "read",
+              "frame": 63
+            },
+            {
+              "text": "straight",
+              "frame": 72
+            },
+            {
+              "text": "from",
+              "frame": 82
+            },
+            {
+              "text": "company",
+              "frame": 89
+            },
+            {
+              "text": "career",
+              "frame": 99
+            },
+            {
+              "text": "sites.",
+              "frame": 109
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 511,
+      "durationInFrames": 130,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 40,
+          "text": "Just say what you want.",
+          "words": [
+            {
+              "text": "Just",
+              "frame": 6
+            },
+            {
+              "text": "say",
+              "frame": 10
+            },
+            {
+              "text": "what",
+              "frame": 18
+            },
+            {
+              "text": "you",
+              "frame": 23
+            },
+            {
+              "text": "want.",
+              "frame": 28
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

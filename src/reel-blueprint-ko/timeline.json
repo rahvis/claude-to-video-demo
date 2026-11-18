@@ -1,0 +1,337 @@
+{
+  "fps": 30,
+  "overlap": 0,
+  "durationInFrames": 1160,
+  "voice": "qwen3 custom sohee tempo 1.0",
+  "scenes": [
+    {
+      "id": "how",
+      "from": 0,
+      "durationInFrames": 231,
+      "cues": [
+        {
+          "frame": 18,
+          "endFrame": 86,
+          "text": "자동 지원이 어떻게 일하는지,",
+          "words": [
+            {
+              "text": "자동",
+              "frame": 18
+            },
+            {
+              "text": "지원이",
+              "frame": 29
+            },
+            {
+              "text": "어떻게",
+              "frame": 40
+            },
+            {
+              "text": "일하는지,",
+              "frame": 53
+            }
+          ]
+        },
+        {
+          "frame": 89,
+          "endFrame": 219,
+          "text": "그리고 절대 하지 않는 일은 무엇인지 알려 드릴게요.",
+          "words": [
+            {
+              "text": "그리고",
+              "frame": 89
+            },
+            {
+              "text": "절대",
+              "frame": 108
+            },
+            {
+              "text": "하지",
+              "frame": 127
+            },
+            {
+              "text": "않는",
+              "frame": 146
+            },
+            {
+              "text": "일은",
+              "frame": 153
+            },
+            {
+              "text": "무엇인지",
+              "frame": 166
+            },
+            {
+              "text": "알려",
+              "frame": 184
+            },
+            {
+              "text": "드릴게요.",
+              "frame": 201
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "from": 231,
+      "durationInFrames": 194,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 176,
+          "text": "구직자 열 명 중 네 명은, 없는 기술을 이력서에 넣은 적이 있다고 답했어요.",
+          "words": [
+            {
+              "text": "구직자",
+              "frame": 6
+            },
+            {
+              "text": "열",
+              "frame": 14
+            },
+            {
+              "text": "명",
+              "frame": 23
+            },
+            {
+              "text": "중",
+              "frame": 31
+            },
+            {
+              "text": "네",
+              "frame": 39
+            },
+            {
+              "text": "명은,",
+              "frame": 48
+            },
+            {
+              "text": "없는",
+              "frame": 56
+            },
+            {
+              "text": "기술을",
+              "frame": 90
+            },
+            {
+              "text": "이력서에",
+              "frame": 110
+            },
+            {
+              "text": "넣은",
+              "frame": 131
+            },
+            {
+              "text": "적이",
+              "frame": 140
+            },
+            {
+              "text": "있다고",
+              "frame": 145
+            },
+            {
+              "text": "답했어요.",
+              "frame": 154
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resume",
+      "from": 425,
+      "durationInFrames": 201,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 110,
+          "text": "Tahoe는 공고마다 이력서 표현을 다듬지만,",
+          "words": [
+            {
+              "text": "Tahoe는",
+              "frame": 4
+            },
+            {
+              "text": "공고마다",
+              "frame": 23
+            },
+            {
+              "text": "이력서",
+              "frame": 56
+            },
+            {
+              "text": "표현을",
+              "frame": 72
+            },
+            {
+              "text": "다듬지만,",
+              "frame": 84
+            }
+          ]
+        },
+        {
+          "frame": 113,
+          "endFrame": 187,
+          "text": "없는 내용은 하나도 더하지 않아요.",
+          "words": [
+            {
+              "text": "없는",
+              "frame": 113
+            },
+            {
+              "text": "내용은",
+              "frame": 121
+            },
+            {
+              "text": "하나도",
+              "frame": 140
+            },
+            {
+              "text": "더하지",
+              "frame": 155
+            },
+            {
+              "text": "않아요.",
+              "frame": 167
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "form",
+      "from": 626,
+      "durationInFrames": 173,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 84,
+          "text": "회사 사이트의 지원서를 직접 채우고,",
+          "words": [
+            {
+              "text": "회사",
+              "frame": 4
+            },
+            {
+              "text": "사이트의",
+              "frame": 13
+            },
+            {
+              "text": "지원서를",
+              "frame": 31
+            },
+            {
+              "text": "직접",
+              "frame": 52
+            },
+            {
+              "text": "채우고,",
+              "frame": 58
+            }
+          ]
+        },
+        {
+          "frame": 87,
+          "endFrame": 160,
+          "text": "모든 답이 어디서 왔는지 보여 주죠.",
+          "words": [
+            {
+              "text": "모든",
+              "frame": 87
+            },
+            {
+              "text": "답이",
+              "frame": 97
+            },
+            {
+              "text": "어디서",
+              "frame": 113
+            },
+            {
+              "text": "왔는지",
+              "frame": 126
+            },
+            {
+              "text": "보여",
+              "frame": 138
+            },
+            {
+              "text": "주죠.",
+              "frame": 149
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "approve",
+      "from": 799,
+      "durationInFrames": 152,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 105,
+          "text": "승인하기 전에는 아무것도 보내지 않아요.",
+          "words": [
+            {
+              "text": "승인하기",
+              "frame": 4
+            },
+            {
+              "text": "전에는",
+              "frame": 20
+            },
+            {
+              "text": "아무것도",
+              "frame": 38
+            },
+            {
+              "text": "보내지",
+              "frame": 74
+            },
+            {
+              "text": "않아요.",
+              "frame": 89
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 951,
+      "durationInFrames": 209,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 119,
+          "text": "구직은 당신이, 입력은 Tahoe가 할게요.",
+          "words": [
+            {
+              "text": "구직은",
+              "frame": 8
+            },
+            {
+              "text": "당신이,",
+              "frame": 27
+            },
+            {
+              "text": "입력은",
+              "frame": 56
+            },
+            {
+              "text": "Tahoe가",
+              "frame": 77
+            },
+            {
+              "text": "할게요.",
+              "frame": 98
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

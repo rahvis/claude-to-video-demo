@@ -1,0 +1,94 @@
+{
+  "fps": 30,
+  "language": "korean",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.3,
+  "overlap_frames": 10,
+  "scenes": [
+    {
+      "id": "applied",
+      "lead": 0.7,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "지원했어요.",
+          "pause": 0.55,
+          "fall": true,
+          "instruct": "Deadpan and dry, understated, a little wry. Quiet, unhurried, small pauses."
+        },
+        {
+          "text": "연락도 다시 했고요.",
+          "pause": 0.55,
+          "fall": true,
+          "instruct": "Deadpan and dry, understated, a little wry. Quiet, unhurried, small pauses."
+        },
+        {
+          "text": "혹시 메일이 고장 났나, 확인도 해 봤죠.",
+          "fall": true,
+          "instruct": "Deadpan and dry, understated, a little wry. Quiet, unhurried, small pauses. Self-mocking."
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "lead": 0.3,
+      "tail": 0.7,
+      "phrases": [
+        {
+          "text": "지난 1년, 구직자 열 명 중 여덟 명은 대화 한 번 없이 탈락했습니다.",
+          "say": "지난 일 년, 구직자 열 명 중 여덟 명은 대화 한 번 없이 탈락했습니다.",
+          "fall": true,
+          "instruct": "Deadpan and dry, understated, a little wry. Quiet, unhurried, small pauses. Flat, matter-of-fact."
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "lead": 0.25,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "이제 그만 짐작하세요.",
+          "fall": true,
+          "instruct": "Calm and certain, a gentle turn toward hope."
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "lead": 0.15,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "Tahoe는 지원하기 전에, 이 공고가 왜 맞는지 알려 줍니다.",
+          "say": "타호는 지원하기 전에, 이 공고가 왜 맞는지 알려 줍니다.",
+          "pause": 0.4,
+          "fall": true,
+          "instruct": "Warm and clear, friendly confidence. End with a calm, falling intonation: a plain statement, not a question."
+        },
+        {
+          "text": "잘 맞는 추천 공고마다, 이유를 하나하나 설명해 드려요.",
+          "fall": true,
+          "instruct": "Warm and clear, friendly confidence."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "다음 지원서는, 의미 있는 곳에 쓰세요.",
+          "fall": true,
+          "instruct": "Warm, softly encouraging, a small smile."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "fps": 30,
+  "gap": 0.22,
+  "overlap_frames": 0,
+  "language": "english",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 5,
+  "tempo": 1.0,
+  "max_pause": 0.3,
+  "pick": "shortest",
+  "scenes": [
+    {
+      "id": "how",
+      "lead": 0.6,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "Here's how auto-apply works,",
+          "say": "Here's how auto apply works,",
+          "pause": 0.12,
+          "instruct": "Calm, precise and reassuring, like a clear explainer. Even pace, clean articulation."
+        },
+        {
+          "text": "and what it never does.",
+          "fall": true,
+          "instruct": "Calm, precise and reassuring, like a clear explainer. Even pace, clean articulation. End with a calm, falling intonation: a plain statement, not a question."
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "lead": 0.2,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "Four in ten job seekers admit they've added skills they don't have.",
+          "fall": true,
+          "instruct": "Calm, precise and reassuring, like a clear explainer. Even pace, clean articulation."
+        }
+      ]
+    },
+    {
+      "id": "resume",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "Tahoe tailors your resume to each job,",
+          "pause": 0.12,
+          "instruct": "Calm, precise and reassuring, like a clear explainer. Even pace, clean articulation."
+        },
+        {
+          "text": "but never adds a thing that isn't yours.",
+          "fall": true,
+          "instruct": "Calm, precise and reassuring, like a clear explainer. Even pace, clean articulation."
+        }
+      ]
+    },
+    {
+      "id": "form",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "It fills in the form on the company's own site,",
+          "pause": 0.12,
+          "instruct": "Calm, precise and reassuring, like a clear explainer. Even pace, clean articulation."
+        },
+        {
+          "text": "and shows where every answer came from.",
+          "fall": true,
+          "instruct": "Calm, precise and reassuring, like a clear explainer. Even pace, clean articulation."
+        }
+      ]
+    },
+    {
+      "id": "approve",
+      "lead": 0.15,
+      "tail": 1.5,
+      "phrases": [
+        {
+          "text": "Nothing goes out until you approve it.",
+          "fall": true,
+          "instruct": "Calm, precise and reassuring, like a clear explainer. Even pace, clean articulation. End with a calm, falling intonation: a plain statement, not a question."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 2.7,
+      "phrases": [
+        {
+          "text": "It's your job search. Tahoe does the typing.",
+          "fall": true,
+          "instruct": "Calm, precise and reassuring, like a clear explainer. Even pace, clean articulation. Warm and confident sign-off."
+        }
+      ]
+    }
+  ]
+}

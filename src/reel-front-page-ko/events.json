@@ -1,0 +1,131 @@
+{
+  "story": {
+    "drop": {
+      "cue": null,
+      "at": 0,
+      "sfx": "swoosh"
+    },
+    "headline": {
+      "cue": 0,
+      "word": 1,
+      "at": 0,
+      "sfx": "stamp"
+    },
+    "push": {
+      "cue": 0,
+      "word": 4,
+      "at": 0
+    },
+    "applied": {
+      "cue": 0,
+      "word": 4,
+      "at": 2,
+      "sfx": "tap"
+    }
+  },
+  "ghosts": {
+    "page": {
+      "cue": null,
+      "at": 0,
+      "sfx": "swoosh"
+    },
+    "ghost": {
+      "cue": 0,
+      "word": 3,
+      "at": 0,
+      "sfx": "ghost"
+    },
+    "stat": {
+      "cue": 0,
+      "word": 9,
+      "at": 6,
+      "sfx": "pop"
+    },
+    "resumes": {
+      "cue": 1,
+      "word": 0,
+      "at": 0,
+      "sfx": "swoosh"
+    },
+    "nobody": {
+      "cue": 1,
+      "word": 2,
+      "at": 0,
+      "sfx": "low"
+    }
+  },
+  "turn": {
+    "page": {
+      "cue": null,
+      "at": 0,
+      "sfx": "swoosh"
+    },
+    "mark": {
+      "cue": 0,
+      "word": 1,
+      "at": 0,
+      "sfx": "stamp"
+    },
+    "strike": {
+      "cue": 0,
+      "word": 4,
+      "at": 2,
+      "sfx": "strike"
+    }
+  },
+  "source": {
+    "page": {
+      "cue": null,
+      "at": 0,
+      "sfx": "swoosh"
+    },
+    "sites": {
+      "cue": 0,
+      "word": 1,
+      "at": 0,
+      "sfx": "type",
+      "count": 9,
+      "every": 3
+    },
+    "count": {
+      "cue": 1,
+      "word": 0,
+      "at": 0,
+      "sfx": "count"
+    },
+    "zoom": {
+      "cue": 2,
+      "at": -8,
+      "sfx": "swoosh"
+    },
+    "check": {
+      "cue": 2,
+      "word": 3,
+      "at": 0,
+      "sfx": "check"
+    },
+    "closed": {
+      "cue": 2,
+      "word": 6,
+      "at": 2,
+      "sfx": "stamp"
+    }
+  },
+  "close": {
+    "front": {
+      "cue": null,
+      "at": 0
+    },
+    "lockup": {
+      "cue": 0,
+      "word": 4,
+      "at": 14,
+      "sfx": "chime"
+    },
+    "line": {
+      "cue": 0,
+      "word": 4,
+      "at": 30
+    }
+  }
+}

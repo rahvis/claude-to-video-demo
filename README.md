@@ -191,3 +191,14 @@ video/
 ├── public/                  # generated audio + assets served to the renderer (gitignored)
 └── out/                     # rendered MP4s, posters, captions, stills (gitignored)
 ```
+
+## Instagram reels from a prompt
+
+30-second 9:16 product reels with vector animation, local Qwen3-TTS narration (English and Korean), original music and
+automatic checks. Setup and the full guide are in [REELS.md](REELS.md).
+
+```bash
+brew install node ffmpeg tesseract uv   # Apple Silicon Mac
+./setup-reels.sh                        # Node packages, Python envs, voice + Whisper models (downloaded, pinned)
+REEL=fresh-sohee ./build-reel.sh        # -> out/Tahoe-Reel-FreshSohee-9x16.mp4
+```

@@ -1,0 +1,95 @@
+{
+  "fps": 30,
+  "language": "english",
+  "engine": "clone",
+  "model": "models/qwen3/Base-8bit",
+  "design_model": "models/qwen3/VoiceDesign-8bit",
+  "design": "An adult American English man in his late twenties with a clearly masculine voice and a full chest resonance. A bright tenor: a little higher and lighter than an average man's voice, but never boyish or feminine. Crisp, clear, precise articulation with clean consonants. Upbeat, friendly and confident, like a product launch presenter. Studio quality, close microphone, no breathiness, natural conversational pace.",
+  "anchor_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "ref_audio": "voices/reel-male-anchor.wav",
+  "ref_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "speaker": null,
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.24,
+  "overlap_frames": 0,
+  "tempo": 0.98,
+  "scenes": [
+    {
+      "id": "drive",
+      "lead": 0.8,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "Dana drove past her next job every day for two years.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "hidden",
+      "lead": 0.2,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "She never saw the opening.",
+          "pause": 0.35,
+          "fall": true
+        },
+        {
+          "text": "It was only on the company's own website.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "lead": 0.2,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "In September, America had seven and a half million open jobs.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "lead": 0.15,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "Tahoe reads jobs straight from company career sites,",
+          "pause": 0.12
+        },
+        {
+          "text": "and puts them on a map.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "near",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "So you can see who's hiring around the corner.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "Start close to home.",
+          "fall": true
+        }
+      ]
+    }
+  ]
+}

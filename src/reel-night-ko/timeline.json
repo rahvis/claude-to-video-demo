@@ -1,0 +1,320 @@
+{
+  "fps": 30,
+  "overlap": 14,
+  "durationInFrames": 1081,
+  "voice": "qwen3 custom sohee tempo 1.0",
+  "scenes": [
+    {
+      "id": "late",
+      "from": 0,
+      "durationInFrames": 279,
+      "cues": [
+        {
+          "frame": 27,
+          "endFrame": 70,
+          "text": "밤이 깊었어요.",
+          "words": [
+            {
+              "text": "밤이",
+              "frame": 27
+            },
+            {
+              "text": "깊었어요.",
+              "frame": 39
+            }
+          ]
+        },
+        {
+          "frame": 87,
+          "endFrame": 176,
+          "text": "오늘 밤에만 지원서를 네 번 보냈죠.",
+          "words": [
+            {
+              "text": "오늘",
+              "frame": 87
+            },
+            {
+              "text": "밤에만",
+              "frame": 95
+            },
+            {
+              "text": "지원서를",
+              "frame": 114
+            },
+            {
+              "text": "네",
+              "frame": 140
+            },
+            {
+              "text": "번",
+              "frame": 145
+            },
+            {
+              "text": "보냈죠.",
+              "frame": 151
+            }
+          ]
+        },
+        {
+          "frame": 181,
+          "endFrame": 265,
+          "text": "이제 지칠 만도 해요.",
+          "words": [
+            {
+              "text": "이제",
+              "frame": 181
+            },
+            {
+              "text": "지칠",
+              "frame": 202
+            },
+            {
+              "text": "만도",
+              "frame": 223
+            },
+            {
+              "text": "해요.",
+              "frame": 244
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "months",
+      "from": 265,
+      "durationInFrames": 171,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 150,
+          "text": "요즘은 일자리를 찾는 데 석 달 가까이 걸려요.",
+          "words": [
+            {
+              "text": "요즘은",
+              "frame": 8
+            },
+            {
+              "text": "일자리를",
+              "frame": 36
+            },
+            {
+              "text": "찾는",
+              "frame": 54
+            },
+            {
+              "text": "데",
+              "frame": 72
+            },
+            {
+              "text": "석",
+              "frame": 90
+            },
+            {
+              "text": "달",
+              "frame": 108
+            },
+            {
+              "text": "가까이",
+              "frame": 114
+            },
+            {
+              "text": "걸려요.",
+              "frame": 128
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shift",
+      "from": 422,
+      "durationInFrames": 181,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 166,
+          "text": "그러니 다음 근무는 Tahoe에게 맡기세요.",
+          "words": [
+            {
+              "text": "그러니",
+              "frame": 8
+            },
+            {
+              "text": "다음",
+              "frame": 26
+            },
+            {
+              "text": "근무는",
+              "frame": 81
+            },
+            {
+              "text": "Tahoe에게",
+              "frame": 110
+            },
+            {
+              "text": "맡기세요.",
+              "frame": 138
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "morning",
+      "from": 589,
+      "durationInFrames": 176,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 90,
+          "text": "매일 아침, 새 추천 공고 중에서 골라",
+          "words": [
+            {
+              "text": "매일",
+              "frame": 6
+            },
+            {
+              "text": "아침,",
+              "frame": 15
+            },
+            {
+              "text": "새",
+              "frame": 23
+            },
+            {
+              "text": "추천",
+              "frame": 45
+            },
+            {
+              "text": "공고",
+              "frame": 53
+            },
+            {
+              "text": "중에서",
+              "frame": 69
+            },
+            {
+              "text": "골라",
+              "frame": 78
+            }
+          ]
+        },
+        {
+          "frame": 95,
+          "endFrame": 163,
+          "text": "지원서를 대신 채워 둬요.",
+          "words": [
+            {
+              "text": "지원서를",
+              "frame": 95
+            },
+            {
+              "text": "대신",
+              "frame": 121
+            },
+            {
+              "text": "채워",
+              "frame": 135
+            },
+            {
+              "text": "둬요.",
+              "frame": 149
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "from": 751,
+      "durationInFrames": 180,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 104,
+          "text": "커피 한 잔과 함께 하나씩 읽어 보고,",
+          "words": [
+            {
+              "text": "커피",
+              "frame": 6
+            },
+            {
+              "text": "한",
+              "frame": 16
+            },
+            {
+              "text": "잔과",
+              "frame": 21
+            },
+            {
+              "text": "함께",
+              "frame": 31
+            },
+            {
+              "text": "하나씩",
+              "frame": 44
+            },
+            {
+              "text": "읽어",
+              "frame": 64
+            },
+            {
+              "text": "보고,",
+              "frame": 84
+            }
+          ]
+        },
+        {
+          "frame": 109,
+          "endFrame": 165,
+          "text": "마음에 드는 것만 보내세요.",
+          "words": [
+            {
+              "text": "마음에",
+              "frame": 109
+            },
+            {
+              "text": "드는",
+              "frame": 119
+            },
+            {
+              "text": "것만",
+              "frame": 131
+            },
+            {
+              "text": "보내세요.",
+              "frame": 142
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 917,
+      "durationInFrames": 164,
+      "cues": [
+        {
+          "frame": 9,
+          "endFrame": 74,
+          "text": "이제 푹 자요.",
+          "words": [
+            {
+              "text": "이제",
+              "frame": 9
+            },
+            {
+              "text": "푹",
+              "frame": 24
+            },
+            {
+              "text": "자요.",
+              "frame": 57
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

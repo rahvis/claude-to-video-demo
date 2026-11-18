@@ -1,0 +1,299 @@
+{
+  "fps": 30,
+  "overlap": 10,
+  "durationInFrames": 1004,
+  "voice": "qwen3 custom sohee tempo 1.0",
+  "scenes": [
+    {
+      "id": "applied",
+      "from": 0,
+      "durationInFrames": 273,
+      "cues": [
+        {
+          "frame": 21,
+          "endFrame": 53,
+          "text": "지원했어요.",
+          "words": [
+            {
+              "text": "지원했어요.",
+              "frame": 21
+            }
+          ]
+        },
+        {
+          "frame": 69,
+          "endFrame": 108,
+          "text": "연락도 다시 했고요.",
+          "words": [
+            {
+              "text": "연락도",
+              "frame": 69
+            },
+            {
+              "text": "다시",
+              "frame": 82
+            },
+            {
+              "text": "했고요.",
+              "frame": 91
+            }
+          ]
+        },
+        {
+          "frame": 124,
+          "endFrame": 261,
+          "text": "혹시 메일이 고장 났나, 확인도 해 봤죠.",
+          "words": [
+            {
+              "text": "혹시",
+              "frame": 124
+            },
+            {
+              "text": "메일이",
+              "frame": 145
+            },
+            {
+              "text": "고장",
+              "frame": 166
+            },
+            {
+              "text": "났나,",
+              "frame": 188
+            },
+            {
+              "text": "확인도",
+              "frame": 209
+            },
+            {
+              "text": "해",
+              "frame": 226
+            },
+            {
+              "text": "봤죠.",
+              "frame": 244
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "from": 263,
+      "durationInFrames": 201,
+      "cues": [
+        {
+          "frame": 9,
+          "endFrame": 180,
+          "text": "지난 1년, 구직자 열 명 중 여덟 명은 대화 한 번 없이 탈락했습니다.",
+          "words": [
+            {
+              "text": "지난",
+              "frame": 9
+            },
+            {
+              "text": "1년,",
+              "frame": 15
+            },
+            {
+              "text": "구직자",
+              "frame": 30
+            },
+            {
+              "text": "열",
+              "frame": 45
+            },
+            {
+              "text": "명",
+              "frame": 60
+            },
+            {
+              "text": "중",
+              "frame": 75
+            },
+            {
+              "text": "여덟",
+              "frame": 89
+            },
+            {
+              "text": "명은",
+              "frame": 104
+            },
+            {
+              "text": "대화",
+              "frame": 119
+            },
+            {
+              "text": "한",
+              "frame": 134
+            },
+            {
+              "text": "번",
+              "frame": 139
+            },
+            {
+              "text": "없이",
+              "frame": 143
+            },
+            {
+              "text": "탈락했습니다.",
+              "frame": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "from": 454,
+      "durationInFrames": 79,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 69,
+          "text": "이제 그만 짐작하세요.",
+          "words": [
+            {
+              "text": "이제",
+              "frame": 8
+            },
+            {
+              "text": "그만",
+              "frame": 17
+            },
+            {
+              "text": "짐작하세요.",
+              "frame": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "from": 523,
+      "durationInFrames": 299,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 129,
+          "text": "Tahoe는 지원하기 전에, 이 공고가 왜 맞는지 알려 줍니다.",
+          "words": [
+            {
+              "text": "Tahoe는",
+              "frame": 4
+            },
+            {
+              "text": "지원하기",
+              "frame": 18
+            },
+            {
+              "text": "전에,",
+              "frame": 36
+            },
+            {
+              "text": "이",
+              "frame": 46
+            },
+            {
+              "text": "공고가",
+              "frame": 72
+            },
+            {
+              "text": "왜",
+              "frame": 90
+            },
+            {
+              "text": "맞는지",
+              "frame": 94
+            },
+            {
+              "text": "알려",
+              "frame": 106
+            },
+            {
+              "text": "줍니다.",
+              "frame": 117
+            }
+          ]
+        },
+        {
+          "frame": 141,
+          "endFrame": 281,
+          "text": "잘 맞는 추천 공고마다, 이유를 하나하나 설명해 드려요.",
+          "words": [
+            {
+              "text": "잘",
+              "frame": 141
+            },
+            {
+              "text": "맞는",
+              "frame": 149
+            },
+            {
+              "text": "추천",
+              "frame": 163
+            },
+            {
+              "text": "공고마다,",
+              "frame": 178
+            },
+            {
+              "text": "이유를",
+              "frame": 192
+            },
+            {
+              "text": "하나하나",
+              "frame": 235
+            },
+            {
+              "text": "설명해",
+              "frame": 253
+            },
+            {
+              "text": "드려요.",
+              "frame": 267
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 812,
+      "durationInFrames": 192,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 102,
+          "text": "다음 지원서는, 의미 있는 곳에 쓰세요.",
+          "words": [
+            {
+              "text": "다음",
+              "frame": 8
+            },
+            {
+              "text": "지원서는,",
+              "frame": 16
+            },
+            {
+              "text": "의미",
+              "frame": 40
+            },
+            {
+              "text": "있는",
+              "frame": 68
+            },
+            {
+              "text": "곳에",
+              "frame": 73
+            },
+            {
+              "text": "쓰세요.",
+              "frame": 84
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

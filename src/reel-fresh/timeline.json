@@ -1,0 +1,372 @@
+{
+  "fps": 30,
+  "overlap": 8,
+  "durationInFrames": 858,
+  "voice": "qwen3 clone seeker-en-anchor-0 tempo 0.9",
+  "scenes": [
+    {
+      "id": "hook",
+      "from": 0,
+      "durationInFrames": 159,
+      "cues": [
+        {
+          "frame": 24,
+          "endFrame": 83,
+          "text": "You finally find the right job.",
+          "words": [
+            {
+              "text": "You",
+              "frame": 24
+            },
+            {
+              "text": "finally",
+              "frame": 29
+            },
+            {
+              "text": "find",
+              "frame": 40
+            },
+            {
+              "text": "the",
+              "frame": 57
+            },
+            {
+              "text": "right",
+              "frame": 63
+            },
+            {
+              "text": "job.",
+              "frame": 68
+            }
+          ]
+        },
+        {
+          "frame": 95,
+          "endFrame": 148,
+          "text": "Everyone else found it first.",
+          "words": [
+            {
+              "text": "Everyone",
+              "frame": 95
+            },
+            {
+              "text": "else",
+              "frame": 106
+            },
+            {
+              "text": "found",
+              "frame": 115
+            },
+            {
+              "text": "it",
+              "frame": 124
+            },
+            {
+              "text": "first.",
+              "frame": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "problem",
+      "from": 151,
+      "durationInFrames": 126,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 48,
+          "text": "Apply on a job board,",
+          "words": [
+            {
+              "text": "Apply",
+              "frame": 4
+            },
+            {
+              "text": "on",
+              "frame": 15
+            },
+            {
+              "text": "a",
+              "frame": 22
+            },
+            {
+              "text": "job",
+              "frame": 26
+            },
+            {
+              "text": "board,",
+              "frame": 33
+            }
+          ]
+        },
+        {
+          "frame": 52,
+          "endFrame": 109,
+          "text": "and you're buried in the pile.",
+          "words": [
+            {
+              "text": "and",
+              "frame": 52
+            },
+            {
+              "text": "you're",
+              "frame": 66
+            },
+            {
+              "text": "buried",
+              "frame": 74
+            },
+            {
+              "text": "in",
+              "frame": 84
+            },
+            {
+              "text": "the",
+              "frame": 91
+            },
+            {
+              "text": "pile.",
+              "frame": 94
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "from": 269,
+      "durationInFrames": 174,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 62,
+          "text": "Apply on the company's own site,",
+          "words": [
+            {
+              "text": "Apply",
+              "frame": 6
+            },
+            {
+              "text": "on",
+              "frame": 17
+            },
+            {
+              "text": "the",
+              "frame": 24
+            },
+            {
+              "text": "company's",
+              "frame": 29
+            },
+            {
+              "text": "own",
+              "frame": 45
+            },
+            {
+              "text": "site,",
+              "frame": 48
+            }
+          ]
+        },
+        {
+          "frame": 66,
+          "endFrame": 147,
+          "text": "and you're almost twice as likely to get an interview.",
+          "words": [
+            {
+              "text": "and",
+              "frame": 66
+            },
+            {
+              "text": "you're",
+              "frame": 70
+            },
+            {
+              "text": "almost",
+              "frame": 76
+            },
+            {
+              "text": "twice",
+              "frame": 84
+            },
+            {
+              "text": "as",
+              "frame": 97
+            },
+            {
+              "text": "likely",
+              "frame": 105
+            },
+            {
+              "text": "to",
+              "frame": 113
+            },
+            {
+              "text": "get",
+              "frame": 120
+            },
+            {
+              "text": "an",
+              "frame": 124
+            },
+            {
+              "text": "interview.",
+              "frame": 129
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "from": 435,
+      "durationInFrames": 71,
+      "cues": [
+        {
+          "frame": 9,
+          "endFrame": 51,
+          "text": "That's where Tahoe looks.",
+          "words": [
+            {
+              "text": "That's",
+              "frame": 9
+            },
+            {
+              "text": "where",
+              "frame": 21
+            },
+            {
+              "text": "Tahoe",
+              "frame": 25
+            },
+            {
+              "text": "looks.",
+              "frame": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feature",
+      "from": 498,
+      "durationInFrames": 210,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 115,
+          "text": "Every hour, it checks over two hundred thousand of them.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 6
+            },
+            {
+              "text": "hour,",
+              "frame": 14
+            },
+            {
+              "text": "it",
+              "frame": 36
+            },
+            {
+              "text": "checks",
+              "frame": 44
+            },
+            {
+              "text": "over",
+              "frame": 52
+            },
+            {
+              "text": "two",
+              "frame": 64
+            },
+            {
+              "text": "hundred",
+              "frame": 77
+            },
+            {
+              "text": "thousand",
+              "frame": 89
+            },
+            {
+              "text": "of",
+              "frame": 101
+            },
+            {
+              "text": "them.",
+              "frame": 106
+            }
+          ]
+        },
+        {
+          "frame": 128,
+          "endFrame": 181,
+          "text": "So you see new jobs early.",
+          "words": [
+            {
+              "text": "So",
+              "frame": 128
+            },
+            {
+              "text": "you",
+              "frame": 133
+            },
+            {
+              "text": "see",
+              "frame": 138
+            },
+            {
+              "text": "new",
+              "frame": 146
+            },
+            {
+              "text": "jobs",
+              "frame": 154
+            },
+            {
+              "text": "early.",
+              "frame": 165
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "from": 700,
+      "durationInFrames": 158,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 68,
+          "text": "Get there before everyone else.",
+          "words": [
+            {
+              "text": "Get",
+              "frame": 8
+            },
+            {
+              "text": "there",
+              "frame": 16
+            },
+            {
+              "text": "before",
+              "frame": 24
+            },
+            {
+              "text": "everyone",
+              "frame": 35
+            },
+            {
+              "text": "else.",
+              "frame": 52
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

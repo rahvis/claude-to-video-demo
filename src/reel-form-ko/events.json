@@ -1,0 +1,146 @@
+{
+  "upload": {
+    "drop": {
+      "cue": 0,
+      "word": 1,
+      "at": 0,
+      "sfx": "pop"
+    },
+    "done": {
+      "cue": 0,
+      "word": 1,
+      "at": 4,
+      "sfx": "check"
+    },
+    "whip": {
+      "cue": 1,
+      "word": 1,
+      "at": -6,
+      "sfx": "swoosh"
+    },
+    "caret": {
+      "cue": 1,
+      "word": 4,
+      "at": 0
+    }
+  },
+  "again": {
+    "name": {
+      "cue": 0,
+      "word": 0,
+      "at": -4,
+      "sfx": "type",
+      "count": 7,
+      "every": 2
+    },
+    "email": {
+      "cue": 0,
+      "word": 1,
+      "at": -4,
+      "sfx": "type",
+      "count": 10,
+      "every": 2
+    },
+    "jobs": {
+      "cue": 0,
+      "word": 4,
+      "at": -2,
+      "sfx": "type",
+      "count": 18,
+      "every": 2
+    },
+    "reset": {
+      "cue": 1,
+      "word": 0,
+      "at": 0,
+      "sfx": "low"
+    }
+  },
+  "hours": {
+    "clock": {
+      "cue": 0,
+      "word": 2,
+      "at": 0,
+      "sfx": "count"
+    },
+    "times": {
+      "cue": 1,
+      "word": 2,
+      "at": 0,
+      "sfx": "pop"
+    },
+    "total": {
+      "cue": 1,
+      "word": 5,
+      "at": 6,
+      "sfx": "block"
+    }
+  },
+  "auto": {
+    "mark": {
+      "cue": 0,
+      "word": 1,
+      "at": 0,
+      "sfx": "chime"
+    },
+    "fill": {
+      "cue": 0,
+      "word": 6,
+      "at": 0,
+      "sfx": "type",
+      "count": 14,
+      "every": 2
+    },
+    "site": {
+      "cue": 1,
+      "word": 1,
+      "at": 0,
+      "sfx": "tick"
+    }
+  },
+  "asks": {
+    "needs": {
+      "cue": 0,
+      "word": 3,
+      "at": 0,
+      "sfx": "notify"
+    },
+    "review": {
+      "cue": 1,
+      "word": 0,
+      "at": -4,
+      "sfx": "swoosh"
+    },
+    "send": {
+      "cue": 1,
+      "word": 3,
+      "at": 2,
+      "sfx": "tap"
+    },
+    "sent": {
+      "cue": 1,
+      "word": 5,
+      "at": 8,
+      "sfx": "sent"
+    }
+  },
+  "close": {
+    "dusk": {
+      "cue": 0,
+      "word": 1,
+      "at": 0,
+      "sfx": "shimmer"
+    },
+    "lockup": {
+      "cue": 0,
+      "word": 2,
+      "at": 14,
+      "sfx": "chime"
+    },
+    "line": {
+      "cue": 0,
+      "word": 2,
+      "at": 28
+    }
+  }
+}

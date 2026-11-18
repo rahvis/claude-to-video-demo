@@ -1,0 +1,356 @@
+{
+  "fps": 30,
+  "overlap": 14,
+  "durationInFrames": 870,
+  "voice": "qwen3 custom sohee tempo 1.0",
+  "scenes": [
+    {
+      "id": "late",
+      "from": 0,
+      "durationInFrames": 202,
+      "cues": [
+        {
+          "frame": 27,
+          "endFrame": 51,
+          "text": "It's late.",
+          "words": [
+            {
+              "text": "It's",
+              "frame": 27
+            },
+            {
+              "text": "late.",
+              "frame": 35
+            }
+          ]
+        },
+        {
+          "frame": 68,
+          "endFrame": 143,
+          "text": "You've sent four applications tonight,",
+          "words": [
+            {
+              "text": "You've",
+              "frame": 68
+            },
+            {
+              "text": "sent",
+              "frame": 77
+            },
+            {
+              "text": "four",
+              "frame": 83
+            },
+            {
+              "text": "applications",
+              "frame": 96
+            },
+            {
+              "text": "tonight,",
+              "frame": 122
+            }
+          ]
+        },
+        {
+          "frame": 147,
+          "endFrame": 188,
+          "text": "and you're out of steam.",
+          "words": [
+            {
+              "text": "and",
+              "frame": 147
+            },
+            {
+              "text": "you're",
+              "frame": 152
+            },
+            {
+              "text": "out",
+              "frame": 159
+            },
+            {
+              "text": "of",
+              "frame": 163
+            },
+            {
+              "text": "steam.",
+              "frame": 168
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "months",
+      "from": 188,
+      "durationInFrames": 115,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 94,
+          "text": "A job search now runs close to three months.",
+          "words": [
+            {
+              "text": "A",
+              "frame": 8
+            },
+            {
+              "text": "job",
+              "frame": 12
+            },
+            {
+              "text": "search",
+              "frame": 18
+            },
+            {
+              "text": "now",
+              "frame": 28
+            },
+            {
+              "text": "runs",
+              "frame": 39
+            },
+            {
+              "text": "close",
+              "frame": 48
+            },
+            {
+              "text": "to",
+              "frame": 58
+            },
+            {
+              "text": "three",
+              "frame": 67
+            },
+            {
+              "text": "months.",
+              "frame": 74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shift",
+      "from": 289,
+      "durationInFrames": 91,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 76,
+          "text": "So let Tahoe take the next shift.",
+          "words": [
+            {
+              "text": "So",
+              "frame": 8
+            },
+            {
+              "text": "let",
+              "frame": 15
+            },
+            {
+              "text": "Tahoe",
+              "frame": 20
+            },
+            {
+              "text": "take",
+              "frame": 38
+            },
+            {
+              "text": "the",
+              "frame": 47
+            },
+            {
+              "text": "next",
+              "frame": 53
+            },
+            {
+              "text": "shift.",
+              "frame": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "morning",
+      "from": 366,
+      "durationInFrames": 205,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 107,
+          "text": "Each morning, it picks from your newest matches,",
+          "words": [
+            {
+              "text": "Each",
+              "frame": 6
+            },
+            {
+              "text": "morning,",
+              "frame": 15
+            },
+            {
+              "text": "it",
+              "frame": 44
+            },
+            {
+              "text": "picks",
+              "frame": 51
+            },
+            {
+              "text": "from",
+              "frame": 58
+            },
+            {
+              "text": "your",
+              "frame": 67
+            },
+            {
+              "text": "newest",
+              "frame": 72
+            },
+            {
+              "text": "matches,",
+              "frame": 83
+            }
+          ]
+        },
+        {
+          "frame": 112,
+          "endFrame": 192,
+          "text": "and fills in the applications for you.",
+          "words": [
+            {
+              "text": "and",
+              "frame": 112
+            },
+            {
+              "text": "fills",
+              "frame": 117
+            },
+            {
+              "text": "in",
+              "frame": 130
+            },
+            {
+              "text": "the",
+              "frame": 142
+            },
+            {
+              "text": "applications",
+              "frame": 146
+            },
+            {
+              "text": "for",
+              "frame": 168
+            },
+            {
+              "text": "you.",
+              "frame": 183
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "from": 557,
+      "durationInFrames": 197,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 71,
+          "text": "You read each one with your coffee,",
+          "words": [
+            {
+              "text": "You",
+              "frame": 6
+            },
+            {
+              "text": "read",
+              "frame": 10
+            },
+            {
+              "text": "each",
+              "frame": 17
+            },
+            {
+              "text": "one",
+              "frame": 27
+            },
+            {
+              "text": "with",
+              "frame": 38
+            },
+            {
+              "text": "your",
+              "frame": 46
+            },
+            {
+              "text": "coffee,",
+              "frame": 51
+            }
+          ]
+        },
+        {
+          "frame": 76,
+          "endFrame": 182,
+          "text": "and send the ones you like.",
+          "words": [
+            {
+              "text": "and",
+              "frame": 76
+            },
+            {
+              "text": "send",
+              "frame": 87
+            },
+            {
+              "text": "the",
+              "frame": 103
+            },
+            {
+              "text": "ones",
+              "frame": 131
+            },
+            {
+              "text": "you",
+              "frame": 145
+            },
+            {
+              "text": "like.",
+              "frame": 165
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 740,
+      "durationInFrames": 130,
+      "cues": [
+        {
+          "frame": 9,
+          "endFrame": 40,
+          "text": "Get some sleep.",
+          "words": [
+            {
+              "text": "Get",
+              "frame": 9
+            },
+            {
+              "text": "some",
+              "frame": 13
+            },
+            {
+              "text": "sleep.",
+              "frame": 22
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

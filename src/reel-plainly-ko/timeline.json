@@ -1,0 +1,271 @@
+{
+  "fps": 30,
+  "overlap": 2,
+  "durationInFrames": 732,
+  "voice": "qwen3 custom sohee tempo 1.0",
+  "scenes": [
+    {
+      "id": "boxes",
+      "from": 0,
+      "durationInFrames": 144,
+      "cues": [
+        {
+          "frame": 15,
+          "endFrame": 133,
+          "text": "대부분의 채용 사이트는 검색 한 번에 칸을 마흔 개나 채우게 하죠.",
+          "words": [
+            {
+              "text": "대부분의",
+              "frame": 15
+            },
+            {
+              "text": "채용",
+              "frame": 31
+            },
+            {
+              "text": "사이트는",
+              "frame": 39
+            },
+            {
+              "text": "검색",
+              "frame": 56
+            },
+            {
+              "text": "한",
+              "frame": 69
+            },
+            {
+              "text": "번에",
+              "frame": 73
+            },
+            {
+              "text": "칸을",
+              "frame": 82
+            },
+            {
+              "text": "마흔",
+              "frame": 91
+            },
+            {
+              "text": "개나",
+              "frame": 99
+            },
+            {
+              "text": "채우게",
+              "frame": 108
+            },
+            {
+              "text": "하죠.",
+              "frame": 121
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "friend",
+      "from": 142,
+      "durationInFrames": 102,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 93,
+          "text": "Tahoe에서는 친구에게 문자 보내듯 쓰면 돼요.",
+          "words": [
+            {
+              "text": "Tahoe에서는",
+              "frame": 4
+            },
+            {
+              "text": "친구에게",
+              "frame": 25
+            },
+            {
+              "text": "문자",
+              "frame": 50
+            },
+            {
+              "text": "보내듯",
+              "frame": 64
+            },
+            {
+              "text": "쓰면",
+              "frame": 74
+            },
+            {
+              "text": "돼요.",
+              "frame": 84
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "read",
+      "from": 242,
+      "durationInFrames": 185,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 67,
+          "text": "무슨 뜻인지 알아듣고,",
+          "words": [
+            {
+              "text": "무슨",
+              "frame": 4
+            },
+            {
+              "text": "뜻인지",
+              "frame": 11
+            },
+            {
+              "text": "알아듣고,",
+              "frame": 39
+            }
+          ]
+        },
+        {
+          "frame": 70,
+          "endFrame": 120,
+          "text": "이해한 내용을 보여 주고,",
+          "words": [
+            {
+              "text": "이해한",
+              "frame": 70
+            },
+            {
+              "text": "내용을",
+              "frame": 82
+            },
+            {
+              "text": "보여",
+              "frame": 95
+            },
+            {
+              "text": "주고,",
+              "frame": 107
+            }
+          ]
+        },
+        {
+          "frame": 123,
+          "endFrame": 171,
+          "text": "딱 맞는 공고를 찾아 줘요.",
+          "words": [
+            {
+              "text": "딱",
+              "frame": 123
+            },
+            {
+              "text": "맞는",
+              "frame": 127
+            },
+            {
+              "text": "공고를",
+              "frame": 135
+            },
+            {
+              "text": "찾아",
+              "frame": 147
+            },
+            {
+              "text": "줘요.",
+              "frame": 159
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "count",
+      "from": 425,
+      "durationInFrames": 160,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 72,
+          "text": "오백만 건이 넘는 채용 공고를,",
+          "words": [
+            {
+              "text": "오백만",
+              "frame": 4
+            },
+            {
+              "text": "건이",
+              "frame": 19
+            },
+            {
+              "text": "넘는",
+              "frame": 28
+            },
+            {
+              "text": "채용",
+              "frame": 42
+            },
+            {
+              "text": "공고를,",
+              "frame": 57
+            }
+          ]
+        },
+        {
+          "frame": 75,
+          "endFrame": 145,
+          "text": "기업 채용 사이트에서 바로 가져오죠.",
+          "words": [
+            {
+              "text": "기업",
+              "frame": 75
+            },
+            {
+              "text": "채용",
+              "frame": 84
+            },
+            {
+              "text": "사이트에서",
+              "frame": 93
+            },
+            {
+              "text": "바로",
+              "frame": 113
+            },
+            {
+              "text": "가져오죠.",
+              "frame": 122
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 583,
+      "durationInFrames": 149,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 59,
+          "text": "원하는 걸 그냥 말하세요.",
+          "words": [
+            {
+              "text": "원하는",
+              "frame": 6
+            },
+            {
+              "text": "걸",
+              "frame": 20
+            },
+            {
+              "text": "그냥",
+              "frame": 26
+            },
+            {
+              "text": "말하세요.",
+              "frame": 34
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

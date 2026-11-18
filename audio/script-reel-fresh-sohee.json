@@ -1,0 +1,107 @@
+{
+  "fps": 30,
+  "gap": 0.22,
+  "overlap_frames": 8,
+  "language": "english",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "tempo": 1.0,
+  "scenes": [
+    {
+      "id": "hook",
+      "lead": 0.8,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "You finally find the right job.",
+          "pause": 0.4,
+          "instruct": "Excited and hopeful, like sharing good news with a friend."
+        },
+        {
+          "text": "Everyone else found it first.",
+          "fall": true,
+          "instruct": "Dry and deadpan, with a hint of a smile."
+        }
+      ]
+    },
+    {
+      "id": "problem",
+      "lead": 0.15,
+      "tail": 0.75,
+      "phrases": [
+        {
+          "text": "Apply on a job board,",
+          "pause": 0.12,
+          "instruct": "Calm and matter of fact, setting the scene."
+        },
+        {
+          "text": "and you're buried in the pile.",
+          "fall": true,
+          "instruct": "Wry, a little exasperated."
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "lead": 0.2,
+      "tail": 1.15,
+      "phrases": [
+        {
+          "text": "Apply on the company's own site,",
+          "pause": 0.12,
+          "instruct": "Brighter, leaning in, like sharing a good tip."
+        },
+        {
+          "text": "and you're almost twice as likely to get an interview.",
+          "fall": true,
+          "instruct": "Confident and impressed, letting the number land."
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "lead": 0.3,
+      "tail": 0.65,
+      "phrases": [
+        {
+          "text": "That's where Tahoe looks.",
+          "fall": true,
+          "instruct": "Bright and proud, with a warm smile."
+        }
+      ]
+    },
+    {
+      "id": "feature",
+      "lead": 0.2,
+      "tail": 1.2,
+      "phrases": [
+        {
+          "text": "Every hour, it checks over two hundred thousand of them.",
+          "pause": 0.6,
+          "instruct": "Confident and lively, with a little wonder in the voice."
+        },
+        {
+          "text": "So you see new jobs early.",
+          "fall": true,
+          "instruct": "Warm and reassuring."
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "lead": 0.25,
+      "tail": 3.3,
+      "phrases": [
+        {
+          "text": "Get there before everyone else.",
+          "fall": true,
+          "instruct": "Playful and confident, with a big warm smile."
+        }
+      ]
+    }
+  ]
+}

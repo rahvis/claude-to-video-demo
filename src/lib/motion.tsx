@@ -95,18 +95,21 @@ export const Swap: React.FC<{
   );
 };
 
-export const Counter: React.FC<{ from?: number; to: number; at: number; dur?: number; decimals?: number; suffix?: string; style?: CSSProperties }> = ({
-  from = 0,
-  to,
-  at,
-  dur = 26,
-  decimals = 0,
-  suffix = "",
-  style,
-}) => {
+export const Counter: React.FC<{
+  from?: number;
+  to: number;
+  at: number;
+  dur?: number;
+  decimals?: number;
+  suffix?: string;
+  prefix?: string;
+  /** Custom number formatting (e.g. thousands separators); defaults to toFixed(decimals). */
+  format?: (v: number) => string;
+  style?: CSSProperties;
+}> = ({ from = 0, to, at, dur = 26, decimals = 0, suffix = "", prefix = "", format, style }) => {
   const f = useCurrentFrame();
   const v = mix(from, to, prog(f, at, dur, Easing.bezier(0.22, 1, 0.36, 1)));
-  return <span style={{ fontVariantNumeric: "tabular-nums", ...style }}>{v.toFixed(decimals) + suffix}</span>;
+  return <span style={{ fontVariantNumeric: "tabular-nums", ...style }}>{prefix + (format ? format(v) : v.toFixed(decimals)) + suffix}</span>;
 };
 
 const HEX = "0123456789abcdef";

@@ -1,0 +1,294 @@
+{
+  "fps": 30,
+  "overlap": 0,
+  "durationInFrames": 1053,
+  "voice": "qwen3 custom sohee tempo 1.0",
+  "scenes": [
+    {
+      "id": "drive",
+      "from": 0,
+      "durationInFrames": 173,
+      "cues": [
+        {
+          "frame": 24,
+          "endFrame": 161,
+          "text": "다나는 2년 동안 매일, 다음 직장 앞을 차로 지나쳤어요.",
+          "words": [
+            {
+              "text": "다나는",
+              "frame": 24
+            },
+            {
+              "text": "2년",
+              "frame": 36
+            },
+            {
+              "text": "동안",
+              "frame": 46
+            },
+            {
+              "text": "매일,",
+              "frame": 56
+            },
+            {
+              "text": "다음",
+              "frame": 87
+            },
+            {
+              "text": "직장",
+              "frame": 99
+            },
+            {
+              "text": "앞을",
+              "frame": 114
+            },
+            {
+              "text": "차로",
+              "frame": 125
+            },
+            {
+              "text": "지나쳤어요.",
+              "frame": 134
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hidden",
+      "from": 173,
+      "durationInFrames": 190,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 78,
+          "text": "채용 공고를 본 적이 없었거든요.",
+          "words": [
+            {
+              "text": "채용",
+              "frame": 6
+            },
+            {
+              "text": "공고를",
+              "frame": 19
+            },
+            {
+              "text": "본",
+              "frame": 32
+            },
+            {
+              "text": "적이",
+              "frame": 40
+            },
+            {
+              "text": "없었거든요.",
+              "frame": 48
+            }
+          ]
+        },
+        {
+          "frame": 89,
+          "endFrame": 175,
+          "text": "회사 웹사이트에만 올라와 있었으니까요.",
+          "words": [
+            {
+              "text": "회사",
+              "frame": 89
+            },
+            {
+              "text": "웹사이트에만",
+              "frame": 98
+            },
+            {
+              "text": "올라와",
+              "frame": 124
+            },
+            {
+              "text": "있었으니까요.",
+              "frame": 139
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "from": 363,
+      "durationInFrames": 180,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 162,
+          "text": "지난 9월, 미국의 빈 일자리는 칠백오십만 개였습니다.",
+          "words": [
+            {
+              "text": "지난",
+              "frame": 6
+            },
+            {
+              "text": "9월,",
+              "frame": 15
+            },
+            {
+              "text": "미국의",
+              "frame": 35
+            },
+            {
+              "text": "빈",
+              "frame": 66
+            },
+            {
+              "text": "일자리는",
+              "frame": 75
+            },
+            {
+              "text": "칠백오십만",
+              "frame": 104
+            },
+            {
+              "text": "개였습니다.",
+              "frame": 133
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "from": 543,
+      "durationInFrames": 183,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 115,
+          "text": "Tahoe는 기업 채용 사이트에서 공고를 읽어 와,",
+          "words": [
+            {
+              "text": "Tahoe는",
+              "frame": 4
+            },
+            {
+              "text": "기업",
+              "frame": 22
+            },
+            {
+              "text": "채용",
+              "frame": 36
+            },
+            {
+              "text": "사이트에서",
+              "frame": 46
+            },
+            {
+              "text": "공고를",
+              "frame": 66
+            },
+            {
+              "text": "읽어",
+              "frame": 82
+            },
+            {
+              "text": "와,",
+              "frame": 99
+            }
+          ]
+        },
+        {
+          "frame": 118,
+          "endFrame": 171,
+          "text": "지도 위에 보여 줘요.",
+          "words": [
+            {
+              "text": "지도",
+              "frame": 118
+            },
+            {
+              "text": "위에",
+              "frame": 130
+            },
+            {
+              "text": "보여",
+              "frame": 143
+            },
+            {
+              "text": "줘요.",
+              "frame": 157
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "near",
+      "from": 726,
+      "durationInFrames": 169,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 156,
+          "text": "그래서 바로 우리 동네에서 누가 채용 중인지 보이죠.",
+          "words": [
+            {
+              "text": "그래서",
+              "frame": 4
+            },
+            {
+              "text": "바로",
+              "frame": 16
+            },
+            {
+              "text": "우리",
+              "frame": 46
+            },
+            {
+              "text": "동네에서",
+              "frame": 58
+            },
+            {
+              "text": "누가",
+              "frame": 78
+            },
+            {
+              "text": "채용",
+              "frame": 112
+            },
+            {
+              "text": "중인지",
+              "frame": 124
+            },
+            {
+              "text": "보이죠.",
+              "frame": 135
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 895,
+      "durationInFrames": 158,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 68,
+          "text": "가까운 곳부터 찾아보세요.",
+          "words": [
+            {
+              "text": "가까운",
+              "frame": 8
+            },
+            {
+              "text": "곳부터",
+              "frame": 23
+            },
+            {
+              "text": "찾아보세요.",
+              "frame": 38
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

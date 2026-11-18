@@ -11,6 +11,11 @@ audio/build
 out/*
 public/*
 misc/*
+# ...except the fonts (SIL OFL, licences beside them) and brand marks every reel needs (build-reel.sh)
+!public/seeker/
+public/seeker/*
+!public/seeker/fonts/
+!public/seeker/brand/
 
 # Generated/exported file types
 *.est
@@ -19,3 +24,7 @@ misc/*
 *.pdf
 
 .DS_Store
+!public/seeker/brand/*.png
+
+# Python bytecode
+__pycache__/

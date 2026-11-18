@@ -1,0 +1,108 @@
+{
+  "fps": 30,
+  "language": "korean",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.3,
+  "overlap_frames": 14,
+  "scenes": [
+    {
+      "id": "late",
+      "lead": 0.9,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "밤이 깊었어요.",
+          "pause": 0.55,
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        },
+        {
+          "text": "오늘 밤에만 지원서를 네 번 보냈죠.",
+          "pause": 0.15,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        },
+        {
+          "text": "이제 지칠 만도 해요.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        }
+      ]
+    },
+    {
+      "id": "months",
+      "lead": 0.25,
+      "tail": 0.7,
+      "phrases": [
+        {
+          "text": "요즘은 일자리를 찾는 데 석 달 가까이 걸려요.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        }
+      ]
+    },
+    {
+      "id": "shift",
+      "lead": 0.25,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "그러니 다음 근무는 Tahoe에게 맡기세요.",
+          "say": "그러니 다음 근무는 타호에게 맡기세요.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        }
+      ]
+    },
+    {
+      "id": "morning",
+      "lead": 0.2,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "매일 아침, 새 추천 공고 중에서 골라",
+          "pause": 0.15,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        },
+        {
+          "text": "지원서를 대신 채워 둬요.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "lead": 0.2,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "커피 한 잔과 함께 하나씩 읽어 보고,",
+          "pause": 0.15,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        },
+        {
+          "text": "마음에 드는 것만 보내세요.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.3,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "이제 푹 자요.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story. Almost a whisper."
+        }
+      ]
+    }
+  ]
+}

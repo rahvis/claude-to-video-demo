@@ -1,0 +1,102 @@
+{
+  "fps": 30,
+  "gap": 0.22,
+  "overlap_frames": 8,
+  "language": "english",
+  "engine": "clone",
+  "model": "models/qwen3/Base-8bit",
+  "design_model": "models/qwen3/VoiceDesign-8bit",
+  "design": "A warm, natural American English female voice in her late twenties. Sincere and friendly, with a gentle smile in her voice. Conversational and relaxed, like talking to a close friend. Clear articulation, medium pitch, unhurried pace.",
+  "anchor_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "ref_audio": "voices/seeker-en-anchor-0.wav",
+  "ref_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "speaker": null,
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "tempo": 0.9,
+  "scenes": [
+    {
+      "id": "hook",
+      "lead": 0.8,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "You finally find the right job.",
+          "pause": 0.4
+        },
+        {
+          "text": "Everyone else found it first.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "problem",
+      "lead": 0.15,
+      "tail": 0.55,
+      "phrases": [
+        {
+          "text": "Apply on a job board,",
+          "pause": 0.12
+        },
+        {
+          "text": "and you're buried in the pile.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "lead": 0.2,
+      "tail": 0.9,
+      "phrases": [
+        {
+          "text": "Apply on the company's own site,",
+          "pause": 0.12
+        },
+        {
+          "text": "and you're almost twice as likely to get an interview.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "lead": 0.3,
+      "tail": 0.65,
+      "phrases": [
+        {
+          "text": "That's where Tahoe looks.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "feature",
+      "lead": 0.2,
+      "tail": 0.95,
+      "phrases": [
+        {
+          "text": "Every hour, it checks over two hundred thousand of them.",
+          "pause": 0.45
+        },
+        {
+          "text": "So you see new jobs early.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "lead": 0.25,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "Get there before everyone else.",
+          "fall": true
+        }
+      ]
+    }
+  ]
+}

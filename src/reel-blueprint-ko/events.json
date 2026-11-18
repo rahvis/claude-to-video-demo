@@ -1,0 +1,103 @@
+{
+  "how": {
+    "title": {
+      "cue": 0,
+      "at": 0,
+      "sfx": "tick"
+    },
+    "never": {
+      "cue": 1,
+      "word": 1,
+      "at": 0,
+      "sfx": "low"
+    }
+  },
+  "stat": {
+    "num": {
+      "cue": 0,
+      "word": 4,
+      "at": 0,
+      "sfx": "count"
+    },
+    "padded": {
+      "cue": 0,
+      "word": 9,
+      "at": 0,
+      "sfx": "pop"
+    }
+  },
+  "resume": {
+    "mark": {
+      "cue": 0,
+      "word": 0,
+      "at": 0,
+      "sfx": "chime"
+    },
+    "swap": {
+      "cue": 0,
+      "word": 3,
+      "at": 2,
+      "sfx": "swoosh"
+    },
+    "block": {
+      "cue": 1,
+      "word": 3,
+      "at": 0,
+      "sfx": "block"
+    }
+  },
+  "form": {
+    "fill": {
+      "cue": 0,
+      "word": 4,
+      "at": 0,
+      "sfx": "type",
+      "count": 10,
+      "every": 2
+    },
+    "sources": {
+      "cue": 1,
+      "word": 4,
+      "at": 0,
+      "sfx": "tag"
+    }
+  },
+  "approve": {
+    "gate": {
+      "cue": 0,
+      "word": 0,
+      "at": 0,
+      "sfx": "tap"
+    },
+    "flow": {
+      "cue": 0,
+      "word": 3,
+      "at": 6,
+      "sfx": "sent"
+    },
+    "cal": {
+      "cue": 0,
+      "word": 4,
+      "at": 18,
+      "sfx": "tick"
+    }
+  },
+  "close": {
+    "receipt": {
+      "cue": null,
+      "at": 0,
+      "sfx": "swoosh"
+    },
+    "lockup": {
+      "cue": 0,
+      "word": 4,
+      "at": 12,
+      "sfx": "chime"
+    },
+    "line": {
+      "cue": 0,
+      "word": 4,
+      "at": 26
+    }
+  }
+}

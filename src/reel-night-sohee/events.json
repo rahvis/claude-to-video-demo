@@ -1,0 +1,28 @@
+{
+  "late": {
+    "sent": { "cue": 1, "word": 1, "at": 0, "sfx": "tick", "count": 4, "every": 5 },
+    "shut": { "cue": 2, "word": 2, "at": 0, "sfx": "low" }
+  },
+  "months": {
+    "riffle": { "cue": 0, "word": 1, "at": 0, "sfx": "tick", "count": 11, "every": 2 },
+    "num": { "cue": 0, "word": 8, "at": 2, "sfx": "pop" }
+  },
+  "shift": {
+    "mark": { "cue": 0, "word": 2, "at": 0, "sfx": "chime" }
+  },
+  "morning": {
+    "picks": { "cue": 0, "word": 3, "at": 0, "sfx": "notify" },
+    "fills": { "cue": 1, "word": 1, "at": 0, "sfx": "type", "count": 12, "every": 2 },
+    "ready": { "cue": 1, "word": 6, "at": 0, "sfx": "check" }
+  },
+  "coffee": {
+    "phone": { "cue": 0, "at": -6, "sfx": "swoosh" },
+    "send1": { "cue": 1, "word": 1, "at": 2, "sfx": "tap" },
+    "skip": { "cue": 1, "word": 3, "at": 0, "sfx": "tick" },
+    "send2": { "cue": 1, "word": 5, "at": 2, "sfx": "sent" }
+  },
+  "close": {
+    "lockup": { "cue": 0, "word": 2, "at": 14, "sfx": "chime" },
+    "line": { "cue": 0, "word": 2, "at": 30 }
+  }
+}

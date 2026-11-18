@@ -1,0 +1,419 @@
+{
+  "fps": 30,
+  "overlap": 2,
+  "durationInFrames": 893,
+  "voice": "qwen3 clone reel-male-anchor tempo 1.03",
+  "scenes": [
+    {
+      "id": "upload",
+      "from": 0,
+      "durationInFrames": 138,
+      "cues": [
+        {
+          "frame": 15,
+          "endFrame": 55,
+          "text": "I uploaded my resume.",
+          "words": [
+            {
+              "text": "I",
+              "frame": 15
+            },
+            {
+              "text": "uploaded",
+              "frame": 20
+            },
+            {
+              "text": "my",
+              "frame": 30
+            },
+            {
+              "text": "resume.",
+              "frame": 38
+            }
+          ]
+        },
+        {
+          "frame": 64,
+          "endFrame": 129,
+          "text": "Then the form asked me to type my resume.",
+          "words": [
+            {
+              "text": "Then",
+              "frame": 64
+            },
+            {
+              "text": "the",
+              "frame": 68
+            },
+            {
+              "text": "form",
+              "frame": 73
+            },
+            {
+              "text": "asked",
+              "frame": 81
+            },
+            {
+              "text": "me",
+              "frame": 91
+            },
+            {
+              "text": "to",
+              "frame": 98
+            },
+            {
+              "text": "type",
+              "frame": 101
+            },
+            {
+              "text": "my",
+              "frame": 107
+            },
+            {
+              "text": "resume.",
+              "frame": 112
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "again",
+      "from": 136,
+      "durationInFrames": 140,
+      "cues": [
+        {
+          "frame": 3,
+          "endFrame": 108,
+          "text": "My name, my email, every job since college.",
+          "words": [
+            {
+              "text": "My",
+              "frame": 3
+            },
+            {
+              "text": "name,",
+              "frame": 11
+            },
+            {
+              "text": "my",
+              "frame": 34
+            },
+            {
+              "text": "email,",
+              "frame": 38
+            },
+            {
+              "text": "every",
+              "frame": 63
+            },
+            {
+              "text": "job",
+              "frame": 71
+            },
+            {
+              "text": "since",
+              "frame": 81
+            },
+            {
+              "text": "college.",
+              "frame": 89
+            }
+          ]
+        },
+        {
+          "frame": 117,
+          "endFrame": 129,
+          "text": "Again.",
+          "words": [
+            {
+              "text": "Again.",
+              "frame": 117
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hours",
+      "from": 274,
+      "durationInFrames": 174,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 76,
+          "text": "One application takes about forty-four minutes,",
+          "words": [
+            {
+              "text": "One",
+              "frame": 4
+            },
+            {
+              "text": "application",
+              "frame": 10
+            },
+            {
+              "text": "takes",
+              "frame": 24
+            },
+            {
+              "text": "about",
+              "frame": 38
+            },
+            {
+              "text": "forty-four",
+              "frame": 45
+            },
+            {
+              "text": "minutes,",
+              "frame": 59
+            }
+          ]
+        },
+        {
+          "frame": 79,
+          "endFrame": 156,
+          "text": "and the average job seeker sends more than sixty.",
+          "words": [
+            {
+              "text": "and",
+              "frame": 79
+            },
+            {
+              "text": "the",
+              "frame": 83
+            },
+            {
+              "text": "average",
+              "frame": 85
+            },
+            {
+              "text": "job",
+              "frame": 96
+            },
+            {
+              "text": "seeker",
+              "frame": 107
+            },
+            {
+              "text": "sends",
+              "frame": 117
+            },
+            {
+              "text": "more",
+              "frame": 126
+            },
+            {
+              "text": "than",
+              "frame": 135
+            },
+            {
+              "text": "sixty.",
+              "frame": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto",
+      "from": 446,
+      "durationInFrames": 175,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 117,
+          "text": "Now Tahoe's auto-apply fills in the form from my profile,",
+          "words": [
+            {
+              "text": "Now",
+              "frame": 8
+            },
+            {
+              "text": "Tahoe's",
+              "frame": 14
+            },
+            {
+              "text": "auto-apply",
+              "frame": 34
+            },
+            {
+              "text": "fills",
+              "frame": 54
+            },
+            {
+              "text": "in",
+              "frame": 68
+            },
+            {
+              "text": "the",
+              "frame": 75
+            },
+            {
+              "text": "form",
+              "frame": 78
+            },
+            {
+              "text": "from",
+              "frame": 85
+            },
+            {
+              "text": "my",
+              "frame": 92
+            },
+            {
+              "text": "profile,",
+              "frame": 97
+            }
+          ]
+        },
+        {
+          "frame": 120,
+          "endFrame": 164,
+          "text": "on the company's own site.",
+          "words": [
+            {
+              "text": "on",
+              "frame": 120
+            },
+            {
+              "text": "the",
+              "frame": 124
+            },
+            {
+              "text": "company's",
+              "frame": 127
+            },
+            {
+              "text": "own",
+              "frame": 142
+            },
+            {
+              "text": "site.",
+              "frame": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asks",
+      "from": 619,
+      "durationInFrames": 153,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 71,
+          "text": "If it doesn't know an answer, it asks me.",
+          "words": [
+            {
+              "text": "If",
+              "frame": 4
+            },
+            {
+              "text": "it",
+              "frame": 7
+            },
+            {
+              "text": "doesn't",
+              "frame": 10
+            },
+            {
+              "text": "know",
+              "frame": 18
+            },
+            {
+              "text": "an",
+              "frame": 22
+            },
+            {
+              "text": "answer,",
+              "frame": 25
+            },
+            {
+              "text": "it",
+              "frame": 46
+            },
+            {
+              "text": "asks",
+              "frame": 49
+            },
+            {
+              "text": "me.",
+              "frame": 58
+            }
+          ]
+        },
+        {
+          "frame": 80,
+          "endFrame": 139,
+          "text": "Nothing goes out until I've checked it.",
+          "words": [
+            {
+              "text": "Nothing",
+              "frame": 80
+            },
+            {
+              "text": "goes",
+              "frame": 91
+            },
+            {
+              "text": "out",
+              "frame": 98
+            },
+            {
+              "text": "until",
+              "frame": 109
+            },
+            {
+              "text": "I've",
+              "frame": 118
+            },
+            {
+              "text": "checked",
+              "frame": 125
+            },
+            {
+              "text": "it.",
+              "frame": 132
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 770,
+      "durationInFrames": 123,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 42,
+          "text": "I get my evenings back.",
+          "words": [
+            {
+              "text": "I",
+              "frame": 8
+            },
+            {
+              "text": "get",
+              "frame": 12
+            },
+            {
+              "text": "my",
+              "frame": 16
+            },
+            {
+              "text": "evenings",
+              "frame": 21
+            },
+            {
+              "text": "back.",
+              "frame": 30
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

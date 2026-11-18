@@ -1,0 +1,89 @@
+{
+  "fps": 30,
+  "language": "english",
+  "engine": "clone",
+  "model": "models/qwen3/Base-8bit",
+  "design_model": "models/qwen3/VoiceDesign-8bit",
+  "design": "An adult American English man in his late twenties with a clearly masculine voice and a full chest resonance. A bright tenor: a little higher and lighter than an average man's voice, but never boyish or feminine. Crisp, clear, precise articulation with clean consonants. Upbeat, friendly and confident, like a product launch presenter. Studio quality, close microphone, no breathiness, natural conversational pace.",
+  "anchor_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "ref_audio": "voices/reel-male-anchor.wav",
+  "ref_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "speaker": null,
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.24,
+  "overlap_frames": 10,
+  "tempo": 0.97,
+  "scenes": [
+    {
+      "id": "story",
+      "lead": 0.8,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "Today's top story is about the job you applied for last week.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "ghosts",
+      "lead": 0.2,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "About one in five ads on job boards is a ghost.",
+          "pause": 0.35,
+          "fall": true
+        },
+        {
+          "text": "It collects resumes, and nobody gets hired.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "lead": 0.2,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "So Tahoe skips the boards.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "source",
+      "lead": 0.15,
+      "tail": 0.55,
+      "phrases": [
+        {
+          "text": "It reads each company's own career site,",
+          "pause": 0.12
+        },
+        {
+          "text": "more than two hundred thousand of them.",
+          "pause": 0.35,
+          "fall": true
+        },
+        {
+          "text": "Every job is checked daily, and closed ones are marked closed.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "Apply where the job really lives.",
+          "fall": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "fps": 30,
+  "overlap": 2,
+  "durationInFrames": 1072,
+  "voice": "qwen3 custom sohee tempo 1.0",
+  "scenes": [
+    {
+      "id": "upload",
+      "from": 0,
+      "durationInFrames": 175,
+      "cues": [
+        {
+          "frame": 15,
+          "endFrame": 54,
+          "text": "이력서를 올렸어요.",
+          "words": [
+            {
+              "text": "이력서를",
+              "frame": 15
+            },
+            {
+              "text": "올렸어요.",
+              "frame": 31
+            }
+          ]
+        },
+        {
+          "frame": 63,
+          "endFrame": 166,
+          "text": "그랬더니 이력서 내용을 직접 입력하래요.",
+          "words": [
+            {
+              "text": "그랬더니",
+              "frame": 63
+            },
+            {
+              "text": "이력서",
+              "frame": 83
+            },
+            {
+              "text": "내용을",
+              "frame": 109
+            },
+            {
+              "text": "직접",
+              "frame": 121
+            },
+            {
+              "text": "입력하래요.",
+              "frame": 129
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "again",
+      "from": 173,
+      "durationInFrames": 128,
+      "cues": [
+        {
+          "frame": 3,
+          "endFrame": 94,
+          "text": "이름, 이메일, 졸업 후 모든 경력까지.",
+          "words": [
+            {
+              "text": "이름,",
+              "frame": 3
+            },
+            {
+              "text": "이메일,",
+              "frame": 23
+            },
+            {
+              "text": "졸업",
+              "frame": 39
+            },
+            {
+              "text": "후",
+              "frame": 48
+            },
+            {
+              "text": "모든",
+              "frame": 52
+            },
+            {
+              "text": "경력까지.",
+              "frame": 60
+            }
+          ]
+        },
+        {
+          "frame": 103,
+          "endFrame": 118,
+          "text": "또요.",
+          "words": [
+            {
+              "text": "또요.",
+              "frame": 103
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hours",
+      "from": 299,
+      "durationInFrames": 189,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 91,
+          "text": "지원서 하나에 사십사 분쯤 걸리고,",
+          "words": [
+            {
+              "text": "지원서",
+              "frame": 4
+            },
+            {
+              "text": "하나에",
+              "frame": 22
+            },
+            {
+              "text": "사십사",
+              "frame": 35
+            },
+            {
+              "text": "분쯤",
+              "frame": 49
+            },
+            {
+              "text": "걸리고,",
+              "frame": 62
+            }
+          ]
+        },
+        {
+          "frame": 94,
+          "endFrame": 171,
+          "text": "구직자는 평균 예순 곳 넘게 지원해요.",
+          "words": [
+            {
+              "text": "구직자는",
+              "frame": 94
+            },
+            {
+              "text": "평균",
+              "frame": 110
+            },
+            {
+              "text": "예순",
+              "frame": 120
+            },
+            {
+              "text": "곳",
+              "frame": 130
+            },
+            {
+              "text": "넘게",
+              "frame": 139
+            },
+            {
+              "text": "지원해요.",
+              "frame": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto",
+      "from": 486,
+      "durationInFrames": 219,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 152,
+          "text": "이제 Tahoe 자동 지원이 제 프로필로 지원서를 채워요,",
+          "words": [
+            {
+              "text": "이제",
+              "frame": 8
+            },
+            {
+              "text": "Tahoe",
+              "frame": 23
+            },
+            {
+              "text": "자동",
+              "frame": 38
+            },
+            {
+              "text": "지원이",
+              "frame": 50
+            },
+            {
+              "text": "제",
+              "frame": 68
+            },
+            {
+              "text": "프로필로",
+              "frame": 91
+            },
+            {
+              "text": "지원서를",
+              "frame": 109
+            },
+            {
+              "text": "채워요,",
+              "frame": 130
+            }
+          ]
+        },
+        {
+          "frame": 155,
+          "endFrame": 208,
+          "text": "회사 사이트에서 바로요.",
+          "words": [
+            {
+              "text": "회사",
+              "frame": 155
+            },
+            {
+              "text": "사이트에서",
+              "frame": 165
+            },
+            {
+              "text": "바로요.",
+              "frame": 185
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asks",
+      "from": 703,
+      "durationInFrames": 217,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 93,
+          "text": "모르는 질문은 저한테 물어보고요.",
+          "words": [
+            {
+              "text": "모르는",
+              "frame": 4
+            },
+            {
+              "text": "질문은",
+              "frame": 21
+            },
+            {
+              "text": "저한테",
+              "frame": 44
+            },
+            {
+              "text": "물어보고요.",
+              "frame": 58
+            }
+          ]
+        },
+        {
+          "frame": 102,
+          "endFrame": 203,
+          "text": "제가 확인하기 전엔 아무것도 보내지 않아요.",
+          "words": [
+            {
+              "text": "제가",
+              "frame": 102
+            },
+            {
+              "text": "확인하기",
+              "frame": 109
+            },
+            {
+              "text": "전엔",
+              "frame": 123
+            },
+            {
+              "text": "아무것도",
+              "frame": 154
+            },
+            {
+              "text": "보내지",
+              "frame": 171
+            },
+            {
+              "text": "않아요.",
+              "frame": 186
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 918,
+      "durationInFrames": 154,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 64,
+          "text": "저녁 시간이 돌아왔어요.",
+          "words": [
+            {
+              "text": "저녁",
+              "frame": 8
+            },
+            {
+              "text": "시간이",
+              "frame": 18
+            },
+            {
+              "text": "돌아왔어요.",
+              "frame": 28
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

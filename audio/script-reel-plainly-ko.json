@@ -1,0 +1,90 @@
+{
+  "fps": 30,
+  "language": "korean",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.2,
+  "overlap_frames": 2,
+  "scenes": [
+    {
+      "id": "boxes",
+      "lead": 0.5,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "대부분의 채용 사이트는 검색 한 번에 칸을 마흔 개나 채우게 하죠.",
+          "fall": true,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm. Playfully exasperated."
+        }
+      ]
+    },
+    {
+      "id": "friend",
+      "lead": 0.15,
+      "tail": 0.3,
+      "phrases": [
+        {
+          "text": "Tahoe에서는 친구에게 문자 보내듯 쓰면 돼요.",
+          "say": "타호에서는 친구에게 문자 보내듯 쓰면 돼요.",
+          "fall": true,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        }
+      ]
+    },
+    {
+      "id": "read",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "무슨 뜻인지 알아듣고,",
+          "pause": 0.1,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        },
+        {
+          "text": "이해한 내용을 보여 주고,",
+          "pause": 0.1,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        },
+        {
+          "text": "딱 맞는 공고를 찾아 줘요.",
+          "fall": true,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        }
+      ]
+    },
+    {
+      "id": "count",
+      "lead": 0.15,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "오백만 건이 넘는 채용 공고를,",
+          "pause": 0.1,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        },
+        {
+          "text": "기업 채용 사이트에서 바로 가져오죠.",
+          "fall": true,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.2,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "원하는 걸 그냥 말하세요.",
+          "fall": true,
+          "instruct": "Bright, quick and playful, upbeat with a smile, punchy rhythm. Confident, final."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "fps": 30,
+  "gap": 0.22,
+  "overlap_frames": 8,
+  "language": "english",
+  "engine": "clone",
+  "model": "models/qwen3/Base-8bit",
+  "design_model": "models/qwen3/VoiceDesign-8bit",
+  "design": "An adult American English man in his late twenties with a clearly masculine voice and a full chest resonance. A bright tenor: a little higher and lighter than an average man's voice, but never boyish or feminine. Crisp, clear, precise articulation with clean consonants. Upbeat, friendly and confident, like a product launch presenter. Studio quality, close microphone, no breathiness, natural conversational pace.",
+  "anchor_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "ref_audio": "voices/reel-male-anchor.wav",
+  "ref_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "speaker": null,
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "tempo": 1.0,
+  "scenes": [
+    {
+      "id": "hook",
+      "lead": 0.8,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "You finally find the right job.",
+          "pause": 0.4
+        },
+        {
+          "text": "Everyone else found it first.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "problem",
+      "lead": 0.15,
+      "tail": 0.75,
+      "phrases": [
+        {
+          "text": "Apply on a job board,",
+          "pause": 0.12
+        },
+        {
+          "text": "and you're buried in the pile.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "lead": 0.2,
+      "tail": 1.15,
+      "phrases": [
+        {
+          "text": "Apply on the company's own site,",
+          "pause": 0.12
+        },
+        {
+          "text": "and you're almost twice as likely to get an interview.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "lead": 0.3,
+      "tail": 0.65,
+      "phrases": [
+        {
+          "text": "That's where Tahoe looks.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "feature",
+      "lead": 0.2,
+      "tail": 1.2,
+      "phrases": [
+        {
+          "text": "Every hour, it checks over two hundred thousand of them.",
+          "pause": 0.6
+        },
+        {
+          "text": "So you see new jobs early.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "lead": 0.25,
+      "tail": 3.3,
+      "phrases": [
+        {
+          "text": "Get there before everyone else.",
+          "fall": true
+        }
+      ]
+    }
+  ]
+}

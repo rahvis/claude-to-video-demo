@@ -1,0 +1,100 @@
+{
+  "fps": 30,
+  "gap": 0.3,
+  "overlap_frames": 10,
+  "language": "english",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 5,
+  "tempo": 1.0,
+  "scenes": [
+    {
+      "id": "applied",
+      "lead": 0.7,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "You applied.",
+          "pause": 0.55,
+          "fall": true,
+          "instruct": "Deadpan and dry, understated, a little wry. Quiet, unhurried, small pauses."
+        },
+        {
+          "text": "You followed up.",
+          "pause": 0.55,
+          "fall": true,
+          "instruct": "Deadpan and dry, understated, a little wry. Quiet, unhurried, small pauses."
+        },
+        {
+          "text": "You checked your email.",
+          "pause": 0.45,
+          "fall": true,
+          "instruct": "Deadpan and dry, understated, a little wry. Quiet, unhurried, small pauses. Self-mocking."
+        },
+        {
+          "text": "It works.",
+          "fall": true,
+          "instruct": "Deadpan and dry, understated, a little wry. Quiet, unhurried, small pauses. Self-mocking."
+        }
+      ]
+    },
+    {
+      "id": "silence",
+      "lead": 0.3,
+      "tail": 0.7,
+      "phrases": [
+        {
+          "text": "Last year, eight in ten job seekers got turned down without one conversation.",
+          "fall": true,
+          "instruct": "Deadpan and dry, understated, a little wry. Quiet, unhurried, small pauses. Flat, matter-of-fact."
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "lead": 0.25,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "So stop guessing.",
+          "fall": true,
+          "instruct": "Calm and certain, a gentle turn toward hope."
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "lead": 0.15,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "Tahoe tells you why a job fits you, before you apply.",
+          "pause": 0.4,
+          "fall": true,
+          "instruct": "Warm and clear, friendly confidence. End with a calm, falling intonation: a plain statement, not a question.",
+          "takes": 8
+        },
+        {
+          "text": "Your best matches, each one explained.",
+          "fall": true,
+          "instruct": "Warm and clear, friendly confidence."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "Spend your next application where it counts.",
+          "fall": true,
+          "instruct": "Warm, softly encouraging, a small smile."
+        }
+      ]
+    }
+  ]
+}

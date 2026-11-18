@@ -1,0 +1,109 @@
+{
+  "fps": 30,
+  "language": "english",
+  "engine": "clone",
+  "model": "models/qwen3/Base-8bit",
+  "design_model": "models/qwen3/VoiceDesign-8bit",
+  "design": "An adult American English man in his late twenties with a clearly masculine voice and a full chest resonance. A bright tenor: a little higher and lighter than an average man's voice, but never boyish or feminine. Crisp, clear, precise articulation with clean consonants. Upbeat, friendly and confident, like a product launch presenter. Studio quality, close microphone, no breathiness, natural conversational pace.",
+  "anchor_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "ref_audio": "voices/reel-male-anchor.wav",
+  "ref_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "speaker": null,
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.2,
+  "overlap_frames": 2,
+  "tempo": 1.03,
+  "scenes": [
+    {
+      "id": "upload",
+      "lead": 0.5,
+      "tail": 0.3,
+      "phrases": [
+        {
+          "text": "I uploaded my resume.",
+          "pause": 0.3,
+          "fall": true
+        },
+        {
+          "text": "Then the form asked me to type my resume.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "again",
+      "lead": 0.1,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "My name, my email, every job since college.",
+          "pause": 0.3
+        },
+        {
+          "text": "Again.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "hours",
+      "lead": 0.15,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "One application takes about forty-four minutes,",
+          "pause": 0.12
+        },
+        {
+          "text": "and the average job seeker sends more than sixty.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "auto",
+      "lead": 0.25,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "Now Tahoe's auto-apply fills in the form from my profile,",
+          "say": "Now Tahoe's auto apply fills in the form from my profile,",
+          "pause": 0.1
+        },
+        {
+          "text": "on the company's own site.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "asks",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "If it doesn't know an answer, it asks me.",
+          "pause": 0.3,
+          "fall": true
+        },
+        {
+          "text": "Nothing goes out until I've checked it.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 2.7,
+      "phrases": [
+        {
+          "text": "I get my evenings back.",
+          "fall": true
+        }
+      ]
+    }
+  ]
+}

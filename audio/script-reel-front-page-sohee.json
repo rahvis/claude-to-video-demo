@@ -1,0 +1,92 @@
+{
+  "fps": 30,
+  "gap": 0.24,
+  "overlap_frames": 10,
+  "language": "english",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "tempo": 1.0,
+  "scenes": [
+    {
+      "id": "story",
+      "lead": 0.8,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "Today's top story is about the job you applied for last week.",
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        }
+      ]
+    },
+    {
+      "id": "ghosts",
+      "lead": 0.2,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "About one in five ads on job boards is a ghost.",
+          "pause": 0.35,
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        },
+        {
+          "text": "It collects resumes, and nobody gets hired.",
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace. A touch of dry gravity."
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "lead": 0.2,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "So Tahoe skips the boards.",
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        }
+      ]
+    },
+    {
+      "id": "source",
+      "lead": 0.15,
+      "tail": 0.55,
+      "phrases": [
+        {
+          "text": "It reads each company's own career site,",
+          "pause": 0.12,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        },
+        {
+          "text": "more than two hundred thousand of them.",
+          "pause": 0.35,
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        },
+        {
+          "text": "Every job is checked daily, and closed ones are marked closed.",
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "Apply where the job really lives.",
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace. Warm, conclusive sign-off."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "fps": 30,
+  "overlap": 10,
+  "durationInFrames": 828,
+  "voice": "qwen3 custom sohee tempo 1.0",
+  "scenes": [
+    {
+      "id": "story",
+      "from": 0,
+      "durationInFrames": 141,
+      "cues": [
+        {
+          "frame": 24,
+          "endFrame": 127,
+          "text": "Today's top story is about the job you applied for last week.",
+          "words": [
+            {
+              "text": "Today's",
+              "frame": 24
+            },
+            {
+              "text": "top",
+              "frame": 36
+            },
+            {
+              "text": "story",
+              "frame": 42
+            },
+            {
+              "text": "is",
+              "frame": 56
+            },
+            {
+              "text": "about",
+              "frame": 63
+            },
+            {
+              "text": "the",
+              "frame": 70
+            },
+            {
+              "text": "job",
+              "frame": 76
+            },
+            {
+              "text": "you",
+              "frame": 84
+            },
+            {
+              "text": "applied",
+              "frame": 90
+            },
+            {
+              "text": "for",
+              "frame": 99
+            },
+            {
+              "text": "last",
+              "frame": 108
+            },
+            {
+              "text": "week.",
+              "frame": 116
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ghosts",
+      "from": 131,
+      "durationInFrames": 208,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 105,
+          "text": "About one in five ads on job boards is a ghost.",
+          "words": [
+            {
+              "text": "About",
+              "frame": 6
+            },
+            {
+              "text": "one",
+              "frame": 15
+            },
+            {
+              "text": "in",
+              "frame": 25
+            },
+            {
+              "text": "five",
+              "frame": 30
+            },
+            {
+              "text": "ads",
+              "frame": 38
+            },
+            {
+              "text": "on",
+              "frame": 50
+            },
+            {
+              "text": "job",
+              "frame": 58
+            },
+            {
+              "text": "boards",
+              "frame": 66
+            },
+            {
+              "text": "is",
+              "frame": 78
+            },
+            {
+              "text": "a",
+              "frame": 87
+            },
+            {
+              "text": "ghost.",
+              "frame": 91
+            }
+          ]
+        },
+        {
+          "frame": 115,
+          "endFrame": 190,
+          "text": "It collects resumes, and nobody gets hired.",
+          "words": [
+            {
+              "text": "It",
+              "frame": 115
+            },
+            {
+              "text": "collects",
+              "frame": 118
+            },
+            {
+              "text": "resumes,",
+              "frame": 129
+            },
+            {
+              "text": "and",
+              "frame": 157
+            },
+            {
+              "text": "nobody",
+              "frame": 160
+            },
+            {
+              "text": "gets",
+              "frame": 167
+            },
+            {
+              "text": "hired.",
+              "frame": 176
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "from": 329,
+      "durationInFrames": 64,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 52,
+          "text": "So Tahoe skips the boards.",
+          "words": [
+            {
+              "text": "So",
+              "frame": 6
+            },
+            {
+              "text": "Tahoe",
+              "frame": 10
+            },
+            {
+              "text": "skips",
+              "frame": 22
+            },
+            {
+              "text": "the",
+              "frame": 32
+            },
+            {
+              "text": "boards.",
+              "frame": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source",
+      "from": 383,
+      "durationInFrames": 299,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 79,
+          "text": "It reads each company's own career site,",
+          "words": [
+            {
+              "text": "It",
+              "frame": 4
+            },
+            {
+              "text": "reads",
+              "frame": 7
+            },
+            {
+              "text": "each",
+              "frame": 18
+            },
+            {
+              "text": "company's",
+              "frame": 27
+            },
+            {
+              "text": "own",
+              "frame": 46
+            },
+            {
+              "text": "career",
+              "frame": 54
+            },
+            {
+              "text": "site,",
+              "frame": 67
+            }
+          ]
+        },
+        {
+          "frame": 82,
+          "endFrame": 154,
+          "text": "more than two hundred thousand of them.",
+          "words": [
+            {
+              "text": "more",
+              "frame": 82
+            },
+            {
+              "text": "than",
+              "frame": 88
+            },
+            {
+              "text": "two",
+              "frame": 99
+            },
+            {
+              "text": "hundred",
+              "frame": 110
+            },
+            {
+              "text": "thousand",
+              "frame": 120
+            },
+            {
+              "text": "of",
+              "frame": 131
+            },
+            {
+              "text": "them.",
+              "frame": 142
+            }
+          ]
+        },
+        {
+          "frame": 165,
+          "endFrame": 283,
+          "text": "Every job is checked daily, and closed ones are marked closed.",
+          "words": [
+            {
+              "text": "Every",
+              "frame": 165
+            },
+            {
+              "text": "job",
+              "frame": 172
+            },
+            {
+              "text": "is",
+              "frame": 179
+            },
+            {
+              "text": "checked",
+              "frame": 186
+            },
+            {
+              "text": "daily,",
+              "frame": 195
+            },
+            {
+              "text": "and",
+              "frame": 208
+            },
+            {
+              "text": "closed",
+              "frame": 231
+            },
+            {
+              "text": "ones",
+              "frame": 239
+            },
+            {
+              "text": "are",
+              "frame": 249
+            },
+            {
+              "text": "marked",
+              "frame": 256
+            },
+            {
+              "text": "closed.",
+              "frame": 264
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 672,
+      "durationInFrames": 156,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 66,
+          "text": "Apply where the job really lives.",
+          "words": [
+            {
+              "text": "Apply",
+              "frame": 8
+            },
+            {
+              "text": "where",
+              "frame": 19
+            },
+            {
+              "text": "the",
+              "frame": 27
+            },
+            {
+              "text": "job",
+              "frame": 32
+            },
+            {
+              "text": "really",
+              "frame": 38
+            },
+            {
+              "text": "lives.",
+              "frame": 47
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

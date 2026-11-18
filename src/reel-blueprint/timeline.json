@@ -1,0 +1,385 @@
+{
+  "fps": 30,
+  "overlap": 0,
+  "durationInFrames": 879,
+  "voice": "qwen3 clone reel-male-anchor tempo 0.98",
+  "scenes": [
+    {
+      "id": "how",
+      "from": 0,
+      "durationInFrames": 127,
+      "cues": [
+        {
+          "frame": 18,
+          "endFrame": 72,
+          "text": "Here's how auto-apply works,",
+          "words": [
+            {
+              "text": "Here's",
+              "frame": 18
+            },
+            {
+              "text": "how",
+              "frame": 27
+            },
+            {
+              "text": "auto-apply",
+              "frame": 40
+            },
+            {
+              "text": "works,",
+              "frame": 53
+            }
+          ]
+        },
+        {
+          "frame": 76,
+          "endFrame": 115,
+          "text": "and what it never does.",
+          "words": [
+            {
+              "text": "and",
+              "frame": 76
+            },
+            {
+              "text": "what",
+              "frame": 80
+            },
+            {
+              "text": "it",
+              "frame": 85
+            },
+            {
+              "text": "never",
+              "frame": 89
+            },
+            {
+              "text": "does.",
+              "frame": 98
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stat",
+      "from": 127,
+      "durationInFrames": 138,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 123,
+          "text": "Four in ten job seekers admit they've added skills they don't have.",
+          "words": [
+            {
+              "text": "Four",
+              "frame": 6
+            },
+            {
+              "text": "in",
+              "frame": 15
+            },
+            {
+              "text": "ten",
+              "frame": 21
+            },
+            {
+              "text": "job",
+              "frame": 28
+            },
+            {
+              "text": "seekers",
+              "frame": 37
+            },
+            {
+              "text": "admit",
+              "frame": 48
+            },
+            {
+              "text": "they've",
+              "frame": 60
+            },
+            {
+              "text": "added",
+              "frame": 79
+            },
+            {
+              "text": "skills",
+              "frame": 85
+            },
+            {
+              "text": "they",
+              "frame": 96
+            },
+            {
+              "text": "don't",
+              "frame": 105
+            },
+            {
+              "text": "have.",
+              "frame": 112
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resume",
+      "from": 265,
+      "durationInFrames": 167,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 81,
+          "text": "Tahoe tailors your resume to each job,",
+          "words": [
+            {
+              "text": "Tahoe",
+              "frame": 4
+            },
+            {
+              "text": "tailors",
+              "frame": 21
+            },
+            {
+              "text": "your",
+              "frame": 35
+            },
+            {
+              "text": "resume",
+              "frame": 39
+            },
+            {
+              "text": "to",
+              "frame": 49
+            },
+            {
+              "text": "each",
+              "frame": 57
+            },
+            {
+              "text": "job,",
+              "frame": 64
+            }
+          ]
+        },
+        {
+          "frame": 84,
+          "endFrame": 154,
+          "text": "but never adds a thing that isn't yours.",
+          "words": [
+            {
+              "text": "but",
+              "frame": 84
+            },
+            {
+              "text": "never",
+              "frame": 87
+            },
+            {
+              "text": "adds",
+              "frame": 97
+            },
+            {
+              "text": "a",
+              "frame": 109
+            },
+            {
+              "text": "thing",
+              "frame": 114
+            },
+            {
+              "text": "that",
+              "frame": 121
+            },
+            {
+              "text": "isn't",
+              "frame": 127
+            },
+            {
+              "text": "yours.",
+              "frame": 138
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "form",
+      "from": 432,
+      "durationInFrames": 157,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 79,
+          "text": "It fills in the form on the company's own site,",
+          "words": [
+            {
+              "text": "It",
+              "frame": 4
+            },
+            {
+              "text": "fills",
+              "frame": 9
+            },
+            {
+              "text": "in",
+              "frame": 17
+            },
+            {
+              "text": "the",
+              "frame": 23
+            },
+            {
+              "text": "form",
+              "frame": 27
+            },
+            {
+              "text": "on",
+              "frame": 34
+            },
+            {
+              "text": "the",
+              "frame": 40
+            },
+            {
+              "text": "company's",
+              "frame": 45
+            },
+            {
+              "text": "own",
+              "frame": 59
+            },
+            {
+              "text": "site,",
+              "frame": 64
+            }
+          ]
+        },
+        {
+          "frame": 83,
+          "endFrame": 144,
+          "text": "and shows where every answer came from.",
+          "words": [
+            {
+              "text": "and",
+              "frame": 83
+            },
+            {
+              "text": "shows",
+              "frame": 87
+            },
+            {
+              "text": "where",
+              "frame": 95
+            },
+            {
+              "text": "every",
+              "frame": 103
+            },
+            {
+              "text": "answer",
+              "frame": 113
+            },
+            {
+              "text": "came",
+              "frame": 122
+            },
+            {
+              "text": "from.",
+              "frame": 131
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "approve",
+      "from": 589,
+      "durationInFrames": 107,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 62,
+          "text": "Nothing goes out until you approve it.",
+          "words": [
+            {
+              "text": "Nothing",
+              "frame": 4
+            },
+            {
+              "text": "goes",
+              "frame": 16
+            },
+            {
+              "text": "out",
+              "frame": 23
+            },
+            {
+              "text": "until",
+              "frame": 32
+            },
+            {
+              "text": "you",
+              "frame": 41
+            },
+            {
+              "text": "approve",
+              "frame": 47
+            },
+            {
+              "text": "it.",
+              "frame": 56
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 696,
+      "durationInFrames": 183,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 102,
+          "text": "It's your job search. Tahoe does the typing.",
+          "words": [
+            {
+              "text": "It's",
+              "frame": 8
+            },
+            {
+              "text": "your",
+              "frame": 15
+            },
+            {
+              "text": "job",
+              "frame": 19
+            },
+            {
+              "text": "search.",
+              "frame": 29
+            },
+            {
+              "text": "Tahoe",
+              "frame": 62
+            },
+            {
+              "text": "does",
+              "frame": 69
+            },
+            {
+              "text": "the",
+              "frame": 77
+            },
+            {
+              "text": "typing.",
+              "frame": 85
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

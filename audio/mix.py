@@ -73,8 +73,8 @@ def duck_gain(vo: np.ndarray, depth_db: float = -6.0) -> np.ndarray:
     return 1 - (1 - db(depth_db)) * np.clip(smooth * 1.4, 0, 1)
 
 
-def loudnorm(src: Path, dst: Path, target: float = -14.0) -> dict:
-    flt = f"loudnorm=I={target}:TP=-1.0:LRA=11"
+def loudnorm(src: Path, dst: Path, target: float = -14.0, tp: float = -1.0) -> dict:
+    flt = f"loudnorm=I={target}:TP={tp}:LRA=11"
     p = subprocess.run(
         ["ffmpeg", "-hide_banner", "-i", str(src), "-af", flt + ":print_format=json", "-f", "null", "-"],
         capture_output=True, text=True, check=True,
@@ -95,6 +95,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--music", type=Path, help="licensed track to use instead of the generated score")
     ap.add_argument("--variant", default="", help="mix the variant's narration/stems into public/<v>/mix.wav")
+    ap.add_argument("--tp", type=float, default=-1.0, help="true-peak ceiling in dBTP (lower leaves room for AAC overshoot)")
     args = ap.parse_args()
     build = HERE / "build" / args.variant
     vo_path = ROOT / f"public/{args.variant}/vo.wav" if args.variant else ROOT / "public/vo/vo.wav"
@@ -119,7 +120,7 @@ def main():
 
     raw = build / "mix-raw.wav"
     sf.write(raw, mix.T.astype(np.float32), SR, subtype="FLOAT")
-    m = loudnorm(raw, mix_path)
+    m = loudnorm(raw, mix_path, tp=args.tp)
     print(f"mixed {n / SR:.1f}s  (pre-norm {m['input_i']} LUFS, TP {m['input_tp']}) -> {mix_path.relative_to(ROOT)} at -14 LUFS")
 
 

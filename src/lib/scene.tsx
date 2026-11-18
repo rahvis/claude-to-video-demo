@@ -6,7 +6,7 @@ export type Word = { text: string; frame: number };
 export type Cue = { frame: number; endFrame: number; text: string; words: Word[] };
 export type SceneData = { id: string; from: number; durationInFrames: number; cues: Cue[] };
 
-type EventSpec = { cue: number | null; at: number; word?: number };
+type EventSpec = { cue: number | null; at: number; word?: number; frac?: number };
 export type EventMap = Record<string, Record<string, EventSpec>>;
 
 const Ctx = createContext<SceneData | null>(null);
@@ -31,7 +31,9 @@ export const useEvent = (name: string): number => {
   if (!e) throw new Error(`unknown event ${s.id}.${name}`);
   if (e.cue === null) return e.at;
   const cue = s.cues[e.cue];
-  return (e.word !== undefined ? cue.words[e.word].frame : cue.frame) + e.at;
+  // `word`: on a word (space-separated languages); `frac`: a fraction into the line (Chinese, Japanese)
+  const base = e.word !== undefined ? cue.words[e.word].frame : e.frac !== undefined ? Math.round(cue.frame + e.frac * (cue.endFrame - cue.frame)) : cue.frame;
+  return base + e.at;
 };
 
 export const useLayout = () => {

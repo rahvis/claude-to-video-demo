@@ -1,0 +1,319 @@
+{
+  "fps": 30,
+  "overlap": 10,
+  "durationInFrames": 1016,
+  "voice": "qwen3 custom sohee tempo 1.0",
+  "scenes": [
+    {
+      "id": "story",
+      "from": 0,
+      "durationInFrames": 180,
+      "cues": [
+        {
+          "frame": 24,
+          "endFrame": 166,
+          "text": "오늘의 주요 뉴스는, 지난주에 지원한 바로 그 공고 이야기입니다.",
+          "words": [
+            {
+              "text": "오늘의",
+              "frame": 24
+            },
+            {
+              "text": "주요",
+              "frame": 36
+            },
+            {
+              "text": "뉴스는,",
+              "frame": 45
+            },
+            {
+              "text": "지난주에",
+              "frame": 62
+            },
+            {
+              "text": "지원한",
+              "frame": 90
+            },
+            {
+              "text": "바로",
+              "frame": 106
+            },
+            {
+              "text": "그",
+              "frame": 115
+            },
+            {
+              "text": "공고",
+              "frame": 132
+            },
+            {
+              "text": "이야기입니다.",
+              "frame": 149
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ghosts",
+      "from": 170,
+      "durationInFrames": 230,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 119,
+          "text": "구인 사이트 공고 다섯 건 중 한 건은 유령 공고입니다.",
+          "words": [
+            {
+              "text": "구인",
+              "frame": 6
+            },
+            {
+              "text": "사이트",
+              "frame": 15
+            },
+            {
+              "text": "공고",
+              "frame": 27
+            },
+            {
+              "text": "다섯",
+              "frame": 35
+            },
+            {
+              "text": "건",
+              "frame": 44
+            },
+            {
+              "text": "중",
+              "frame": 52
+            },
+            {
+              "text": "한",
+              "frame": 66
+            },
+            {
+              "text": "건은",
+              "frame": 79
+            },
+            {
+              "text": "유령",
+              "frame": 92
+            },
+            {
+              "text": "공고입니다.",
+              "frame": 106
+            }
+          ]
+        },
+        {
+          "frame": 130,
+          "endFrame": 212,
+          "text": "이력서는 받지만, 아무도 채용되지 않죠.",
+          "words": [
+            {
+              "text": "이력서는",
+              "frame": 130
+            },
+            {
+              "text": "받지만,",
+              "frame": 145
+            },
+            {
+              "text": "아무도",
+              "frame": 160
+            },
+            {
+              "text": "채용되지",
+              "frame": 182
+            },
+            {
+              "text": "않죠.",
+              "frame": 198
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "from": 390,
+      "durationInFrames": 122,
+      "cues": [
+        {
+          "frame": 6,
+          "endFrame": 110,
+          "text": "그래서 Tahoe는 구인 사이트를 거치지 않습니다.",
+          "words": [
+            {
+              "text": "그래서",
+              "frame": 6
+            },
+            {
+              "text": "Tahoe는",
+              "frame": 25
+            },
+            {
+              "text": "구인",
+              "frame": 45
+            },
+            {
+              "text": "사이트를",
+              "frame": 63
+            },
+            {
+              "text": "거치지",
+              "frame": 76
+            },
+            {
+              "text": "않습니다.",
+              "frame": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source",
+      "from": 502,
+      "durationInFrames": 347,
+      "cues": [
+        {
+          "frame": 4,
+          "endFrame": 69,
+          "text": "기업이 직접 운영하는 채용 사이트,",
+          "words": [
+            {
+              "text": "기업이",
+              "frame": 4
+            },
+            {
+              "text": "직접",
+              "frame": 18
+            },
+            {
+              "text": "운영하는",
+              "frame": 25
+            },
+            {
+              "text": "채용",
+              "frame": 41
+            },
+            {
+              "text": "사이트,",
+              "frame": 51
+            }
+          ]
+        },
+        {
+          "frame": 73,
+          "endFrame": 179,
+          "text": "이십만 곳이 넘는 사이트에서 공고를 읽어 옵니다.",
+          "words": [
+            {
+              "text": "이십만",
+              "frame": 73
+            },
+            {
+              "text": "곳이",
+              "frame": 87
+            },
+            {
+              "text": "넘는",
+              "frame": 96
+            },
+            {
+              "text": "사이트에서",
+              "frame": 105
+            },
+            {
+              "text": "공고를",
+              "frame": 124
+            },
+            {
+              "text": "읽어",
+              "frame": 142
+            },
+            {
+              "text": "옵니다.",
+              "frame": 161
+            }
+          ]
+        },
+        {
+          "frame": 189,
+          "endFrame": 331,
+          "text": "모든 공고를 매일 확인하고, 마감된 공고는 마감으로 표시하죠.",
+          "words": [
+            {
+              "text": "모든",
+              "frame": 189
+            },
+            {
+              "text": "공고를",
+              "frame": 199
+            },
+            {
+              "text": "매일",
+              "frame": 216
+            },
+            {
+              "text": "확인하고,",
+              "frame": 227
+            },
+            {
+              "text": "마감된",
+              "frame": 243
+            },
+            {
+              "text": "공고는",
+              "frame": 270
+            },
+            {
+              "text": "마감으로",
+              "frame": 288
+            },
+            {
+              "text": "표시하죠.",
+              "frame": 309
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "from": 839,
+      "durationInFrames": 177,
+      "cues": [
+        {
+          "frame": 8,
+          "endFrame": 87,
+          "text": "일자리가 실제로 있는 곳에서 지원하세요.",
+          "words": [
+            {
+              "text": "일자리가",
+              "frame": 8
+            },
+            {
+              "text": "실제로",
+              "frame": 23
+            },
+            {
+              "text": "있는",
+              "frame": 36
+            },
+            {
+              "text": "곳에서",
+              "frame": 47
+            },
+            {
+              "text": "지원하세요.",
+              "frame": 59
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

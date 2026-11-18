@@ -1,0 +1,109 @@
+{
+  "applied": {
+    "m1": {
+      "cue": 0,
+      "at": -4,
+      "sfx": "sent"
+    },
+    "day2": {
+      "cue": 1,
+      "at": -12
+    },
+    "m2": {
+      "cue": 1,
+      "at": -2,
+      "sfx": "sent"
+    },
+    "day3": {
+      "cue": 2,
+      "at": -10
+    },
+    "m3": {
+      "cue": 2,
+      "word": 1,
+      "at": 0,
+      "sfx": "sent"
+    },
+    "dots": {
+      "cue": 2,
+      "word": 6,
+      "at": 12,
+      "sfx": "tick"
+    }
+  },
+  "silence": {
+    "dotsOff": {
+      "cue": 0,
+      "word": 0,
+      "at": 2
+    },
+    "stat": {
+      "cue": 0,
+      "word": 3,
+      "at": 0,
+      "sfx": "low"
+    },
+    "label": {
+      "cue": 0,
+      "word": 8,
+      "at": 0
+    }
+  },
+  "turn": {
+    "mark": {
+      "cue": 0,
+      "word": 2,
+      "at": 8,
+      "sfx": "swoosh"
+    }
+  },
+  "why": {
+    "t1": {
+      "cue": null,
+      "at": 0,
+      "sfx": "notify"
+    },
+    "card": {
+      "cue": 0,
+      "word": 3,
+      "at": 0,
+      "sfx": "pop"
+    },
+    "why": {
+      "cue": 0,
+      "word": 5,
+      "at": 0,
+      "sfx": "notify"
+    },
+    "more1": {
+      "cue": 1,
+      "word": 2,
+      "at": 0,
+      "sfx": "pop"
+    },
+    "more2": {
+      "cue": 1,
+      "word": 5,
+      "at": 0,
+      "sfx": "pop"
+    }
+  },
+  "close": {
+    "end": {
+      "cue": 0,
+      "word": 2,
+      "at": 0
+    },
+    "lockup": {
+      "cue": 0,
+      "word": 5,
+      "at": 14,
+      "sfx": "chime"
+    },
+    "line": {
+      "cue": 0,
+      "word": 5,
+      "at": 28
+    }
+  }
+}

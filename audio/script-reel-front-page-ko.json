@@ -1,0 +1,92 @@
+{
+  "fps": 30,
+  "language": "korean",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.26,
+  "overlap_frames": 10,
+  "scenes": [
+    {
+      "id": "story",
+      "lead": 0.8,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "오늘의 주요 뉴스는, 지난주에 지원한 바로 그 공고 이야기입니다.",
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        }
+      ]
+    },
+    {
+      "id": "ghosts",
+      "lead": 0.2,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "구인 사이트 공고 다섯 건 중 한 건은 유령 공고입니다.",
+          "pause": 0.35,
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        },
+        {
+          "text": "이력서는 받지만, 아무도 채용되지 않죠.",
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace. A touch of dry gravity."
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "lead": 0.2,
+      "tail": 0.4,
+      "phrases": [
+        {
+          "text": "그래서 Tahoe는 구인 사이트를 거치지 않습니다.",
+          "say": "그래서 타호는 구인 사이트를 거치지 않습니다.",
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        }
+      ]
+    },
+    {
+      "id": "source",
+      "lead": 0.15,
+      "tail": 0.55,
+      "phrases": [
+        {
+          "text": "기업이 직접 운영하는 채용 사이트,",
+          "pause": 0.12,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        },
+        {
+          "text": "이십만 곳이 넘는 사이트에서 공고를 읽어 옵니다.",
+          "pause": 0.35,
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        },
+        {
+          "text": "모든 공고를 매일 확인하고, 마감된 공고는 마감으로 표시하죠.",
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "일자리가 실제로 있는 곳에서 지원하세요.",
+          "fall": true,
+          "instruct": "Measured, calm news anchor. Neutral and authoritative, crisp consonants, steady pace. Warm, conclusive sign-off."
+        }
+      ]
+    }
+  ]
+}

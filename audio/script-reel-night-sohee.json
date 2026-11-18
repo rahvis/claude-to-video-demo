@@ -1,0 +1,108 @@
+{
+  "fps": 30,
+  "gap": 0.3,
+  "overlap_frames": 14,
+  "language": "english",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "tempo": 1.0,
+  "scenes": [
+    {
+      "id": "late",
+      "lead": 0.9,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "It's late.",
+          "pause": 0.55,
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        },
+        {
+          "text": "You've sent four applications tonight,",
+          "pause": 0.15,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        },
+        {
+          "text": "and you're out of steam.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        }
+      ]
+    },
+    {
+      "id": "months",
+      "lead": 0.25,
+      "tail": 0.7,
+      "phrases": [
+        {
+          "text": "A job search now runs close to three months.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        }
+      ]
+    },
+    {
+      "id": "shift",
+      "lead": 0.25,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "So let Tahoe take the next shift.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        }
+      ]
+    },
+    {
+      "id": "morning",
+      "lead": 0.2,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "Each morning, it picks from your newest matches,",
+          "pause": 0.15,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        },
+        {
+          "text": "and fills in the applications for you.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "lead": 0.2,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "You read each one with your coffee,",
+          "pause": 0.15,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        },
+        {
+          "text": "and send the ones you like.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.3,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "Get some sleep.",
+          "fall": true,
+          "instruct": "Soft, hushed and intimate, slow and soothing, like a bedtime story. Almost a whisper."
+        }
+      ]
+    }
+  ]
+}

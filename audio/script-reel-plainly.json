@@ -1,0 +1,87 @@
+{
+  "fps": 30,
+  "language": "english",
+  "engine": "clone",
+  "model": "models/qwen3/Base-8bit",
+  "design_model": "models/qwen3/VoiceDesign-8bit",
+  "design": "An adult American English man in his late twenties with a clearly masculine voice and a full chest resonance. A bright tenor: a little higher and lighter than an average man's voice, but never boyish or feminine. Crisp, clear, precise articulation with clean consonants. Upbeat, friendly and confident, like a product launch presenter. Studio quality, close microphone, no breathiness, natural conversational pace.",
+  "anchor_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "ref_audio": "voices/reel-male-anchor.wav",
+  "ref_text": "You know that feeling? You send an application, and then nothing. Not a word. Honestly, it happens to all of us. But here's the good part. Finding the right job can actually feel easy.",
+  "speaker": null,
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.18,
+  "overlap_frames": 2,
+  "tempo": 1.05,
+  "scenes": [
+    {
+      "id": "boxes",
+      "lead": 0.5,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "Most job sites make you fill in forty boxes just to search.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "friend",
+      "lead": 0.15,
+      "tail": 0.3,
+      "phrases": [
+        {
+          "text": "With Tahoe, you type it the way you'd text a friend.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "read",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "It works out what you meant,",
+          "pause": 0.1
+        },
+        {
+          "text": "shows you what it understood,",
+          "pause": 0.1
+        },
+        {
+          "text": "and finds the jobs that fit.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "count",
+      "lead": 0.15,
+      "tail": 0.5,
+      "phrases": [
+        {
+          "text": "More than five million open roles,",
+          "pause": 0.1
+        },
+        {
+          "text": "read straight from company career sites.",
+          "fall": true
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.2,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "Just say what you want.",
+          "fall": true
+        }
+      ]
+    }
+  ]
+}

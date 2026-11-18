@@ -1,0 +1,114 @@
+{
+  "fps": 30,
+  "language": "korean",
+  "engine": "custom",
+  "model": "models/qwen3/CustomVoice-8bit",
+  "speaker": "sohee",
+  "temperature": 0.8,
+  "seed": 11,
+  "takes": 3,
+  "gap": 0.22,
+  "overlap_frames": 2,
+  "scenes": [
+    {
+      "id": "upload",
+      "lead": 0.5,
+      "tail": 0.3,
+      "phrases": [
+        {
+          "text": "이력서를 올렸어요.",
+          "pause": 0.3,
+          "fall": true,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend. End with a calm, falling intonation: a plain statement, not a question."
+        },
+        {
+          "text": "그랬더니 이력서 내용을 직접 입력하래요.",
+          "fall": true,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend."
+        }
+      ]
+    },
+    {
+      "id": "again",
+      "lead": 0.1,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "이름, 이메일, 졸업 후 모든 경력까지.",
+          "pause": 0.3,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend."
+        },
+        {
+          "text": "또요.",
+          "fall": true,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend. Exhausted sigh."
+        }
+      ]
+    },
+    {
+      "id": "hours",
+      "lead": 0.15,
+      "tail": 0.6,
+      "phrases": [
+        {
+          "text": "지원서 하나에 사십사 분쯤 걸리고,",
+          "pause": 0.12,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend."
+        },
+        {
+          "text": "구직자는 평균 예순 곳 넘게 지원해요.",
+          "fall": true,
+          "instruct": "Frustrated and exasperated, a little sarcastic, quick, like venting to a friend."
+        }
+      ]
+    },
+    {
+      "id": "auto",
+      "lead": 0.25,
+      "tail": 0.35,
+      "phrases": [
+        {
+          "text": "이제 Tahoe 자동 지원이 제 프로필로 지원서를 채워요,",
+          "say": "이제 타호 자동 지원이 제 프로필로 지원서를 채워요,",
+          "pause": 0.1,
+          "instruct": "Relieved and relaxed, warm, the tension gone, a soft smile."
+        },
+        {
+          "text": "회사 사이트에서 바로요.",
+          "fall": true,
+          "instruct": "Relieved and relaxed, warm, the tension gone, a soft smile."
+        }
+      ]
+    },
+    {
+      "id": "asks",
+      "lead": 0.15,
+      "tail": 0.45,
+      "phrases": [
+        {
+          "text": "모르는 질문은 저한테 물어보고요.",
+          "pause": 0.3,
+          "fall": true,
+          "instruct": "Relieved and relaxed, warm, the tension gone, a soft smile."
+        },
+        {
+          "text": "제가 확인하기 전엔 아무것도 보내지 않아요.",
+          "fall": true,
+          "instruct": "Relieved and relaxed, warm, the tension gone, a soft smile. End with a calm, falling intonation: a plain statement, not a question."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "lead": 0.25,
+      "tail": 3.0,
+      "phrases": [
+        {
+          "text": "저녁 시간이 돌아왔어요.",
+          "fall": true,
+          "instruct": "Relieved and relaxed, warm, the tension gone, a soft smile."
+        }
+      ]
+    }
+  ]
+}
